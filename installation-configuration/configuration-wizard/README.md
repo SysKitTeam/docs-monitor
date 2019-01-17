@@ -1,2 +1,2 @@
-# configuration-wizard
+# Configuration Wizard
 

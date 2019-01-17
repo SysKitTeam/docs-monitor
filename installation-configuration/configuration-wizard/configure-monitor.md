@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 30/5/2017
 ---
 
-# configure-monitor
+# Configure SysKit Monitor
 
 Once the installation is completed, the Configuration Wizard will start. If the wizard does not start automatically after installation, you can run it manually from: **Start &gt; All Programs &gt; SysKit Monitor &gt; Configuration Wizard**.
 

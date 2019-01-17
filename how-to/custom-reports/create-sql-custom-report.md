@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# create-sql-custom-report
+# Create SQL Custom Report
 
 This article explains how to create a **Custom SQL Report**.
 

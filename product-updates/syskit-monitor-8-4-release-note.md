@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 26/7/2017
 ---
 
-# syskit-monitor-8-4-release-note
+# SysKit Monitor 8.4.0 - Release Note
 
 We are proud to present a new, refreshed version of **SysKit Monitor**, which comes with a new name and logo! We felt like a change and, with a move to new office space, we decided we might do a bit more than just remodeling and changing of our address. In the rebranding process, we’ve gone all out by changing the logo and names of all our products.
 

@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 30/5/2017
 ---
 
-# create-database-permission
+# Create a SQL Server Database
 
 This article covers the following scenario: **User running Configuration Wizard does not have permission to create a database on the SQL server.**
 

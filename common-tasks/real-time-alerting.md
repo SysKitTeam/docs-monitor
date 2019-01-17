@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 28/6/2017
 ---
 
-# real-time-alerting
+# Real Time Alerting
 
 As server environments become larger and more complex, the number of alerts generated increases and system administrators are spammed with too many notifications about the activities and issues in their environment. An intelligent alerting mechanism can help them to troubleshoot important issues faster.
 
@@ -42,17 +42,17 @@ This tutorial will provide everything you need to know about these great feature
 
 ## Performance Alerts
 
-SysKit Monitor Performance Counter Alerts can be configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category and [Options](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts.md) dialog. Performance Alerts list computers with performance counters that have crossed the warning and/or critical thresholds and their values.
+SysKit Monitor Performance Counter Alerts can be configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category and [Options](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) dialog. Performance Alerts list computers with performance counters that have crossed the warning and/or critical thresholds and their values.
 
 ## Session Alerts
 
-SysKit Monitor Session Alerts can be configured through the [Edit Computer](../get-to-know-syskit-monitor/administration/servers-and-groups.md) dialog on the **Administration** tab and [Options](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts.md) dialog. Session Alerts list computers with sessions that have crossed the warning and/or critical thresholds and their counts.
+SysKit Monitor Session Alerts can be configured through the [Edit Computer](../get-to-know-syskit-monitor/administration/servers-and-groups.md) dialog on the **Administration** tab and [Options](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) dialog. Session Alerts list computers with sessions that have crossed the warning and/or critical thresholds and their counts.
 
 ## Service Alerts
 
-SysKit Monitor Service Alerts can be configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category and [Options](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts.md) dialog. Service Alerts list computers with important services that have stopped or crashed. Depending on the configured options, it can also display whether SysKit Monitor successfully restarted these services.
+SysKit Monitor Service Alerts can be configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category and [Options](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) dialog. Service Alerts list computers with important services that have stopped or crashed. Depending on the configured options, it can also display whether SysKit Monitor successfully restarted these services.
 
-See the [Manage Alerts](../get-to-know-syskit-monitor/backstage-screen/manage-data-gathering/#manage-alerts.md) article to learn more about SysKit Monitor alert classification.  
+See the [Manage Alerts](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/backstage-screen/manage-data-gathering/README.md#manage-alerts.md) article to learn more about SysKit Monitor alert classification.  
 See the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn more about monitoring of the custom performance counters and important services.
 
 ## PowerShell Alerts

@@ -7,7 +7,7 @@ description: >-
 date: 29/06/17
 ---
 
-# outgoing-email-with-smtp-gmail-account
+# Outgoing Email With SMTP Gmail Account
 
 Google blocks sign-in attempts from some apps or devices that do not follow modern security standards. Since these apps and devices are easier to break into, blocking them helps keep your account safe. Unfortunately, Google thinks SysKit Monitor is also unsafe.
 

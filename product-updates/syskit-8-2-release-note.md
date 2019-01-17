@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 12/7/2017
 ---
 
-# syskit-8-2-release-note
+# SysKit 2012 R2 8.2.0 Release Note
 
 We have shipped SysKit 2016 R2 – 8.2.0. This minor release brings new features and improvements.
 

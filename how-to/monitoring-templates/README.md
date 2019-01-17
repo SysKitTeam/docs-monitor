@@ -1,2 +1,2 @@
-# monitoring-templates
+# Monitoring Templates
 

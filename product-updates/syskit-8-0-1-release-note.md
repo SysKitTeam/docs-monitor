@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 12/7/2017
 ---
 
-# syskit-8-0-1-release-note
+# SysKit 2016 R2 8.0.1 - Release Note
 
 We have shipped SysKit 2016 R2 – 8.0.1. It’s one of the minor releases, with a couple of bug fixes.
 

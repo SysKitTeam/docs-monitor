@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 28/6/2017
 ---
 
-# monitoring-rd-gateway-connections
+# Monitoring RD Gateway Connections
 
 SysKit Monitor provides you with a clear understanding of who is using your **Remote Desktop Gateway** to access the corporate network from the outside. Measure, track, and monitor connections made via RD Gateway to your Remote Desktop Services. Gateway reports provide both **real-time** and **historical data** about users and **logon activities**.
 

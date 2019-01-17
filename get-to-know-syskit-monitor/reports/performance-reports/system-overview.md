@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 25/5/2017
 ---
 
-# system-overview
+# System Overview
 
 The System Overview dashboard consists of six tiles that display interesting graphics and information, allowing you to gain deeper insights into workloads and alerts from multiple systems in a single view.
 

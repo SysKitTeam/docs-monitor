@@ -1,2 +1,2 @@
-# install-wizard
+# Install Wizard
 

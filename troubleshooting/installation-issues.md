@@ -5,7 +5,7 @@ description: This article outlines some of the common installation issues.
 date: 29/06/17
 ---
 
-# installation-issues
+# Installation Issues
 
 ## Error: SysKit Monitor Service won't start or times out while starting
 

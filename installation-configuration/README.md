@@ -1,2 +1,2 @@
-# installation-configuration
+# Installation and Configuration
 

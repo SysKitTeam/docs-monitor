@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 12/7/2017
 ---
 
-# syskit-8-release-note
+# SysKit 2016 R2 – Monitor and script all the things!
 
 We are proud to present the newest version of SysKit! It’s a major release, and our development team definitely made a conscious effort to keep getting big things done and adding another set of powerful features. Read this release note to discover all the new features and improvements.
 

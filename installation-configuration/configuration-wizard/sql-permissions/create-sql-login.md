@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 30/5/2017
 ---
 
-# create-sql-login
+# Create a SQL Server Login
 
 This article covers the following scenario: **User running the Configuration Wizard is not allowed to login on the specified SQL server.**
 

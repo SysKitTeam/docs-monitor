@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# add-formatting-condition-to-metrics
+# Add Formatting Condition to Metrics
 
 This article explains how to add formatting condition to metrics.
 

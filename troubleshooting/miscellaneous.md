@@ -7,7 +7,7 @@ description: >-
 date: 29/06/17
 ---
 
-# miscellaneous
+# Miscellaneous
 
 ## Is it possible to remove a specific user from the reports?
 

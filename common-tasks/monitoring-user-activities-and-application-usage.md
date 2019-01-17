@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 28/6/2017
 ---
 
-# monitoring-user-activities-and-application-usage
+# Monitoring User Activities and Application Usage
 
 The ability to **audit and monitor user activity on Windows Servers** is key to knowing what is going on in your Windows environment.
 
@@ -38,5 +38,5 @@ The four states and the differences between them are listed here:
 
 **Remote Control** — User is in the remote control state if the user is remote controlling another user \(also known as shadowing on Citrix servers\).
 
-See [User Reports]../get-to-know-syskit-monitor/reports/user-reports.md) and [Application Reports](../get-to-know-syskit-monitor/reports/application-reports.md) to learn more.
+See \[User Reports\]../get-to-know-syskit-monitor/reports/user-reports.md\) and [Application Reports](../get-to-know-syskit-monitor/reports/application-reports.md) to learn more.
 

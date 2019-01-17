@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 25/5/2017
 ---
 
-# faq
+# FAQ
 
 ## What are SysKit's Monitor prerequisites?
 

@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 24/5/2017
 ---
 
-# online-offline-activation
+# Online and Offline Activation
 
 ## Online Activation
 
@@ -28,5 +28,5 @@ In order to create your activation files please follow these steps:
 4. Download the license file.
 5. Import the license file into SysKit Monitor and click the Activate button in the Activation dialog.
 
-See [Activation FAQ](../activation/activation-faq.md) to learn more about SysKit Monitor activation.
+See [Activation FAQ](activation-faq.md) to learn more about SysKit Monitor activation.
 

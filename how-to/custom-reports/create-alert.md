@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# create-alert
+# Create Alert
 
 This article explains how to set Custom Reports e-mail alerts.
 

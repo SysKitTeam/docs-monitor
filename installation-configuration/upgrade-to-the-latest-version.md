@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 23/5/207
 ---
 
-# upgrade-to-the-latest-version
+# Upgrade to the Latest Version
 
 SysKit Monitor database, application settings and data will be conserved in the upgrade process.
 

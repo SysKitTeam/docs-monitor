@@ -8,7 +8,7 @@ description: >-
 date: 29/06/17
 ---
 
-# sql-server-express-2012-localdb
+# SQL Server Express 2012 LocalDB
 
 This article is intended for advanced users, administrators, and IT professionals.
 

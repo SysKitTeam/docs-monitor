@@ -1,2 +1,2 @@
-# sql-permissions
+# SQL Permissions
 

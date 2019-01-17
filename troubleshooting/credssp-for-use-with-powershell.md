@@ -7,7 +7,7 @@ description: >-
 date: 29/06/17
 ---
 
-# credssp-for-use-with-powershell
+# Credssp for use With Powershell
 
 Windows Remote Management \(WinRM\) supports the delegation of user credentials across multiple remote computers. The multi-hop support functionality can use Credential Security Service Provider \(CredSSP\) for authentication. CredSSP enables an application to delegate the user’s credentials from the client computer to the target server.
 

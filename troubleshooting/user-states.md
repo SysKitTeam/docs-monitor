@@ -5,7 +5,7 @@ description: This article explains how the SysKit Monitor reports on user states
 date: 29/06/17
 ---
 
-# user-states
+# User States
 
 ## How long does a person have to be inactive on a computer before the idle time starts to accumulate?
 

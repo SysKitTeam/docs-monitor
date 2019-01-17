@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 21/6/2017
 ---
 
-# template-wizard
+# Template Wizard
 
 We’ll break down how you can load custom performance counters into SysKit Monitor using Template Wizard.
 

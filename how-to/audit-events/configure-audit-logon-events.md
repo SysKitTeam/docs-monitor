@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 30/6/2017
 ---
 
-# configure-audit-logon-events
+# Configure Audit Logon Events
 
 Audit logon events can be used to detect failure logons to your server,hacker attacks and former employees failure logons. The SysKit Monitor will report information about users trying to log in, source IP address and computer name being used.
 
@@ -50,5 +50,5 @@ Here is the info on how to turn on the logon failure audit events for your compu
 
 You need to enable collection of event log data under **File** &gt; **Manage** &gt; **System Jobs** and you are good to go. SysKit Monitor will start to collect audit information from the Event Log on a regular basis.
 
-See the [Extract Event Log](../get-to-know-syskit-monitor/backstage-screen/configuration/options#extract-event-log.md) article for more detailed information.
+See the [Extract Event Log](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/how-to/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#extract-event-log.md) article for more detailed information.
 

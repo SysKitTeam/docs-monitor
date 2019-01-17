@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 28/6/2017
 ---
 
-# file-system-auditing
+# File System Auditing
 
 All organizations store their crucial business-specific data on their file servers. A large number of files are being created, edited, shared, or deleted every day, but 95% of file access activities are not monitored by system administrators.
 

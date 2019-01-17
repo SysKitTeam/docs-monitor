@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# export-report-to-excel
+# Export Report to Excel
 
 This article explains how to export SysKit Monitor reports to Excel.
 

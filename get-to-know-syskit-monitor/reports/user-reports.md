@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 25/5/2017
 ---
 
-# user-reports
+# User Reports
 
 The set of User reports displays the most important information about user activities and other properties of user sessions.
 

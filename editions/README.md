@@ -1,2 +1,2 @@
-# editions
+# Editions
 

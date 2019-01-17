@@ -7,11 +7,11 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# help-screen
+# Help Screen
 
 To get general information about SysKit Monitor, navigate to **File** &gt; **Help**.
 
-The help page will show you whether your SysKit Monitor version is in trial mode or activated. If activated, you can check your available licenses, and there is an option to change your product key. For more information about online and offline activation, follow the [activation instructions](../activation/online-offline-activation.md).
+The help page will show you whether your SysKit Monitor version is in trial mode or activated. If activated, you can check your available licenses, and there is an option to change your product key. For more information about online and offline activation, follow the [activation instructions](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/activation/online-offline-activation.md).
 
 In the Backstage Help screen, you can learn more about SysKit Monitor with information about topics such as:
 
@@ -52,7 +52,7 @@ If you are having trouble with a certain feature or you would like to report a b
 
 The **Quick Start Guide** will teach you how to use the SysKit Monitor UI.
 
-This guide is intended as a basic guide to help you get started with SysKit Monitor. The [Quick Start Guide](../get-to-know-syskit-monitor/quick-start-guide.md) provides step-by-step information about performing common tasks in the SysKit Monitor user interface.
+This guide is intended as a basic guide to help you get started with SysKit Monitor. The [Quick Start Guide](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/quick-start-guide.md) provides step-by-step information about performing common tasks in the SysKit Monitor user interface.
 
 These steps cover the following topics:
 

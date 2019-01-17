@@ -7,7 +7,7 @@ description: >-
 date: 29/06/17
 ---
 
-# user-connections
+# User Connections
 
 ## When users connect through a Web interface on XenApp \(presentation server\), I get a strange client name, something like WI\_s9wV-5sHAM7mCoWhF, but I want to display a real client name.
 

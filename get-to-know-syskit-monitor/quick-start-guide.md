@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 25/5/2017
 ---
 
-# quick-start-guide
+# Quick Start Guide
 
 This guide is intended as a basic guide to help you get started using SysKit Monitor and it simplifies performing common tasks by guiding you through a series of steps describing the user interface.
 
@@ -17,7 +17,7 @@ When you install and open SysKit Monitor for the first time, there will be no da
 
 Computers can also be added from the **Administration – Computers** category by selecting the **Add** button from the upper ribbon.
 
-See [Administration](../get-to-know-syskit-monitor/administration/servers-and-groups.md) article to learn more about managing computers.
+See [Administration](administration/servers-and-groups.md) article to learn more about managing computers.
 
 If you want to monitor only a single server only that is a part of a workgroup or Windows domain but **not AD-integrated**, please navigate to the Administration tab and click the arrow below the Add button in the upper ribbon, and then click **Add Computer Manually**.
 
@@ -55,7 +55,7 @@ Another way to define your subscription is to access it through the main report 
 
 ## Step 5: Get to know your dashboard
 
-The [Sessions Dashboard](../get-to-know-syskit-monitor/dashboards/sessions-dashboard.md) is shown at the start of the SysKit Monitor application. It enables you to see live data, such as the number of sessions in progress, and the number of currently running sessions, processes, and computer states.
+The [Sessions Dashboard](backstage-screen/dashboards/sessions-dashboard.md) is shown at the start of the SysKit Monitor application. It enables you to see live data, such as the number of sessions in progress, and the number of currently running sessions, processes, and computer states.
 
 You can also [create your own dashboards](../how-to/dashboards/create-custom-dashboard.md) by accessing **My Dashboards** in the Dashboard panel and selecting **New** from the ribbon.
 

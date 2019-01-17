@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 25/5/2017
 ---
 
-# application-reports
+# Application Reports
 
 These reports can be used to find out which are the most heavily used applications for a given user.
 

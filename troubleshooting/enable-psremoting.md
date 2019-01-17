@@ -7,7 +7,7 @@ description: >-
 date: 29/06/17
 ---
 
-# enable-psremoting
+# Enable PSremoting
 
 WinRM \(Windows Remote Management\) PowerShell enables you to create a remote session to a computer. The functionality is similar to familiar remote administration tools such as SSH, but it utilizes industry-standard ports and protocols such as HTTP and SOAP.
 

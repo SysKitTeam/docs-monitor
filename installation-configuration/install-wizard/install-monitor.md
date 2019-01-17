@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 30/5/2017
 ---
 
-# install-monitor
+# Install SysKit Monitor
 
 Before you begin with the SysKit Monitor installation, we recommend that you carefully perform all preparation steps by reading the [Pre-Installation Requirements](install-monitor.md#internal/requirements/pre-installation-requirements) article.
 

@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# add-users-manually
+# Add Users Manually
 
 > **Please note!** SysKit Monitor desktop and web app **permissions** can only be managed through the desktop app.
 

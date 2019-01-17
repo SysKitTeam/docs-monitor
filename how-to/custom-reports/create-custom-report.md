@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# create-custom-report
+# Create Custom Report
 
 This article explains how to create a custom report that meets your needs better than the built-in reports.
 

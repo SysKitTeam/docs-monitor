@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 30/6/2017
 ---
 
-# add-citrix-servers
+# Add Citrix Servers
 
 If you have a **Citrix 7.x environment** and you plan to **monitor user sessions and application usage**, there are just a few easy steps that you need to follow to get started. You need to add both **Delivery Controller servers** and **Virtual Delivery Agent servers** to monitoring.
 

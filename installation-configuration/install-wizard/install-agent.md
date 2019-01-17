@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 30/5/2017
 ---
 
-# install-agent
+# Install SysKit Monitor Data Collector
 
 > **Tip!** In case you have more than 100 servers, or geographically distribuded servers, you are advised to have SysKit Monitor Data Collector. Please contact our support team who will provide you with the detailed instructions and setup file.
 

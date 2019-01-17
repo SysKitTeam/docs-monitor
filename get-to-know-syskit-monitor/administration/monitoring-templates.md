@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 21/6/2017
 ---
 
-# monitoring-templates
+# Monitoring Templates
 
 From a single console, you can monitor application and hardware performance in real time, customize the data you want to collect with SysKit, define thresholds for computer state and alerts, generate reports, and view performance data history through various SysKit Monitor reports.
 
@@ -17,7 +17,7 @@ Performance Counters are the numeric data values that SysKit Monitor collects by
 SysKit Monitor provides a **Template Wizard** for customization of performance counters collection. With the Template Wizard, you can discover and load the same performance counters that are accessible through Microsoft Performance Monitor.
 
 The Monitoring Template within SysKit Monitor is a collection of performance counters to be monitored, and it includes the associated rules and suggested threshold values to detect out-of-bounds conditions.  
-SysKit comes with a [predefined set of Monitoring Templates](../how-to/monitoring-templates/predefined-templates.md) for some of the most common server roles—including **SQL, IIS,** and **SharePoint**—to quickly get you up and running with performance monitoring.
+SysKit comes with a [predefined set of Monitoring Templates](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/monitoring-templates/predefined-templates.md) for some of the most common server roles—including **SQL, IIS,** and **SharePoint**—to quickly get you up and running with performance monitoring.
 
 SysKit Monitor can request the current value of performance counters at a specified interval. The default performance counters **collection interval** is set to 60 seconds.
 
@@ -31,9 +31,9 @@ You can create Monitoring Templates to monitor various performance metrics on sp
 
 Read this article to learn more on how to:
 
-## [Enhance your monitoring using Template Wizard](../how-to/monitoring-templates/template-wizard.md)
+## [Enhance your monitoring using Template Wizard](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/monitoring-templates/template-wizard.md)
 
-All Monitoring Template\(s\) that are **assigned to the monitored computer\(s\)** can be viewed and explored in the [Overview](../get-to-know-syskit-monitor/reports/performance-reports/computer-performance.md) and [Detailed Analysis](../get-to-know-syskit-monitor/reports/performance-reports/computer-performance/#detailed-analysis.md) reports.
+All Monitoring Template\(s\) that are **assigned to the monitored computer\(s\)** can be viewed and explored in the [Overview](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/reports/performance-reports/computer-performance.md) and [Detailed Analysis](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/reports/performance-reports/computer-performance/README.md#detailed-analysis.md) reports.
 
 > **Tip!** In cases where an SQL template has been applied to a server with **named SQL Server instances installed**, no data will be collected for those instances. You need to create a new template by adding performance counters for each instance you wish to monitor, while following the naming convention.
 
@@ -50,7 +50,7 @@ Ribbon provides a set of basic functions for managing the **created** monitoring
 
 Read these articles to learn more on how to:
 
-## [Import / Export Monitoring Template](../how-to/monitoring-templates/import-export-template.md)
+## [Import / Export Monitoring Template](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/monitoring-templates/import-export-template.md)
 
-## [Download Templates](../how-to/monitoring-templates/download-templates.md)
+## [Download Templates](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/monitoring-templates/download-templates.md)
 

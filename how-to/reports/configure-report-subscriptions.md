@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# configure-report-subscriptions
+# Configure Report Subscriptions
 
 This article explains how to configure report subscriptions.
 

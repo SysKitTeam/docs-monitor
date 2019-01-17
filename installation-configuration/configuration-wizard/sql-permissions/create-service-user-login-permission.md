@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 30/5/2017
 ---
 
-# create-service-user-login-permission
+# Create a Service User Login Permission
 
 This article covers the following scenario: **User running Configuration Wizard does not have permission to create a service user login on the SQL server – new database.**
 

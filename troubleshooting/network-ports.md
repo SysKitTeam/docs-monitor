@@ -5,7 +5,7 @@ description: This articles outlines the network ports required for gathering the
 date: 29/06/17
 ---
 
-# network-ports
+# Network Ports
 
 If you have a firewall between the server hosting the application and the servers that are being monitored, you will need the following info.
 

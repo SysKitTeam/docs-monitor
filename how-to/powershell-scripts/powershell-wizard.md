@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 23/6/2017
 ---
 
-# powershell-wizard
+# Powershell Wizard
 
 We’ll break down how you can create report and management scripts in SysKit Monitor using PowerShell Script Wizard.
 

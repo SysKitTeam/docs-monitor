@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 30/6/2017
 ---
 
-# enable-folder-auditing
+# Enable Folder Auditing
 
 This is required if you need to review auditing reports with SysKit Monitor.
 
@@ -59,5 +59,5 @@ There are two methods of applying group policy. Login on to your Domain Controll
 
 You need to enable collection of event log data under **File** &gt; **Manage** &gt; **System Jobs** and you are good to go. SysKit Monitor will start to collect audit information from the Event Log on a regular basis.
 
-See the [Extract Event Log](../get-to-know-syskit-monitor/backstage-screen/configuration/options#extract-event-log.md) article for more detailed information.
+See the [Extract Event Log](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/how-to/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#extract-event-log.md) article for more detailed information.
 

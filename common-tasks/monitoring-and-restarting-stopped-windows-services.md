@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 28/6/2017
 ---
 
-# monitoring-and-restarting-stopped-windows-services
+# Monitoring and Restarting Stopped Windows Services
 
 Any Windows Server usually has dozens of services running in the background right from the moment that the operating system starts up. Depending on your server role, there can be a lot of important services on your servers that you’d need to keep running at all times.
 
@@ -33,6 +33,6 @@ Services that are selected as important, for a designated computer, and configur
 
 Depending on the options you configure in the **Monitoring Template** which is assigned to a computer, SysKit Monitor can send you **e-mail notifications** when one or more important services are `stopped` and can perform **automatic service restarts**. It will also tell you whether it has been successful or not.
 
-See [Real-time Alerting](../common-tasks/real-time-alerting.md) to learn more about SysKit Monitor real-time alerts.  
+See [Real-time Alerting](real-time-alerting.md) to learn more about SysKit Monitor real-time alerts.  
 See the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn more about managing important services.
 

@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 4/7/2017
 ---
 
-# import-and-use-ps-script-modules
+# Import and Use PS Script Modules
 
 If you navigate to **Administration &gt; PowerShell Scripts**, you will find endless possibilities for the creation of new report and management scripts.  
 With the built-in PowerShell Script Wizard, you can import and edit **PowerShell Script Modules** with .ps1 and .psm1 extensions. A script module allows you to use a number of rules and cmdlets in your scripts. In simple terms, a script module is just a grouping of functions and code that can be applied to a specific group of scripts.

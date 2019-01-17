@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 23/5/2017
 ---
 
-# editions
+# Editions
 
 SysKit Monitor is available in three editions – Standard, Professional, and Enterprise.
 

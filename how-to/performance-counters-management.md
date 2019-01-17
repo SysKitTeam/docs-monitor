@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 30/6/2017
 ---
 
-# performance-counters-management
+# Performance Counters Management
 
 Performance counters are used to measure the performance of Windows OS. When the Performance Counters collection is enabled, the SysKit Monitor Service gathers performance data by querying WMI classes on Windows Servers. Performance counter values are stored in the SysKit Monitor database. The SysKit Monitor Service collects performance counters every 60 seconds and stores them in the database.
 

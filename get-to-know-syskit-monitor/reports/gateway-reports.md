@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 25/5/2017
 ---
 
-# gateway-reports
+# Gateway Reports
 
 Gateway Reports provide an overview of all connections made via RD Gateways.
 

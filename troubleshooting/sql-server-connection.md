@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 7/7/2017
 ---
 
-# sql-server-connection
+# SQL Server Connection
 
 ## How to configure the SQL Server to listen on a specific port
 

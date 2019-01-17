@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 26/5/2017
 ---
 
-# pre-installation-requirements
+# Pre Installation Requirements
 
 The installation process consists of a few easy steps that you need to perform in order to get the SysKit Monitor up and running.
 

@@ -1,2 +1,2 @@
-# custom-reports
+# Custom Reports
 

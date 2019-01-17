@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# options
+# Options
 
 Options include: General, Alerts, Export, and System Jobs configuration. To edit and configure the available options click on the **File** tab, select **Configuration** from the left navigation bar and click the **Options** button. Another way to access the Options dialog is by clicking the Options button in the reports ribbon.
 
@@ -100,7 +100,7 @@ This section describes **Send E-mails** system job and how to configure all of t
 
 * Configure delivery options from the drop-down menus. Available intervals are **Daily**, **Weekly**, **Monthly**, and **Quarterly**. Every delivery interval has its own options. Delivery options for all intervals will be saved by clicking on the Save button.
 
-See [How to configure Report Subscriptions](../how-to/reports/configure-report-subscriptions.md) article to learn more.
+See [How to configure Report Subscriptions](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/backstage-screen/how-to/reports/configure-report-subscriptions.md) article to learn more.
 
 ## AD integration
 
@@ -150,9 +150,9 @@ Turn this system job on if you want to collect auditing of the files and folders
 
 * Set the **Period** for how often this job will be executed.
 
-See [How to Enable Folder Auditing](../how-to/audit-events/enable-folder-auditing.md) to learn more.  
-See [How to Configure Audit Logon Events](../how-to/audit-events/configure-audit-logon-events.md) to learn more.  
-See [How to Configure Server to support Block Malicous IP Addresses feature](../how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to learn more.
+See [How to Enable Folder Auditing](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/backstage-screen/how-to/audit-events/enable-folder-auditing.md) to learn more.  
+See [How to Configure Audit Logon Events](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/backstage-screen/how-to/audit-events/configure-audit-logon-events.md) to learn more.  
+See [How to Configure Server to support Block Malicous IP Addresses feature](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/backstage-screen/how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to learn more.
 
 ## Concurrent Usage
 
@@ -225,7 +225,7 @@ This section describes the **SysKit Monitor Service**.
 
 ### Collect Interval
 
-* Set the SysKit Monitor collect interval. In this interval, the product will collect data from the monitored computers. The default and recommended interval is 90 seconds. The lower the interval, the more accurate the data will be, but the recommended scenario is never to hold this value under 60 seconds.   
+* Set the SysKit Monitor collect interval. In this interval, the product will collect data from the monitored computers. The default and recommended interval is 90 seconds. The lower the interval, the more accurate the data will be, but the recommended scenario is never to hold this value under 60 seconds.
 
   However, we have calculated that the best value and accuracy rate is the default 90 seconds.
 

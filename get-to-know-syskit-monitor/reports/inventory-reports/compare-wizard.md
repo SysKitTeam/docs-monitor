@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 25/5/2017
 ---
 
-# compare-wizard
+# Compare Wizard
 
 With the Inventory Snapshots **Compare Wizard**, you can compare **snapshots** taken at different times, easily allowing you to detect and keep track of inventory changes.  
 The purpose of the Inventory Snapshots is to display the snapshots for all scans performed over a period of time on your Windows Servers and workstations and to allow the **snapshot comparison**.
@@ -36,7 +36,7 @@ The grid-view in Manage Snapshots displays the following elements:
 * **Differences Detected** – This option indicates whether differences were detected in the current snapshot when compared to the one taken before it.
 * **Good Configuration** – Indicates whether the selected snapshot is well configured or not.
 
-See the [Alerts](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts.md) section if you want to receive e-mail notifications when inventory changes are detected.
+See the [Alerts](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) section if you want to receive e-mail notifications when inventory changes are detected.
 
 ## Compare Wizard
 

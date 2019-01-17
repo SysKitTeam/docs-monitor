@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# configure-cost-overview-report
+# Configure Cost Overview Report
 
 This article explains how to define the Hourly Wage of users connecting to the computers, which allows you to determine the costs of multiple resources. The users that are connecting to the computers can have different costs associated with them.
 

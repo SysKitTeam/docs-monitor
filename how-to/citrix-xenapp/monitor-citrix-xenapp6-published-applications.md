@@ -9,7 +9,7 @@ description: >-
 date: 29/06/17
 ---
 
-# monitor-citrix-xenapp6-published-applications
+# Monitor Citrix Xenapp6 Published Applications
 
 In order for monitoring to be successful, these are the steps you will have to perform on **each Citrix XenApp Server** where you run published applications.
 

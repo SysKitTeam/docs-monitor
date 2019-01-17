@@ -9,7 +9,7 @@ description: >-
 date: 17/12/18
 ---
 
-# monitor-citrix-xenapp7-published-applications
+# Monitor Citrix Xenapp7 Published Applications
 
 In order for Citrix XenApp 7.x Published Application monitoring to be successful, here are the steps you need to perform on **each Delivery Controller server**, which is responsible for brokering and optimizing user connections and access.
 

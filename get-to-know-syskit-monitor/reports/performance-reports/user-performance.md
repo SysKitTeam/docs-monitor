@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 25/5/2017
 ---
 
-# user-performance
+# User Performance
 
 The **User Performance** reports are very similar to the Application Performance reports, except they are grouped **by connected users**. These reports are also available in Real-Time and History form. The Real-Time and History reports have a grid-based layout, while the History report has a preview chart in addition to the grid-based layout, that provides a visual representation of user performance on computer\(s\).
 
@@ -47,7 +47,7 @@ The **charts** display a performance overview for the selected process within th
 A small but very important item to note here is the **chart tooltip**. The tooltip displays details about the data point the mouse is currently hovering over, such as the date and time values, and value of the data point.  
 Use the **Date Range filter** to set date boundaries on your performance data. You can select any day, week, or month or a custom date range.
 
-> **Please note!** You will not be able see any performance data outside 30 days, unless you change the Performance Counters [Data Retention](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#data-retention.md) settings. The default is set to delete performance counters data older than 30 days.
+> **Please note!** You will not be able see any performance data outside 30 days, unless you change the Performance Counters [Data Retention](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#data-retention.md) settings. The default is set to delete performance counters data older than 30 days.
 
 ### Reports Ribbon
 

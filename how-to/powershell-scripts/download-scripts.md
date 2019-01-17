@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 23/6/2017
 ---
 
-# download-scripts
+# Download Scripts
 
 This dialog enables you to browse through and download the available **predefined PowerShell scripts** from SysKit’s **repository**. There are around **fifty** PowerShell scripts categorized by purpose.  
 Most of the available PowerShell scripts can run on all types of servers while others are tied to a specific server role—such as **Domain Controller, IIS,** or **Hyper-V**—or have to be executed on the local machine. It is very important to read the script description on the right side.

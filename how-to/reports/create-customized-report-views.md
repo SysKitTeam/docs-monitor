@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# create-customized-report-views
+# Create Customized Report Views
 
 This article explains how to create customized report views.
 

@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 30/6/2017
 ---
 
-# add-service-user-manually
+# Add Service User Manually
 
 1. Log on to the server\(s\) you plan to monitor.
 2. Open **Computer Management** under Administrative tools on each server.

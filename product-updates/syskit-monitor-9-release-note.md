@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 19/9/2018
 ---
 
-# syskit-monitor-9-release-note
+# SysKit Monitor 9 – The monster has awoken!
 
 We are proud to present the newest version of SysKit Monitor! This major release brings new features and improvements.
 

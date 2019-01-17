@@ -1,2 +1,2 @@
-# inventory-reports
+# Inventory Reports
 

@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 26/5/2017
 ---
 
-# system-requirements
+# System Requirements
 
 ## Hardware requirements
 

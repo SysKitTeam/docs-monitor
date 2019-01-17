@@ -1,2 +1,2 @@
-# citrix-xenapp
+# Citrix Xenapp
 

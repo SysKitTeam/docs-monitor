@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 30/5/2017
 ---
 
-# connect-existing-db-privileges
+# Connect an Existing Database
 
 This article covers the following scenario: **The database does not exist or User running the Configuration Wizard does not have the correct privileges to connect to it.**
 

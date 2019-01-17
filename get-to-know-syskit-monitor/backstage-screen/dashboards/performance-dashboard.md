@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 25/5/2017
 ---
 
-# performance-dashboard
+# Performance Dashboard
 
 The **Performance Dashboard** displays data about the status of core system resources, such as CPU, Memory usage, Disk performance \(Disk Queue, Disk Read, Disk Write, and Disk Transfers\), and Network utilization \(Sent and Received\). It also displays real-time User and Process counts for all computers. The values shown on the Dashboard are updated **every 60 seconds**.
 
@@ -24,7 +24,7 @@ The **Performance Dashboard** displays data about the status of core system reso
 
 **Performance counter columns** also have a small pop-up window that concisely describes the performance counter being pointed to. Common Performance Counters, such as CPU, Memory usage, Disk Free Space, Network Sent and Received, do not include the additional explanation.
 
-**Performance counter values** on the dashboard **change colors** depending on the defined thresholds, and the time period spent above these thresholds, which are configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category on the Administration tab. When a cell is painted red \(or yellow\), it means that a threshold has been crossed for the associated performance counter. Red indicates a critical threshold, while yellow indicates a warning threshold.
+**Performance counter values** on the dashboard **change colors** depending on the defined thresholds, and the time period spent above these thresholds, which are configured through the [Monitoring Templates](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/administration/monitoring-templates.md) category on the Administration tab. When a cell is painted red \(or yellow\), it means that a threshold has been crossed for the associated performance counter. Red indicates a critical threshold, while yellow indicates a warning threshold.
 
 > **Please note!** Values for Disk and Network performance counters are displayed for the **most critical** Disk and Network Adapter on each computer.
 

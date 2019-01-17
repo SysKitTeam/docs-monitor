@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# add-users-from-active-directory
+# Add Users From Active Directory
 
 1. Go to the **File** &gt; **Manage** &gt; **Users and Groups**.
 2. Click the **Grant Access** button. The first step of the wizard will open.

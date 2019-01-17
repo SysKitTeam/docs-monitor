@@ -7,7 +7,7 @@ description: >-
 date: 29/06/17
 ---
 
-# fixing-wmi
+# Fixing WMI
 
 Windows Management Instrumentation \(WMI\) is the infrastructure for management data and operations on Windows-based operating systems. WMI uses the Common Information Model \(CIM\) industry standard to represent systems, applications, networks, devices, and other managed components. Our application uses WMI to capture some of the data from remote servers such as total memory, disk size etc.
 
