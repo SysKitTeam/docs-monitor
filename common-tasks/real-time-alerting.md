@@ -42,21 +42,21 @@ This tutorial will provide everything you need to know about these great feature
 
 ## Performance Alerts
 
-SysKit Monitor Performance Counter Alerts can be configured through the [Monitoring Templates](real-time-alerting.md#internal/get-to-know-syskit-monitor/administration/monitoring-templates) category and [Options](real-time-alerting.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts) dialog. Performance Alerts list computers with performance counters that have crossed the warning and/or critical thresholds and their values.
+SysKit Monitor Performance Counter Alerts can be configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category and [Options](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts.md) dialog. Performance Alerts list computers with performance counters that have crossed the warning and/or critical thresholds and their values.
 
 ## Session Alerts
 
-SysKit Monitor Session Alerts can be configured through the [Edit Computer](real-time-alerting.md#internal/get-to-know-syskit-monitor/administration/servers-and-groups) dialog on the **Administration** tab and [Options](real-time-alerting.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts) dialog. Session Alerts list computers with sessions that have crossed the warning and/or critical thresholds and their counts.
+SysKit Monitor Session Alerts can be configured through the [Edit Computer](../get-to-know-syskit-monitor/administration/servers-and-groups.md) dialog on the **Administration** tab and [Options](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts.md) dialog. Session Alerts list computers with sessions that have crossed the warning and/or critical thresholds and their counts.
 
 ## Service Alerts
 
-SysKit Monitor Service Alerts can be configured through the [Monitoring Templates](real-time-alerting.md#internal/get-to-know-syskit-monitor/administration/monitoring-templates) category and [Options](real-time-alerting.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts) dialog. Service Alerts list computers with important services that have stopped or crashed. Depending on the configured options, it can also display whether SysKit Monitor successfully restarted these services.
+SysKit Monitor Service Alerts can be configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category and [Options](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts.md) dialog. Service Alerts list computers with important services that have stopped or crashed. Depending on the configured options, it can also display whether SysKit Monitor successfully restarted these services.
 
-See the [Manage Alerts](real-time-alerting.md#internal/get-to-know-syskit-monitor/backstage-screen/manage-data-gathering/#manage-alerts) article to learn more about SysKit Monitor alert classification.  
-See the [Monitoring Templates](real-time-alerting.md#internal/get-to-know-syskit-monitor/administration/monitoring-templates) article to learn more about monitoring of the custom performance counters and important services.
+See the [Manage Alerts](../get-to-know-syskit-monitor/backstage-screen/manage-data-gathering/#manage-alerts.md) article to learn more about SysKit Monitor alert classification.  
+See the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn more about monitoring of the custom performance counters and important services.
 
 ## PowerShell Alerts
 
-SysKit Monitor PowerShell Alerts can be configured through the [PowerShell Wizard](real-time-alerting.md#internal/how-to/powershell-scripts/powershell-wizard) on the **Administration** &gt; **PowerShell Scripts**. PowerShell Alerts include the **Script Name**, **Alert Status**, **Alert Conditions**, and **exported .csv file**, which contains the rows matching the applied conditions for the executed script.  
+SysKit Monitor PowerShell Alerts can be configured through the [PowerShell Wizard](../how-to/powershell-scripts/powershell-wizard.md) on the **Administration** &gt; **PowerShell Scripts**. PowerShell Alerts include the **Script Name**, **Alert Status**, **Alert Conditions**, and **exported .csv file**, which contains the rows matching the applied conditions for the executed script.  
 You will receive an alert when the condition is met and you will also receive an email after everything returns to the normal state.
 

@@ -100,7 +100,7 @@ This section describes **Send E-mails** system job and how to configure all of t
 
 * Configure delivery options from the drop-down menus. Available intervals are **Daily**, **Weekly**, **Monthly**, and **Quarterly**. Every delivery interval has its own options. Delivery options for all intervals will be saved by clicking on the Save button.
 
-See [How to configure Report Subscriptions](options.md#internal/how-to/reports/configure-report-subscriptions) article to learn more.
+See [How to configure Report Subscriptions](../how-to/reports/configure-report-subscriptions.md) article to learn more.
 
 ## AD integration
 
@@ -150,9 +150,9 @@ Turn this system job on if you want to collect auditing of the files and folders
 
 * Set the **Period** for how often this job will be executed.
 
-See [How to Enable Folder Auditing](options.md#internal/how-to/audit-events/enable-folder-auditing) to learn more.  
-See [How to Configure Audit Logon Events](options.md#internal/how-to/audit-events/configure-audit-logon-events) to learn more.  
-See [How to Configure Server to support Block Malicous IP Addresses feature](options.md#internal/how-to/audit-events/configure-block-malicious-ip-addresses-feature) to learn more.
+See [How to Enable Folder Auditing](../how-to/audit-events/enable-folder-auditing.md) to learn more.  
+See [How to Configure Audit Logon Events](../how-to/audit-events/configure-audit-logon-events.md) to learn more.  
+See [How to Configure Server to support Block Malicous IP Addresses feature](../how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to learn more.
 
 ## Concurrent Usage
 

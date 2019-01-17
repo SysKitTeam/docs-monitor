@@ -29,7 +29,7 @@ The **Type** column displays the computer type, which is automatically assigned 
 
 The **Computer Group** column displays the name of the group to which the computer is assigned. A computer can be assigned to one or more Computer Groups. The main purpose and concept of the Computer Groups will be explained later in this article.
 
-The **Performance Counters** column displays the performance counters collection status for the computers in your domain. A system job can have **one of four statuses**: Started, Offline or Not Accessible, Unknown, and Disabled. See the [Performance Counters Management](servers-and-groups.md#internal/how-to/performance-counters-management) article to learn more.
+The **Performance Counters** column displays the performance counters collection status for the computers in your domain. A system job can have **one of four statuses**: Started, Offline or Not Accessible, Unknown, and Disabled. See the [Performance Counters Management](../how-to/performance-counters-management.md) article to learn more.
 
 The **details panel** below the grid view displays additional information for the **selected computer**.
 
@@ -48,7 +48,7 @@ This category is very similar to the previously described Computers category sin
 
 The **Computer Groups** category enables the **logical grouping of monitored computers** so you can more easily manage a large number of computers. This category will help you assign options, such as **Monitoring Templates**, for an **entire group of computers** instead of an individual computer.
 
-See the [Monitoring Templates](servers-and-groups.md#internal/get-to-know-syskit-monitor/administration/monitoring-templates) article to learn how to simplify performance monitoring for your Windows environments.
+See the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn how to simplify performance monitoring for your Windows environments.
 
 ### Administration Ribbon
 
@@ -56,14 +56,14 @@ Use the Administration ribbon page to change computer settings or take actions:
 
 * **Add** – allows you to add new computers to monitoring.
 * **Edit** – enables you to update the operating system and computer type and define session thresholds for the selected computer\(s\).  
-  You can **define warning and critical session thresholds**, which will then be displayed on the [Sessions Dashboard](servers-and-groups.md#internal/get-to-know-syskit-monitor/dashboards/sessions-dashboard). Session thresholds help you visualize the current statuses of your computers.  
+  You can **define warning and critical session thresholds**, which will then be displayed on the [Sessions Dashboard](../get-to-know-syskit-monitor/dashboards/sessions-dashboard.md). Session thresholds help you visualize the current statuses of your computers.  
   There are **2 visual color indicators** for computers’ sessions:
 
   * **Yellow** – online computer that has reached an alarming number of users \(e.g. 51 users online, the warning threshold is 50\)
   * **Red** – online computer that has reached a critical number of users \(e.g. 101 users online, the warning threshold is 100\)
 
   Adjust the values for warning and critical thresholds to match the capacity or other constraints on your computers. You can define the length of time before the **alert notification is to be repeated** for the session alerts.  
-  See [Alerts section](servers-and-groups.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts) if you want to enable the option to receive **e-mail notifications** if monitored computer crosses a warning and/or critical session threshold.
+  See [Alerts section](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#alerts.md) if you want to enable the option to receive **e-mail notifications** if monitored computer crosses a warning and/or critical session threshold.
 
 * **Use In Reports** – enables using information gathered from the currently not monitored computers in the reports. If the computer is currently disabled, by enabling this option all of the previously gathered data from this computer will be shown in the reports.
 * **Diagnostics** – enables you to perfrom various diagnostics and to identify issues with your product data. These options will also help our developer and support teams to troubleshoot potential problems more efficiently.
@@ -75,7 +75,7 @@ The **Administration – Computers** ribbon page also contains options for manag
 * **Assign Computer\(s\) to Group** – Quickly assign selected computers to the desired Computer Group.
 * **New Group** – Create a new computer group.
 
-See the [Performance Counters Management](servers-and-groups.md#internal/how-to/performance-counters-management) article to learn more about managing performance counters.
+See the [Performance Counters Management](../how-to/performance-counters-management.md) article to learn more about managing performance counters.
 
 > **Please note!** In the trial version the maximum number of monitored computers is **limited to 20**.
 

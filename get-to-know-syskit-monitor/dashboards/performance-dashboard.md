@@ -24,7 +24,7 @@ The **Performance Dashboard** displays data about the status of core system reso
 
 **Performance counter columns** also have a small pop-up window that concisely describes the performance counter being pointed to. Common Performance Counters, such as CPU, Memory usage, Disk Free Space, Network Sent and Received, do not include the additional explanation.
 
-**Performance counter values** on the dashboard **change colors** depending on the defined thresholds, and the time period spent above these thresholds, which are configured through the [Monitoring Templates](performance-dashboard.md#internal/get-to-know-syskit-monitor/administration/monitoring-templates) category on the Administration tab. When a cell is painted red \(or yellow\), it means that a threshold has been crossed for the associated performance counter. Red indicates a critical threshold, while yellow indicates a warning threshold.
+**Performance counter values** on the dashboard **change colors** depending on the defined thresholds, and the time period spent above these thresholds, which are configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category on the Administration tab. When a cell is painted red \(or yellow\), it means that a threshold has been crossed for the associated performance counter. Red indicates a critical threshold, while yellow indicates a warning threshold.
 
 > **Please note!** Values for Disk and Network performance counters are displayed for the **most critical** Disk and Network Adapter on each computer.
 

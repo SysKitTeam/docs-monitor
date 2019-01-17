@@ -15,3 +15,4 @@ Activation is based on a number of factors that are being calculated during the 
 
 If you wish to perform your activation offline, please follow [these](../activation/online-offline-activation.md) instructions.
 
+

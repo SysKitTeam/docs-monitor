@@ -9,7 +9,7 @@ date: 30/6/2017
 
 SysKit Monitor Web UI allows you to monitor and report from wherever you are. It can be accessed from desktop computers and mobile devices. It is ideal for busy managers and chief information officers who travel a lot and do not always have access to Microsoft Remote Desktop Servers or Citrix XenApp published applications. You can access all reports from the SysKit Monitor desktop application through the web interface, and you can apply filters to reports so that you see only the data you want to see.
 
-After you have [installed the SysKit Monitor Web Application](syskit-monitor-web-app.md#internal/installation-configuration/configuration-wizard/configure-monitor), double click on the SysKit Monitor Web App shortcut on desktop or open your web browser and type in the server name where the SysKit Monitor Web Application is installed, e.g., **Server.domain.name:port/**. The SysKit Monitor Web interface will appear, and it will be ready to explore.
+After you have [installed the SysKit Monitor Web Application](../installation-configuration/configuration-wizard/configure-monitor.md), double click on the SysKit Monitor Web App shortcut on desktop or open your web browser and type in the server name where the SysKit Monitor Web Application is installed, e.g., **Server.domain.name:port/**. The SysKit Monitor Web interface will appear, and it will be ready to explore.
 
 If this doesn’t get you started, try verifying the following:
 
@@ -43,5 +43,5 @@ In that case you will have to change the default port number:
 3. Select the site binding you want to change the port number for and click on the **Edit** button.
 4. Change the default port number to the next available number and click OK to apply the changes.
 
-If you want give access to SysKit Monitor \(desktop and web app\) to users who haven’t connected previously to the monitored computers, check [this article](syskit-monitor-web-app.md#internal/how-to/users/add-users-manually).
+If you want give access to SysKit Monitor \(desktop and web app\) to users who haven’t connected previously to the monitored computers, check [this article](../how-to/users/add-users-manually.md).
 

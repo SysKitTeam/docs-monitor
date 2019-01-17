@@ -15,11 +15,11 @@ Blocking the IP address instead of the URL or domain name is more powerful, beca
 
 If you want to change these values, you can do so in **Options dialog**, in the **Extract Event Log** tab. When the block time expires, the IP address will be **unblocked automatically**. It is also possible to unblock the IP address manually.
 
-The **Blocked IP Addresses** report shows the list of blocked IP addresses via Windows Firewall rules. In order to see this report, you must enable and run [Extract Event Log](malicious-ip-blocking.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/options/#extract-event-log) system job and [Public IP Fetching](malicious-ip-blocking.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/options/#general).
+The **Blocked IP Addresses** report shows the list of blocked IP addresses via Windows Firewall rules. In order to see this report, you must enable and run [Extract Event Log](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#extract-event-log.md) system job and [Public IP Fetching](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#general.md).
 
 The report shows you the blocked IP address, date and exact time of the block, and date and exact time of the automatic unblock.
 
 If you want to customize your view, you can do so using the filter. You can select **Date Range** and **Computers** — and your view will accordingly be reduced or expanded to the selected range.
 
-See [Event Log Reports](malicious-ip-blocking.md#internal/get-to-know-syskit-monitor/reports/event-log-reports) to learn more.
+See [Event Log Reports](../get-to-know-syskit-monitor/reports/event-log-reports.md) to learn more.
 

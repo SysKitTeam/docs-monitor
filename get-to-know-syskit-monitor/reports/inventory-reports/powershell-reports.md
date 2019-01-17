@@ -26,7 +26,7 @@ Its features include:
 
 You can use PowerShell scripts to retrieve valuable information about a server’s configuration, usage, or performance. With SysKit, you can easily export the results and retrieved information to a PDF or.xlsx file, so that you can view it again later.
 
-> **Please note!** In order to see the PowerShell Reports it is necessary to configure [Inventory Snapshots](powershell-reports.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/options/#inventory-snapshots) system job. The report data will be available after Inventory Snapshots system job execution.
+> **Please note!** In order to see the PowerShell Reports it is necessary to configure [Inventory Snapshots](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#inventory-snapshots.md) system job. The report data will be available after Inventory Snapshots system job execution.
 
 ## Enhance your reporting using PowerShell Wizard
 
@@ -51,7 +51,7 @@ We’ll break down how you can create custom information reports in SysKit using
 
 4. In Step 4, you will need to select columns that you want to include in your report and specify unique columns to be used in Snapshots Compare. You can use drag and drop to arrange the rows in the order in which you would like them to appear as columns in the report. You can also use the search box to find and include the desired column\(s\).
 
-   > **Please note!** Identity columns must **unambiguously** define each row of data. If that’s not the case, your data will still be collected, but the report won’t be **comparable** in [Compare Wizard](powershell-reports.md#internal/get-to-know-syskit-monitor/reports/inventory-reports/compare-wizard).
+   > **Please note!** Identity columns must **unambiguously** define each row of data. If that’s not the case, your data will still be collected, but the report won’t be **comparable** in [Compare Wizard](../get-to-know-syskit-monitor/reports/inventory-reports/compare-wizard.md).
 
 5. In Step 5, you will need to select computers on which you want to run the PowerShell script.  
    Created PowerShell script can be scheduled to run on:
@@ -62,7 +62,7 @@ We’ll break down how you can create custom information reports in SysKit using
 
    > **Please note!** Query results may vary depending on the PowerShell version used on a specific computer.
 
-Reports will be added to the **Inventory Reports &gt; PowerShell Reports** group and all of their data can be compared in [Compare Wizard](powershell-reports.md#internal/get-to-know-syskit-monitor/reports/inventory-reports/compare-wizard).
+Reports will be added to the **Inventory Reports &gt; PowerShell Reports** group and all of their data can be compared in [Compare Wizard](../get-to-know-syskit-monitor/reports/inventory-reports/compare-wizard.md).
 
 ### PowerShell Reports Ribbon
 

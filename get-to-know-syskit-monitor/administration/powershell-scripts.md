@@ -51,17 +51,17 @@ Error results are returned from the target computers in the following cases:
 
 All PowerShell Scripts available on the Administration tab have the **filter panel** available to the right. It contains three filter types—**Date Range, Computer Groups,** and **Computer**—so you can filter your data more easily. Use the **Date Range** filter to select any day, week, month, or custom date range.
 
-> **Please note!** You will not be able to see any PowerShell script data outside 30 days, unless you change the [PowerShell Scripts Data Retention](powershell-scripts.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/options/#data-retention) settings. The default is set to delete PowerShell script data older than 30 days.
+> **Please note!** You will not be able to see any PowerShell script data outside 30 days, unless you change the [PowerShell Scripts Data Retention](../get-to-know-syskit-monitor/backstage-screen/configuration/options/#data-retention.md) settings. The default is set to delete PowerShell script data older than 30 days.
 
 PowerShell is known as an excellent tool for automating repetitive tasks, so you can start building your **report** and **management** scripts using the **PowerShell Script editor** within SysKit Monitor. You can import PowerShell scripts into the wizard \(with **.ps1** extension only\), write your own PowerShell code, and create some amazing reports and management tasks.
 
-With the built-in PowerShell Script Wizard, you can also import and edit [PowerShell Script Modules](powershell-scripts.md#internal/how-to/powershell-scripts/import-and-use-ps-script-modules) with **.ps1** and **.psm1** extensions. A script module allows you to use a number of rules and cmdlets in your scripts. In simple terms, a script module is just a grouping of functions and code that can be applied to a specific group of scripts. **PowerShell modules** are actually highly recommended when writing PowerShell scripts, because they are created for applications such as Microsoft Exchange, Active Directory, VMware, etc., to manage all aspects of various applications. The PowerShell module feature within the **PowerShell Script Wizard** allows the combining of multiple scripts to simplify code management, accessibility, and sharing.
+With the built-in PowerShell Script Wizard, you can also import and edit [PowerShell Script Modules](../how-to/powershell-scripts/import-and-use-ps-script-modules.md) with **.ps1** and **.psm1** extensions. A script module allows you to use a number of rules and cmdlets in your scripts. In simple terms, a script module is just a grouping of functions and code that can be applied to a specific group of scripts. **PowerShell modules** are actually highly recommended when writing PowerShell scripts, because they are created for applications such as Microsoft Exchange, Active Directory, VMware, etc., to manage all aspects of various applications. The PowerShell module feature within the **PowerShell Script Wizard** allows the combining of multiple scripts to simplify code management, accessibility, and sharing.
 
 The PowerShell Wizard also comes with **PowerShell Script Alerts**, which are crucial for effective monitoring of any critical and important jobs that run in a server environment. SysKit Monitor will let you know when critical errors occur if you’ve configured the **alert conditions** for important PowerShell Scripts. PowerShell Script rows that **match the applied conditions** and have **triggered an alert** will be painted light yellow after the script executes. These rows will be exported to **.csv format** and included in the **email attachment** of the alert.
 
 Read this article to learn more on how to:
 
-## [Enhance your reporting using PowerShell Script Wizard](powershell-scripts.md#internal/how-to/powershell-scripts/powershell-wizard)
+## [Enhance your reporting using PowerShell Script Wizard](../how-to/powershell-scripts/powershell-wizard.md)
 
 ### PowerShell Scripts Ribbon
 
@@ -88,11 +88,11 @@ If you click the **Status bar** at the lower left side of the screen, informatio
 
 Read these articles to learn more on how to:
 
-## [Manage Scripts](powershell-scripts.md#internal/how-to/powershell-scripts/manage-scripts)
+## [Manage Scripts](../how-to/powershell-scripts/manage-scripts.md)
 
-## [Import / Export PowerShell Script](powershell-scripts.md#internal/how-to/powershell-scripts/import-ps-script)
+## [Import / Export PowerShell Script](../how-to/powershell-scripts/import-ps-script.md)
 
-## [Import and use PowerShell script modules](powershell-scripts.md#internal/how-to/powershell-scripts/import-and-use-ps-script-modules)
+## [Import and use PowerShell script modules](../how-to/powershell-scripts/import-and-use-ps-script-modules.md)
 
-## [Download Scripts](powershell-scripts.md#internal/how-to/powershell-scripts/download-scripts)
+## [Download Scripts](../how-to/powershell-scripts/download-scripts.md)
 

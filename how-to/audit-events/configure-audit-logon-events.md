@@ -50,5 +50,5 @@ Here is the info on how to turn on the logon failure audit events for your compu
 
 You need to enable collection of event log data under **File** &gt; **Manage** &gt; **System Jobs** and you are good to go. SysKit Monitor will start to collect audit information from the Event Log on a regular basis.
 
-See the [Extract Event Log](configure-audit-logon-events.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/options#extract-event-log) article for more detailed information.
+See the [Extract Event Log](../get-to-know-syskit-monitor/backstage-screen/configuration/options#extract-event-log.md) article for more detailed information.
 
