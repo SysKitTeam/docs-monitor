@@ -4,9 +4,12 @@ description: This article explains how to edit dashboard reports and format metr
 author: Andrea Budisa
 date: 29/6/2017
 ---
+
+# edit-dashboard
+
 This article describes how to edit dashboard reports and format metrics.
 
-### Dashboard ribbon
+## Dashboard ribbon
 
 Using the dashboard ribbon you can:
 
@@ -17,7 +20,7 @@ Using the dashboard ribbon you can:
 * **Set as Default** – by choosing this option, intial application screen will be set to be the selected dashboard.
 * **Date Range** – change the period the data is displayed for.
 
-### Edit dashboard reports
+## Edit dashboard reports
 
 You can edit custom made dashboard by clicking **Edit** from the ribbon or edit each report individually by using the option buttons in the right upper corner of a report container.
 
@@ -28,7 +31,7 @@ Using the option buttons from the right upper corner of the each report you can:
 * switch between chart and grid view
 * add and modify filters.
 
-### Edit dashboard metric
+## Edit dashboard metric
 
 To edit metric settings, select the metric container and click **Edit** from the dashboard ribbon.
 
@@ -39,3 +42,4 @@ When the dashboard designer opens, you can:
 * edit selected metric name and color
 * format the selected metric
 * add or modify selected metric filters.
+
