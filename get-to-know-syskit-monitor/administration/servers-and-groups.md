@@ -29,7 +29,7 @@ The **Type** column displays the computer type, which is automatically assigned 
 
 The **Computer Group** column displays the name of the group to which the computer is assigned. A computer can be assigned to one or more Computer Groups. The main purpose and concept of the Computer Groups will be explained later in this article.
 
-The **Performance Counters** column displays the performance counters collection status for the computers in your domain. A system job can have **one of four statuses**: Started, Offline or Not Accessible, Unknown, and Disabled. See the [Performance Counters Management](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/performance-counters-management.md) article to learn more.
+The **Performance Counters** column displays the performance counters collection status for the computers in your domain. A system job can have **one of four statuses**: Started, Offline or Not Accessible, Unknown, and Disabled. See the [Performance Counters Management](../../../how-to/performance-counters-management.md) article to learn more.
 
 The **details panel** below the grid view displays additional information for the **selected computer**.
 
