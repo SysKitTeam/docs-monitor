@@ -16,7 +16,7 @@ You can configure SysKit Monitor to run under designated domain account or local
 
 > **Please note!** As a best practice, we recommend setting a service user that is in the Adminstrators or Domain Admins group.
 
-We recommend using the **domain account** as the service account. In order for the account to be eligible for running the SysKit Monitor service, it must have administrative privileges and must have the [**Logon as a service**](user-permission-requirements.md#internal/how-to/service-accounts/add-service-user-group-policy) permission.
+We recommend using the **domain account** as the service account. In order for the account to be eligible for running the SysKit Monitor service, it must have administrative privileges and must have the [**Logon as a service**](../../../how-to/service-accounts/add-service-user-group-policy.md) permission.
 
 ## Account setup
 
@@ -27,7 +27,7 @@ We recommend using the **domain account** as the service account. In order for t
 
 This is the **recommended** method for most scenarios.
 
-There are two ways to add a service user to the Local Administrators security group. You can configure this [manually](user-permission-requirements.md#internal/how-to/service-accounts/add-service-user-manually) or via [Group Policy](user-permission-requirements.md#internal/how-to/service-accounts/add-service-user-group-policy).
+There are two ways to add a service user to the Local Administrators security group. You can configure this [manually](../../../how-to/service-accounts/add-service-user-manually.md) or via [Group Policy](../../../how-to/service-accounts/add-service-user-group-policy.md).
 
 > **Please note!** If the software is installed on a non-domain joined machine, the service account name should be entered in the following form: **machine\_name\username**.
 
@@ -38,8 +38,8 @@ There are two ways to add a service user to the Local Administrators security gr
 
 If you plan to use Windows authentication, we recommend using our Configuration Wizard to create and configure the SysKit Monitor database. The Active Directory \(Windows service\) user running the configuration wizard needs to have **dbcreator** and **securityadmin** privileges on the SQL Server to create and configure the database.
 
-See [SQL Permissions](user-permission-requirements.md#internal/installation-configuration/configuration-wizard/sql-permissions/create-sql-login) to learn more about SysKit SQL server database requirements.  
-See [Configure](user-permission-requirements.md#internal/get-to-know-syskit-monitor/backstage-screen/configuration/configure) article to learn more on how to change the Service Account or SysKit Monitor database.
+See [SQL Permissions](../../../installation-configuration/configuration-wizard/sql-permissions/create-sql-login.md) to learn more about SysKit SQL server database requirements.  
+See [Configure](../../../get-to-know-syskit-monitor/backstage-screen/configuration/configure.md) article to learn more on how to change the Service Account or SysKit Monitor database.
 
-Proceed to: [Pre-Installation Requirements](user-permission-requirements.md#internal/requirements/pre-installation-requirements).
+Proceed to: [Pre-Installation Requirements](../../../requirements/pre-installation-requirements.md).
 

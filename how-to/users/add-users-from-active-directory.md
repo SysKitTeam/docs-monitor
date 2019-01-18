@@ -13,7 +13,7 @@ date: 29/6/2017
 4. A list of all users from the selected Organizational Unit will appear. Select at least one user to proceed to the next step. Click **Next &gt;** to proceed.
 5. The summary window will show you how many users you have added, click the **Finish** button.
 
-If you want give access to SysKit Monitor to users who haven’t connected previously to the monitored computers, check [this article](add-users-from-active-directory.md#internal/how-to/users/add-users-manually).
+If you want give access to SysKit Monitor to users who haven’t connected previously to the monitored computers, check [this article](../../../how-to/users/add-users-manually.md).
 
-See [Manage Users and Groups](add-users-from-active-directory.md#internal/get-to-know-syskit-monitor/backstage-screen/manage-data-gathering) to learn more.
+See [Manage Users and Groups](../../../get-to-know-syskit-monitor/backstage-screen/manage-data-gathering.md) to learn more.
 

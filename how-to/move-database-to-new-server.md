@@ -23,5 +23,5 @@ Please follow these steps to move a SQL Server database to another location:
 12. On the next screen, type in the service user that has same permissions as the old service user.
 13. Click **Finish**.
 
-See [SQL Permissions](move-database-to-new-server.md#internal/installation-configuration/configuration-wizard/sql-permissions/create-sql-login) to learn more about SysKit Monitor SQL server database requirements.
+See [SQL Permissions](../../../installation-configuration/configuration-wizard/sql-permissions/create-sql-login.md) to learn more about SysKit Monitor SQL server database requirements.
 

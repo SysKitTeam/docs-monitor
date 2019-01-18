@@ -46,5 +46,5 @@ The Performance Counters ribbon page offers the options for managing Performance
 
 The Monitoring Template within SysKit Monitor is a collection of performance counters to be monitored, and it includes the associated rules and suggested threshold values to detect out-of-bounds conditions. Every Monitoring Template can contain at least one **monitoring element** of two that are currently available: **Performance Counters** and **Windows Services**.
 
-See [Monitoring Templates](performance-counters-management.md#internal/get-to-know-syskit-monitor/administration/monitoring-templates) for more detailed information.
+See [Monitoring Templates](../../../get-to-know-syskit-monitor/administration/monitoring-templates.md) for more detailed information.
 

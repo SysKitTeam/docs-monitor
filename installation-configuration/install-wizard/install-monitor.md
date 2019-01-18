@@ -9,7 +9,7 @@ date: 30/5/2017
 
 # Install SysKit Monitor
 
-Before you begin with the SysKit Monitor installation, we recommend that you carefully perform all preparation steps by reading the [Pre-Installation Requirements](install-monitor.md#internal/requirements/pre-installation-requirements) article.
+Before you begin with the SysKit Monitor installation, we recommend that you carefully perform all preparation steps by reading the [Pre-Installation Requirements](../../../requirements/pre-installation-requirements.md) article.
 
 ## Installing SysKit Monitor
 
@@ -20,7 +20,7 @@ To install the SysKit Monitor, proceed with the following steps:
 1. [Download](https://www.syskit.com/products/monitor/download) the newest release.
 2. Unpack and run the **SysKitMonitorSetup.exe**. The wizard will guide you through the installation steps; click **Next &gt;** to proceed.
 3. Click **I Accept the terms of the license agreement** to accept the license and then click **Next &gt;** to proceed.
-4. This step allows you to choose the program features that you want to install and change how a feature is installed. The default option is set to install the **SysKit Monitor desktop application** only, but you can choose to install **both** the **desktop** and the **web** feature. Before proceeding, please read the [System Requirements](install-monitor.md#internal/requirements/system-requirements). Click **Next &gt;** to proceed.
+4. This step allows you to choose the program features that you want to install and change how a feature is installed. The default option is set to install the **SysKit Monitor desktop application** only, but you can choose to install **both** the **desktop** and the **web** feature. Before proceeding, please read the [System Requirements](../../../requirements/system-requirements.md). Click **Next &gt;** to proceed.
 5. Select the destination folder for the application installation files, e.g., C:\Program Files\SysKit\Monitor. Click **Next &gt;** to proceed.
 6. You can change the folder name where the application shortcuts will be created and modify the availability option to install the SysKit Monitor for **All users** or **Only for the current user**. Click **Next &gt;** to proceed.
 7. The following step about the installation method will appear if you don’t have a Microsoft SQL Server instance on this particular machine.  
@@ -35,7 +35,7 @@ To install the SysKit Monitor, proceed with the following steps:
 
 Once the installation is completed, the Configuration Wizard will start. If the wizard does not start automatically after installation, you can run it manually from: **Start &gt; All Programs &gt; SysKit Monitor &gt; Configuration Wizard**.
 
-> **Please note!** The SysKit Monitor web application can be installed on the same server as the desktop application or on a separate server. If you choose to install the web application separately, please read [this article](install-monitor.md#internal/installation-configuration/configuration-wizard/configure-monitor).
+> **Please note!** The SysKit Monitor web application can be installed on the same server as the desktop application or on a separate server. If you choose to install the web application separately, please read [this article](../../../installation-configuration/configuration-wizard/configure-monitor.md).
 
-Proceed to: [Configuration Wizard](install-monitor.md#internal/installation-configuration/configuration-wizard/configure-monitor).
+Proceed to: [Configuration Wizard](../../../installation-configuration/configuration-wizard/configure-monitor.md).
 

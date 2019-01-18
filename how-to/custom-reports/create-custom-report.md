@@ -25,7 +25,7 @@ Creating a new custom report is very simple everything is done throught the wiza
 
 ## Download the custom report definition
 
-Download the definition of this custom report: [Idle-Activities-Today](create-custom-report.md#internal/_assets/Idle-Activities-Today.zip)
+Download the definition of this custom report: [Idle-Activities-Today](../../../_assets/Idle-Activities-Today.zip)
 
-See the [Custom Reports](create-custom-report.md#internal/get-to-know-syskit-monitor/reports/custom-reports) article to learn how to download and import the predefined Custom Reports from SysKit’s repository.
+See the [Custom Reports](../../../get-to-know-syskit-monitor/reports/custom-reports.md) article to learn how to download and import the predefined Custom Reports from SysKit’s repository.
 

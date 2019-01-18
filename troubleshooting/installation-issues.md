@@ -73,8 +73,8 @@ Should I proceed?
 
 You have a few options here:
 
-1. Install [SysKit Monitor with a SQL Server Express LocalDB database](installation-issues.md#internal/installation-configuration/install-wizard/install-monitor). This does not require SQL Server to be installed, and you can proceed with such an installation on a domain controller.
-2. You can install SQL Server on another box in your domain and then connect the installation to an existing SQL server. Learn more in our [installation guide](installation-issues.md#internal/installation-configuration/install-wizard/install-monitor).
+1. Install [SysKit Monitor with a SQL Server Express LocalDB database](../../../installation-configuration/install-wizard/install-monitor.md). This does not require SQL Server to be installed, and you can proceed with such an installation on a domain controller.
+2. You can install SQL Server on another box in your domain and then connect the installation to an existing SQL server. Learn more in our [installation guide](../../../installation-configuration/install-wizard/install-monitor.md).
 3. Microsoft does not recommend installing SQL Server on a domain controller. However, if you only have a single server in your organization, you can choose to install it on top of your domain controller. Before proceeding with this operation, you should check out the [following article](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server#DC_support).
 
 ## I am getting: "Cannot start SysKitMonitorService."

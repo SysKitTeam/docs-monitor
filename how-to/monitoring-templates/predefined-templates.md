@@ -31,5 +31,5 @@ The monitoring templates below are located in SysKit's **repository** and are re
 
   This template does not have defined thresholds as they greatly depend on the SharePoint farm.
 
-See the [Monitoring Templates](predefined-templates.md#internal/get-to-know-syskit-monitor/administration/monitoring-templates) article to learn more about monitoring the custom performance counters and important services. There, you can also find instructions and useful tips on how to **download, import,** and **apply** monitoring templates to computers or computer groups.
+See the [Monitoring Templates](../../../get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn more about monitoring the custom performance counters and important services. There, you can also find instructions and useful tips on how to **download, import,** and **apply** monitoring templates to computers or computer groups.
 

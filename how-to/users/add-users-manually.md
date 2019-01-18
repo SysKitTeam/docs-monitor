@@ -25,6 +25,6 @@ If you want to give access to SysKit Monitor to a whole group, please follow the
 
 > **Please note!** A new security group will be added as soon as the first user from it is connected to the computer and recognized by SysKit Monitor. It is **not possible** to add anyone manually to the group, SysKit Monitor will do it automatically. Also, now you can give Administrator role to the whole group.
 
-See [Add Users from Active Directory](add-users-manually.md#internal/how-to/users/add-users-from-active-directory) to learn more.  
-See [Manage Users and Groups](add-users-manually.md#internal/get-to-know-syskit-monitor/backstage-screen/manage-data-gathering) to learn more.
+See [Add Users from Active Directory](../../../how-to/users/add-users-from-active-directory.md) to learn more.  
+See [Manage Users and Groups](../../../get-to-know-syskit-monitor/backstage-screen/manage-data-gathering.md) to learn more.
 

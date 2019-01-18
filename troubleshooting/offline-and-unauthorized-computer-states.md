@@ -11,11 +11,11 @@ date: 29/06/17
 
 ## How to resolve the Unauthorized state?
 
-If the computer is in **Unauthorized** state on the [Administration – Computer](offline-and-unauthorized-computer-states.md#internal/get-to-know-syskit-monitor/administration/servers-and-groups) category, that means the **Service User** is not a member of the **Local Administrators Security Group** on the remote computer where you see the message.
+If the computer is in **Unauthorized** state on the [Administration – Computer](../../../get-to-know-syskit-monitor/administration/servers-and-groups.md) category, that means the **Service User** is not a member of the **Local Administrators Security Group** on the remote computer where you see the message.
 
 In order to get the data remotely, the service user needs to be a **member of the Local Administrators Security Group** on the remote computer.
 
-You can add the service user to the local Administrators Security Group [manually](offline-and-unauthorized-computer-states.md#internal/how-to/service-accounts/add-service-user-manually) or through the [Group Policy](offline-and-unauthorized-computer-states.md#internal/how-to/service-accounts/add-service-user-group-policy).
+You can add the service user to the local Administrators Security Group [manually](../../../how-to/service-accounts/add-service-user-manually.md) or through the [Group Policy](../../../how-to/service-accounts/add-service-user-group-policy.md).
 
 ## How to resolve the Offline state for workstations?
 
@@ -35,5 +35,5 @@ The easiest way to perform this is via the group policy. We will create either n
 
 What you need to do now is to go back to the SysKit Monitor and add extra workstations you want to monitor.
 
-See [Network Ports](offline-and-unauthorized-computer-states.md#internal/troubleshooting/network-ports) article to learn more on how to configure firewall settings for data collection.
+See [Network Ports](../../../troubleshooting/network-ports.md) article to learn more on how to configure firewall settings for data collection.
 

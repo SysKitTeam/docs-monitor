@@ -26,13 +26,13 @@ Once the installation is completed, the Configuration Wizard will start. If the 
    * Windows Authentication \(make sure that the service account used for configuration has the proper privileges on the SQL Server\).
    * SQL Authentication \(make sure that SQL authentication is enabled on the SQL Server and the account has the proper privileges on the SQL Server\).
 
-   See [SQL Permissions](configure-monitor.md#internal/installation-configuration/configuration-wizard/sql-permissions/create-sql-login) to learn more about SysKit Monitor SQL Server database requirements.
+   See [SQL Permissions](../../../installation-configuration/configuration-wizard/sql-permissions/create-sql-login.md) to learn more about SysKit Monitor SQL Server database requirements.
 
    If you plan to use the SysKit Monitor in a domain environment with an in-house SQL Server, we strongly **recommend** choosing Windows authentication. Once you have entered the correct database information, click **Test Connection** for verification. Click **Next &gt;** to proceed.
 
 3. In Step 3, you need to enter information about the Service Account that will be used for running the SysKit Monitor Service. This account will be used to gather data from your server\(s\). Enter the custom user account in the following format: **DOMAIN\USERNAME** \(or **MACHINE\_NAME\USERNAME** for workgroup scenarios\).
 
-   > **Please note!** The service user must be in the local admin group to proceed with this step. For more information about the service account configuration, read the [Add Service User to a Local Administrators Group via Group Policy](configure-monitor.md#internal/how-to/service-accounts/add-service-user-group-policy) article.
+   > **Please note!** The service user must be in the local admin group to proceed with this step. For more information about the service account configuration, read the [Add Service User to a Local Administrators Group via Group Policy](../../../how-to/service-accounts/add-service-user-group-policy.md) article.
    >
    > **Please note!** If the software is installed on a non-domain joined machine, the service account name should be entered in the following form: **machine\_name\username**.
 
@@ -58,7 +58,7 @@ In the Install Wizard, on the step which allows you to choose the program featur
 3. The next step summarizes the configuration settings that will be applied.
 4. Once the SysKit Monitor Web app is installed and configured, you can run the application and choose whether you want to participate in the Customer Experience Improvement Program.
 
-See the [SysKit Monitor Web App](configure-monitor.md#internal/get-to-know-syskit-monitor/syskit-monitor-web-app) article to learn more.
+See the [SysKit Monitor Web App](../../../get-to-know-syskit-monitor/syskit-monitor-web-app.md) article to learn more.
 
 ### Problems with Installation and Configuration
 

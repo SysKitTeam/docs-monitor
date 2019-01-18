@@ -9,7 +9,7 @@ date: 21/6/2017
 
 # Download Templates
 
-This dialog enables you to download and import the [predefined Monitoring Templates](download-templates.md#internal/how-to/monitoring-templates/predefined-templates) from SysKit’s **repository**. There, you can find **three** monitoring templates tied to a specific server role, such as **SharePoint, Citrix** or **Hyper-V**. It is very important to read the template description on the right side.
+This dialog enables you to download and import the [predefined Monitoring Templates](../../../how-to/monitoring-templates/predefined-templates.md) from SysKit’s **repository**. There, you can find **three** monitoring templates tied to a specific server role, such as **SharePoint, Citrix** or **Hyper-V**. It is very important to read the template description on the right side.
 
 If you select a monitoring template from the list, the following template information will be displayed:
 

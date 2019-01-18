@@ -33,6 +33,6 @@ To to create a custom dashboard, proceed with the following steps:
 
 4. After you added the reports and metrics you want, click **Finish** to exit the Dashboard Wizard. Newly created dashboard will appear in the My Dashboards folder.
 
-See [How to Edit Dashboards](create-custom-dashboard.md#internal/how-to/dashboards/edit-dashboard) to learn more.  
-See [How to Add Formatting Condition to metrics](create-custom-dashboard.md#internal/how-to/dashboards/add-formatting-condition-to-metrics) to learn more.
+See [How to Edit Dashboards](../../../how-to/dashboards/edit-dashboard.md) to learn more.  
+See [How to Add Formatting Condition to metrics](../../../how-to/dashboards/add-formatting-condition-to-metrics.md) to learn more.
 

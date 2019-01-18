@@ -15,8 +15,8 @@ The installation process consists of a few easy steps that you need to perform i
 
 SysKit Monitor requires a service account in order to run. We recommend creating a dedicated Windows account for this purpose.
 
-* This account needs to have administrative privileges on each server you plan to monitor. You can configure this [manually](pre-installation-requirements.md#internal/how-to/service-accounts/add-service-user-manually) or via [Group Policy](pre-installation-requirements.md#internal/how-to/service-accounts/add-service-user-group-policy).
-* This account needs to have the [Logon as a service](pre-installation-requirements.md#internal/how-to/service-accounts/add-service-user-group-policy) privileges.
+* This account needs to have administrative privileges on each server you plan to monitor. You can configure this [manually](../../../how-to/service-accounts/add-service-user-manually.md) or via [Group Policy](../../../how-to/service-accounts/add-service-user-group-policy.md).
+* This account needs to have the [Logon as a service](../../../how-to/service-accounts/add-service-user-group-policy.md) privileges.
 
 > **Please note!** As a best practice, we recommend setting a service user that is in the Adminstrators or Domain Admins group.
 
@@ -32,7 +32,7 @@ If you are running the SysKit in a domain environment, we strongly recommend usi
 
 If you plan to use Windows authentication, we recommend using our Configuration Wizard to create and configure the SysKit database. The Active Directory \(Windows service\) user running the configuration wizard needs to have **dbcreator** and **securityadmin** privileges on the SQL Server to create and configure the database.
 
-See [SQL Permissions](pre-installation-requirements.md#internal/installation-configuration/configuration-wizard/sql-permissions/create-sql-login) to learn more about SysKit Monitor SQL server database requirements.  
+See [SQL Permissions](../../../installation-configuration/configuration-wizard/sql-permissions/create-sql-login.md) to learn more about SysKit Monitor SQL server database requirements.  
 If you cannot obtain such privileges, install the SysKit Monitor database **manually** \(or your DBA will create a DB\).
 
 You need to create an empty database that will be used to store the SysKit Monitor data:
@@ -44,9 +44,9 @@ You need to create an empty database that will be used to store the SysKit Monit
 5. On the **Options** page, choose **Simple** as the **Recovery Model**.
 6. Click **OK** to create a new database.
 
-> **Please note!** The service user that will be used for running the SysKit Monitor Service needs to have **db\_owner** membership assigned on the newly created database. See [SQL Permissions](pre-installation-requirements.md#internal/installation-configuration/configuration-wizard/sql-permissions/connect-existing-db-privileges) to learn more.
+> **Please note!** The service user that will be used for running the SysKit Monitor Service needs to have **db\_owner** membership assigned on the newly created database. See [SQL Permissions](../../../installation-configuration/configuration-wizard/sql-permissions/connect-existing-db-privileges.md) to learn more.
 
-Proceed to: [Installation Guide](pre-installation-requirements.md#internal/installation-configuration/install-wizard/install-monitor).
+Proceed to: [Installation Guide](../../../installation-configuration/install-wizard/install-monitor.md).
 
 ### SQL Server authentication
 
@@ -67,6 +67,6 @@ To use SQL Server authentication instead of Windows authentication please do the
 
 ## Install SysKit Monitor
 
-If you have created a service account and prepared the SQL Server, you can proceed with the SysKit Monior [Installation Wizard](pre-installation-requirements.md#internal/installation-configuration/install-wizard/install-monitor).  
+If you have created a service account and prepared the SQL Server, you can proceed with the SysKit Monior [Installation Wizard](../../../installation-configuration/install-wizard/install-monitor.md).  
 If you need help with the installation, please [contact us](https://www.syskit.com/company/contact-us).
 
