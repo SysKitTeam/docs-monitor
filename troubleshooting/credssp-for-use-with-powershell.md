@@ -35,5 +35,5 @@ This policy setting allows the remote server to act as a delegate for clients, p
 
 The use of these two commands is shown in the image below.
 
-![CredSSP](https://github.com/SysKitTeam/docs-monitor/tree/fa95bdb2cf4c54adef6f86337d7c84bb781d53dd/troubleshooting/#img/CredSSPcommands.png)
+![](../.gitbook/assets/credsspcommands.png)
 
