@@ -38,5 +38,5 @@ The four states and the differences between them are listed here:
 
 **Remote Control** — User is in the remote control state if the user is remote controlling another user \(also known as shadowing on Citrix servers\).
 
-See \[User Reports\]../get-to-know-syskit-monitor/reports/user-reports.md\) and [Application Reports](../get-to-know-syskit-monitor/reports/application-reports.md) to learn more.
+See \[User Reports\]....../get-to-know-syskit-monitor/reports/user-reports.md\) and [Application Reports](....../get-to-know-syskit-monitor/reports/application-reports.md) to learn more.
 

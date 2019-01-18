@@ -19,5 +19,5 @@ File Access Audit report summarizes the total number of read, write, append, and
 
 Both reports have filters to customize the view. You can select **Date Range**, **Computers**, **Users**, **Security Groups**, **Organizational Units**, and **Custom Groups** — and your view will accordingly be reduced or expanded to the selected range.
 
-See [Event Log Reports](../get-to-know-syskit-monitor/reports/event-log-reports.md) to learn more.
+See [Event Log Reports](....../get-to-know-syskit-monitor/reports/event-log-reports.md) to learn more.
 

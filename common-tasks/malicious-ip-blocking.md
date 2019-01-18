@@ -21,5 +21,5 @@ The report shows you the blocked IP address, date and exact time of the block, a
 
 If you want to customize your view, you can do so using the filter. You can select **Date Range** and **Computers** — and your view will accordingly be reduced or expanded to the selected range.
 
-See [Event Log Reports](../get-to-know-syskit-monitor/reports/event-log-reports.md) to learn more.
+See [Event Log Reports](....../get-to-know-syskit-monitor/reports/event-log-reports.md) to learn more.
 
