@@ -21,7 +21,7 @@ There are **2 visual color indicators** for computers’ sessions:
 * **Yellow** – online computer that has reached an alarming number of users \(e.g. 51 users online, the warning threshold is 50\)
 * **Red** – online computer that has reached a critical number of users \(e.g. 101 users online, the warning threshold is 100\)
 
-Use the [Administration – Computers](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/administration/servers-and-groups.md) category to adjust the values for **warning** and **critical** session thresholds.
+Use the [Administration – Computers](../../administration/servers-and-groups.md) category to adjust the values for **warning** and **critical** session thresholds.
 
 * **Processes** – Number of currently running processes. Clicking on the Show current processes link provides more detailed report.
 * **System Job status** – This is an indicator of a system job status, located in the lower-left corner. Here you can:
@@ -29,7 +29,7 @@ Use the [Administration – Computers](https://github.com/SysKitTeam/docs-monito
   * view information about currently running system jobs,
   * open the System Jobs dialog.
 
-It is not possible to edit nor save Session Dashboard as a dashboard template nor change the date range. It is however possible to [edit the other dashboards](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/dashboards/edit-dashboard.md).
+It is not possible to edit nor save Session Dashboard as a dashboard template nor change the date range. It is however possible to [edit the other dashboards](../../../how-to/dashboards/edit-dashboard.md).
 
-Users can also [create custom dashboards](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/dashboards/create-custom-dashboard.md) that will better meet their needs.
+Users can also [create custom dashboards](../../../how-to/dashboards/create-custom-dashboard.md) that will better meet their needs.
 

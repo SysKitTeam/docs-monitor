@@ -22,12 +22,12 @@ To preview user and group data gathered from the Active Directory use the Manage
 * **Refresh** – Use this option to refresh the dialog items.
 * **Delete** – Use this option to delete a user that’s no longer an employee.
 * **Enable/Disable Users** – Use this option to manage user monitoring status. You can disable selected user\(s\) from monitoring and reports.
-* **Grant Access** – Use the option **Grant Access Manually** to [give users the administrative privileges](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/users/add-users-manually.md) to the SysKit Monitor application. There is no need to add users for monitoring here, they will be added automatically once they logon to the servers.
+* **Grant Access** – Use the option **Grant Access Manually** to [give users the administrative privileges](../../how-to/users/add-users-manually.md) to the SysKit Monitor application. There is no need to add users for monitoring here, they will be added automatically once they logon to the servers.
 * **New Custom Group** – Use this option to create a new custom group, assign users to it and use it for reporting and filtering.
 
 ### Grant access to a new user
 
-See [Add Users from Active Directory](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/users/add-users-from-active-directory.md) and [Add Users Manually](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/users/add-users-manually.md) articles to learn more.
+See [Add Users from Active Directory](../../how-to/users/add-users-from-active-directory.md) and [Add Users Manually](../../how-to/users/add-users-manually.md) articles to learn more.
 
 ### Disable integration for certain users
 
@@ -49,7 +49,7 @@ There are three types of user roles in SysKit Monitor: None, Viewers and Adminis
 * **Viewer** – Users with this role can read and modify files in the SysKit Monitor installation folder, read data from the SQL Server database and use the SysKit Monitor application to view reports.
 * **Administrator** – Users with this role can read and modify files in the SysKit Monitor installation folder, read data from the SQL Server and administer database and have a full permission to use the SysKit Monitor application.
 
-See [Managing Security Permissions](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/users/manage-security-permissions.md) article to learn more.
+See [Managing Security Permissions](../../how-to/users/manage-security-permissions.md) article to learn more.
 
 ## Manage Applications
 
@@ -95,7 +95,7 @@ To add a new license just click **New License** on the toolbar, choose the licen
 1. Open the license manager and click on the **New Office License**.
 2. Choose the Office version you want to monitor, enter the license name, type and number of CALs. Click **OK** to add new Office license to monitor.
 
-See [License Reports](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/reports/license-reports.md) learn more.
+See [License Reports](../reports/license-reports.md) learn more.
 
 ## Manage Subnets
 
@@ -145,7 +145,7 @@ Here is the description of columns in the Manage Subscriptions dialog:
 * **Description** – information about Delivery Methods selected for each subscription.
 * **Last Sent On** – the last time a subscription was sent.
 
-See [Configure Send E-mails system job](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#send-e-mails.md) and [Configure Report Subscriptions](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/reports/configure-report-subscriptions.md) to learn more.
+See [Configure Send E-mails system job](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#send-e-mails.md) and [Configure Report Subscriptions](../../how-to/reports/configure-report-subscriptions.md) to learn more.
 
 After you have defined all the necessary data and saved the settings, Subscriptions should be delivered at the scheduled time.
 
@@ -156,7 +156,7 @@ This section explains how to manage **Alerts** received for your computers.
 Real-time Alerts include performance counters, service and session alerts. To preview and classify the Alerts gathered for your computers, use Manage Alerts under **File** &gt; **Manage** &gt; **Alerts**.  
 This form shows all the computer alerts sent by e-mail. An alert level is assigned to each computer alert. You can set different alert levels for each alert so that in the future, similar alerts will have that alert level.
 
-See [Real-time Alerting](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/common-tasks/real-time-alerting.md) to learn more about SysKit Monitor intelligent alerting.
+See [Real-time Alerting](../../common-tasks/real-time-alerting.md) to learn more about SysKit Monitor intelligent alerting.
 
 The following options are available:
 

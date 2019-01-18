@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# Create Custom Dashboard
+# Create a Custom Dashboard
 
 To to create a custom dashboard, proceed with the following steps:
 
