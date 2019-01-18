@@ -36,7 +36,7 @@ The grid-view in Manage Snapshots displays the following elements:
 * **Differences Detected** – This option indicates whether differences were detected in the current snapshot when compared to the one taken before it.
 * **Good Configuration** – Indicates whether the selected snapshot is well configured or not.
 
-See the [Alerts](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) section if you want to receive e-mail notifications when inventory changes are detected.
+See the [Alerts ](../../backstage-screen/configuration/options.md#alerts)section if you want to receive e-mail notifications when inventory changes are detected.
 
 ## Compare Wizard
 

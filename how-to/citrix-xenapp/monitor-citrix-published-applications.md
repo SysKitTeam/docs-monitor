@@ -12,7 +12,7 @@ date: 29/06/17
 This feature provides **Citrix XenApp 5**, **XenApp 6**, **XenApp 6.5**, **XenApp 7** and **XenApp 7.5** Published Applications monitoring. In order for the Published Applications to appear in the SysKit Monitor reports, it is necessary to enable this feature.
 
 1. Navigate to the **File**, select **Configuration** from the left navigation bar and click on the **Options** button.
-2. Select the [General](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/how-to/get-to-know-syskit-monitor/backstage-screen/configuration/options.md) tab, navigate to **Citrix Options** and the following options will be available:
+2. Select the [General ](../../get-to-know-syskit-monitor/backstage-screen/configuration/options.md#general)tab, navigate to **Citrix Options** and the following options will be available:
    * **Resolve Published Applications Name** – enable this option to use Published Application display name instead of a FullName.
    * **Reset Gather Mode** – re-detect Published Application data gathering mode.
 3. Check in the **Gather Published Applications** option. Click **Save** to finish.

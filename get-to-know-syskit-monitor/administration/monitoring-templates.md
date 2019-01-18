@@ -33,7 +33,7 @@ Read this article to learn more on how to:
 
 ## [Enhance your monitoring using Template Wizard](../../how-to/monitoring-templates/template-wizard.md)
 
-All Monitoring Template\(s\) that are **assigned to the monitored computer\(s\)** can be viewed and explored in the [Overview ](../reports/performance-reports/computer-performance.md)and [Detailed Analysis](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/reports/performance-reports/computer-performance/README.md#detailed-analysis.md) reports.
+All Monitoring Template\(s\) that are **assigned to the monitored computer\(s\)** can be viewed and explored in the [Overview ](../reports/performance-reports/computer-performance.md)and [Detailed Analysis](../reports/performance-reports/computer-performance.md#detailed-analysis) reports.
 
 > **Tip!** In cases where an SQL template has been applied to a server with **named SQL Server instances installed**, no data will be collected for those instances. You need to create a new template by adding performance counters for each instance you wish to monitor, while following the naming convention.
 

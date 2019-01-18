@@ -90,7 +90,7 @@ To add a new license just click **New License** on the toolbar, choose the licen
 
 ### Adding Microsoft Office Licenses
 
-> **Please note!** In order to be able to add the Microsoft Office license, [Inventory Snapshots](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#inventory-snapshots.md) system job needs to be executed to gather information about installed Microsoft Office versions.
+> **Please note!** In order to be able to add the Microsoft Office license, [Inventory Snapshots](configuration/options.md#inventory-snapshots) system job needs to be executed to gather information about installed Microsoft Office versions.
 
 1. Open the license manager and click on the **New Office License**.
 2. Choose the Office version you want to monitor, enter the license name, type and number of CALs. Click **OK** to add new Office license to monitor.
@@ -145,7 +145,7 @@ Here is the description of columns in the Manage Subscriptions dialog:
 * **Description** – information about Delivery Methods selected for each subscription.
 * **Last Sent On** – the last time a subscription was sent.
 
-See [Configure Send E-mails system job](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#send-e-mails.md) and [Configure Report Subscriptions](../../how-to/reports/configure-report-subscriptions.md) to learn more.
+See [Configure Send E-mails system job](configuration/options.md#send-e-mails) and [Configure Report Subscriptions](../../how-to/reports/configure-report-subscriptions.md) to learn more.
 
 After you have defined all the necessary data and saved the settings, Subscriptions should be delivered at the scheduled time.
 

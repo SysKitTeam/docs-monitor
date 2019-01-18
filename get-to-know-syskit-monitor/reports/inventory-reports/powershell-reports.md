@@ -26,7 +26,7 @@ Its features include:
 
 You can use PowerShell scripts to retrieve valuable information about a server’s configuration, usage, or performance. With SysKit, you can easily export the results and retrieved information to a PDF or.xlsx file, so that you can view it again later.
 
-> **Please note!** In order to see the PowerShell Reports it is necessary to configure [Inventory Snapshots](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#inventory-snapshots.md) system job. The report data will be available after Inventory Snapshots system job execution.
+> **Please note!** In order to see the PowerShell Reports it is necessary to configure [Inventory Snapshots ](../../backstage-screen/configuration/options.md#inventory-snapshots)system job. The report data will be available after Inventory Snapshots system job execution.
 
 ## Enhance your reporting using PowerShell Wizard
 

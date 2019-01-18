@@ -19,7 +19,7 @@ These include:
 
 SysKit Monitor allows you to monitor all user activities performed on the file system. The Event Log reports will show you all read, write, append and delete operations performed on selected files and folders. Administrators can select the paths they want to monitor as well as file types that will be included in these reports. This kind of reports also include Blocked IP Addresses report.
 
-> **Please note!** In order to see the Event Log Reports data it is necessary to configure [Extract Event Log](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#extract-event-log.md) system job. Report data will be available after the Event Log system job execution.
+> **Please note!** In order to see the Event Log Reports data it is necessary to configure [Extract Event Log ](../backstage-screen/configuration/options.md#extract-event-log)system job. Report data will be available after the Event Log system job execution.
 
 Currently available reports are:
 

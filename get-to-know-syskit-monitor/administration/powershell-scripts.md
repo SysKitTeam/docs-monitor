@@ -51,7 +51,7 @@ Error results are returned from the target computers in the following cases:
 
 All PowerShell Scripts available on the Administration tab have the **filter panel** available to the right. It contains three filter types—**Date Range, Computer Groups,** and **Computer**—so you can filter your data more easily. Use the **Date Range** filter to select any day, week, month, or custom date range.
 
-> **Please note!** You will not be able to see any PowerShell script data outside 30 days, unless you change the [PowerShell Scripts Data Retention](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#data-retention.md) settings. The default is set to delete PowerShell script data older than 30 days.
+> **Please note!** You will not be able to see any PowerShell script data outside 30 days, unless you change the [PowerShell Scripts Data Retention](../backstage-screen/configuration/options.md#data-retention) settings. The default is set to delete PowerShell script data older than 30 days.
 
 PowerShell is known as an excellent tool for automating repetitive tasks, so you can start building your **report** and **management** scripts using the **PowerShell Script editor** within SysKit Monitor. You can import PowerShell scripts into the wizard \(with **.ps1** extension only\), write your own PowerShell code, and create some amazing reports and management tasks.
 

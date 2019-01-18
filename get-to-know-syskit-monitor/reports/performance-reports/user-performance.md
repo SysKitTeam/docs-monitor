@@ -47,7 +47,7 @@ The **charts** display a performance overview for the selected process within th
 A small but very important item to note here is the **chart tooltip**. The tooltip displays details about the data point the mouse is currently hovering over, such as the date and time values, and value of the data point.  
 Use the **Date Range filter** to set date boundaries on your performance data. You can select any day, week, or month or a custom date range.
 
-> **Please note!** You will not be able see any performance data outside 30 days, unless you change the Performance Counters [Data Retention](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#data-retention.md) settings. The default is set to delete performance counters data older than 30 days.
+> **Please note!** You will not be able see any performance data outside 30 days, unless you change the Performance Counters [Data Retention](../../backstage-screen/configuration/options.md#data-retention) settings. The default is set to delete performance counters data older than 30 days.
 
 ### Reports Ribbon
 
