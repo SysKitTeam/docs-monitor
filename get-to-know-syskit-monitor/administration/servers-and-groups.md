@@ -70,7 +70,7 @@ This category is very similar to the previously described Computers category sin
 
 The **Computer Groups** category enables the **logical grouping of monitored computers** so you can more easily manage a large number of computers. This category will help you assign options, such as **Monitoring Templates**, for an **entire group of computers** instead of an individual computer.
 
-See the [Monitoring Templates](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn how to simplify performance monitoring for your Windows environments.
+See the [Monitoring Templates](monitoring-templates.md) article to learn how to simplify performance monitoring for your Windows environments.
 
 ### Administration Ribbon
 
@@ -78,7 +78,7 @@ Use the Administration ribbon page to change computer settings or take actions:
 
 * **Add** – allows you to add new computers to monitoring.
 * **Edit** – enables you to update the operating system and computer type and define session thresholds for the selected computer\(s\).  
-  You can **define warning and critical session thresholds**, which will then be displayed on the [Sessions Dashboard](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/dashboards/sessions-dashboard.md). Session thresholds help you visualize the current statuses of your computers.  
+  You can **define warning and critical session thresholds**, which will then be displayed on the [Sessions Dashboard](../backstage-screen/dashboards/sessions-dashboard.md). Session thresholds help you visualize the current statuses of your computers.  
   There are **2 visual color indicators** for computers’ sessions:
 
   * **Yellow** – online computer that has reached an alarming number of users \(e.g. 51 users online, the warning threshold is 50\)
@@ -88,7 +88,7 @@ Use the Administration ribbon page to change computer settings or take actions:
   See [Alerts section](https://github.com/SysKitTeam/docs-monitor/tree/0aa443d90ae0eea59b3fe4fb99d1c1fe64294eaa/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) if you want to enable the option to receive **e-mail notifications** if monitored computer crosses a warning and/or critical session threshold.
 
 * **Use In Reports** – enables using information gathered from the currently not monitored computers in the reports. If the computer is currently disabled, by enabling this option all of the previously gathered data from this computer will be shown in the reports.
-* **Diagnostics** – enables you to perfrom various diagnostics and to identify issues with your product data. These options will also help our developer and support teams to troubleshoot potential problems more efficiently.
+* **Diagnostics** – enables you to perform various diagnostics and to identify issues with your product data. These options will also help our developer and support teams to troubleshoot potential problems more efficiently.
 * **Remote Desktop** – starts remote desktop session with the selected computer.
 * **Options** – allows configuration of options for Report and Dashboard data, Alerts, Export and System Jobs.
 
@@ -97,7 +97,7 @@ The **Administration – Computers** ribbon page also contains options for manag
 * **Assign Computer\(s\) to Group** – Quickly assign selected computers to the desired Computer Group.
 * **New Group** – Create a new computer group.
 
-See the [Performance Counters Management](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/performance-counters-management.md) article to learn more about managing performance counters.
+See the [Performance Counters Management](../../how-to/performance-counters-management.md) article to learn more about managing performance counters.
 
 > **Please note!** In the trial version the maximum number of monitored computers is **limited to 20**.
 
