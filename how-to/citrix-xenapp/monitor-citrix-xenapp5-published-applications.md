@@ -44,7 +44,7 @@ Your Citrix Management Server is now configured for the SysKit Monitor Published
 
 **In case of any difficulties during the configuration feel free to** [**contact**](https://www.syskit.com/company/contact-us) **our support team**.
 
-See [Configure SysKit Monitor for Citrix XenApp 6.x Published Application monitoring](../../../how-to/citrix-xenapp/monitor-citrix-xenapp6-published-applications/README.md) to learn more.  
-See [Configure SysKit Monitor for Citrix XenApp 7.x Published Application monitoring](../../..//how-to/citrix-xenapp/monitor-citrix-xenapp7-published-applications.md) to learn more.  
-See [Monitor Citrix Published Applications](../../..//how-to/citrix-xenapp/monitor-citrix-published-applications.md) to learn more.
+See [Configure SysKit Monitor for Citrix XenApp 6.x Published Application monitoring](https://github.com/SysKitTeam/docs-monitor/tree/69de74d3dff50b47e114f6e69997f1d5d4d9a5ce/how-to/citrix-xenapp/monitor-citrix-xenapp6-published-applications/README.md) to learn more.  
+See [Configure SysKit Monitor for Citrix XenApp 7.x Published Application monitoring](monitor-citrix-xenapp7-published-applications.md) to learn more.  
+See [Monitor Citrix Published Applications](monitor-citrix-published-applications.md) to learn more.
 

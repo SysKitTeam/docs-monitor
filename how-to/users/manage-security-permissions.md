@@ -8,7 +8,7 @@ date: 29/6/2017
 # Manage Security Permissions
 
 Here is what you need to do: 1. Open SysKit Monitor. 2. Navigate to **File**, select **Manage** from the left navigation bar and click the **Users and Groups** button. 3. Double-click the users whose permissions you want to change. 4. Change the **user’s role** in the Edit user data dialog. 5. Select **Viewers** or **Administrators**. Viewers can only view data, admins can administrate computers and users.  
-Click here for a more detailed description about [User Roles](../../../get-to-know-syskit-monitor/backstage-screen/manage-data-gathering.md).
+Click here for a more detailed description about [User Roles](../../get-to-know-syskit-monitor/backstage-screen/manage-data-gathering.md).
 
 ## Advanced role-based security
 

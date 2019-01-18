@@ -26,5 +26,5 @@ If you have a **Citrix 7.x environment** and you plan to **monitor user sessions
 
    The **Status** column will contain a link to our help page if warnings or errors occur. If you click on the link, you will be guided through the process on how to resolve the Offline and Unauthorized computer states. When the load is finished, you will have an option to save the warnings or errors that occurred to a log file in a .pdf or excel format. Click **Close** to exit the wizard. Afterward, a list of added computers will appear.
 
-Read more on how to [Configure SysKit Monitor for Citrix XenApp 7.x Published Application monitoring](../../../how-to/citrix-xenapp/monitor-citrix-xenapp7-published-applications.md).
+Read more on how to [Configure SysKit Monitor for Citrix XenApp 7.x Published Application monitoring](../citrix-xenapp/monitor-citrix-xenapp7-published-applications.md).
 

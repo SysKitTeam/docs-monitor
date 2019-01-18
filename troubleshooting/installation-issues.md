@@ -34,7 +34,7 @@ The SysKit Monitor Service failed to start due to the following error:
 
 1. Click **Start**, click **Run**, type **regedit**, and then click **OK**.
 2. Locate and then click the following registry subkey: HKEY\_LOCAL\_MACHINE/SYSTEM/CurrentControlSet/Control
-3. In the right pane, locate the **ServicesPipeTimeout** entry.  
+3. In the right pane, locate the **ServicesPipeTimeout** entry.
 
    **Note**: If a ServicesPipeTimeout entry does not exist, you must create it. To do this, follow these steps:
 
@@ -42,7 +42,7 @@ The SysKit Monitor Service failed to start due to the following error:
    * Type **ServicesPipeTimeout** and then press ENTER.
 
 4. Right-click **ServicesPipeTimeout** and then click **Modify**.
-5. Click **Decimal**, type **360000**, and then click **OK**.  
+5. Click **Decimal**, type **360000**, and then click **OK**.
 
    This value represents the time in milliseconds before a service times out.
 
@@ -73,8 +73,8 @@ Should I proceed?
 
 You have a few options here:
 
-1. Install [SysKit Monitor with a SQL Server Express LocalDB database](../../../installation-configuration/install-wizard/install-monitor.md). This does not require SQL Server to be installed, and you can proceed with such an installation on a domain controller.
-2. You can install SQL Server on another box in your domain and then connect the installation to an existing SQL server. Learn more in our [installation guide](../../../installation-configuration/install-wizard/install-monitor.md).
+1. Install [SysKit Monitor with a SQL Server Express LocalDB database](../installation-configuration/install-wizard/install-monitor.md). This does not require SQL Server to be installed, and you can proceed with such an installation on a domain controller.
+2. You can install SQL Server on another box in your domain and then connect the installation to an existing SQL server. Learn more in our [installation guide](../installation-configuration/install-wizard/install-monitor.md).
 3. Microsoft does not recommend installing SQL Server on a domain controller. However, if you only have a single server in your organization, you can choose to install it on top of your domain controller. Before proceeding with this operation, you should check out the [following article](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server#DC_support).
 
 ## I am getting: "Cannot start SysKitMonitorService."

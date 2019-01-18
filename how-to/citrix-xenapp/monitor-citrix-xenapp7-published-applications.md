@@ -38,5 +38,5 @@ After you adjust the privileges on all the Delivery Controller servers, your Cit
 
 **In case of any difficulties during the configuration feel free to** [**contact**](https://www.syskit.com/company/contact-us) **our support team**.
 
-Read more on how to [add Citrix servers to monitoring](../../../how-to/computers/add-citrix-servers.md) to properly collect all the data.
+Read more on how to [add Citrix servers to monitoring](../computers/add-citrix-servers.md) to properly collect all the data.
 

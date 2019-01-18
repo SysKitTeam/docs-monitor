@@ -18,5 +18,5 @@ You can also audit all users who are connecting through the Remote Desktop Gatew
 
 **Real-time alerts** can be sent when something important happens with the RD Gateway Server that’s being monitored; for example, when the resource usage level for a server is nearing its limit, when the number of sessions on a server has reached the warning or critical limit, or when critical services on servers have stopped or crashed. Email notifications are easy to set up and can be delivered to selected users on a regular basis. You can also schedule **email subscriptions** and receive any built-in reports as PDF or Excel files.
 
-See [Gateway Reports](../../../get-to-know-syskit-monitor/reports/gateway-reports.md) article to learn more.
+See [Gateway Reports](../get-to-know-syskit-monitor/reports/gateway-reports.md) article to learn more.
 
