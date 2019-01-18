@@ -62,5 +62,5 @@ Use the **Snapshots** part of the Inventory reports ribbon to take the following
 * **Manage Snapshots** – View and manage all your snapshots from one dialog. This includes loading, deleting, comparing, and marking the selected configuration\(s\) as good.
 * **Configure Snapshots** – Configure the collection of Inventory Snapshots. Choose when the snapshots will be created, and which data will be collected and compared.
 
-See the article on the [Compare Wizard](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/reports/inventory-reports/compare-wizard.md) to learn how to keep track of inventory changes and compare differences over time.
+See the article on the [Compare Wizard](compare-wizard.md) to learn how to keep track of inventory changes and compare differences over time.
 

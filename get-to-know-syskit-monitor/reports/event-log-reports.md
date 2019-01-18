@@ -53,9 +53,9 @@ The next option that needs to be enabled for this feature’s good performance i
 
 After every Event Log system job run, each IP address that had more than or exactly X failed attempts will be blocked for Y hours. You will be able to see the malicious IP addresses in the Block IP Addresses report. \(In this case after the 5 failed logon attempts, malicious IP address will be blocked for the next 24 hours.\)
 
-> **Please note!** If you are having problem seeing this report check if you have properly [configured SysKit Monitor server](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to support this feature.
+> **Please note!** If you are having problem seeing this report check if you have properly [configured SysKit Monitor server](../../how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to support this feature.
 
-See [How to Enable Folder Auditing](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/audit-events/enable-folder-auditing.md) to learn more.  
-See [How to Configure Audit Logon Events](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/audit-events/configure-audit-logon-events.md) to learn more.  
-See [How to Configure Server to support Block Malicous IP Addresses feature](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to learn more.
+See [How to Enable Folder Auditing ](../../how-to/audit-events/enable-folder-auditing.md)to learn more.  
+See [How to Configure Audit Logon Events](../../how-to/audit-events/configure-audit-logon-events.md) to learn more.  
+See [How to Configure Server to support Block Malicous IP Addresses feature](../../how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to learn more.
 

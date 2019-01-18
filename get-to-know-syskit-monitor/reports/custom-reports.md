@@ -55,7 +55,7 @@ Depending on which tab is selected, the available options change their purpose:
 
 When downloading available custom reports, simply select the reports and click the **Install** button. After the custom reports have been downloaded, the success dialog will appear, informing you that the reports have been installed. The reports will also appear in the left navigation within their corresponding folder structure.
 
-See [How to create a Custom report](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/custom-reports/create-custom-report.md) article to learn more.  
-See [How to create a SQL Custom report](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/custom-reports/create-sql-custom-report.md) article to learn more.  
-See [How to create an Alert](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/how-to/custom-reports/create-alert.md) article to learn more.
+See [How to create a Custom report](../../how-to/custom-reports/create-custom-report.md) article to learn more.  
+See [How to create a SQL Custom report](../../how-to/custom-reports/create-sql-custom-report.md) article to learn more.  
+See [How to create an Alert](../../how-to/custom-reports/create-alert.md) article to learn more.
 

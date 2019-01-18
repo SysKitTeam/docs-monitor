@@ -9,7 +9,7 @@ date: 25/5/2017
 
 # Computer Performance
 
-This report category also includes the [Performance Dashboard](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/dashboards/performance-dashboard.md), which is described under Dashboards category.
+This report category also includes the [Performance Dashboard](../../backstage-screen/dashboards/performance-dashboard.md), which is described under Dashboards category.
 
 ## Overview
 
@@ -25,7 +25,7 @@ Values and charts on the Overview report **change colors** depending on the defi
 
 > **Please note!** This report displays data for a single computer only.
 
-Depending on whether the custom perfromance counters and important services are configured for the selected computer, there is one more category that can be visible here: [Monitoring Templates](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/administration/monitoring-templates.md).  
+Depending on whether the custom perfromance counters and important services are configured for the selected computer, there is one more category that can be visible here: [Monitoring Templates.](../../administration/monitoring-templates.md)  
 Depending on what is configured through the assigned Monitoring Template, this category can contain two subcategories: **Performance Counters** and **Monitored Services**.
 
 ### Performance Counters
@@ -45,7 +45,7 @@ Defined Windows Services will be listed with the following columns:
 
 If any of monitored services has the service status `Stopped`, this means, depending on the defined actions, that SysKit has tried to restart or is in the process of restarting the stopped service\(s\) on the selected computer. Depending on the options you configure in the **Monitoring Template** which is assigned to a computer, SysKit can send you **e-mail notifications** when one or more important services are **stopped** and can perform **automatic service restarts**. It will also tell you whether it has been successful or not.
 
-See the [Monitoring Templates](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn more about managing custom performance counters and important services.
+See the [Monitoring Templates](../../administration/monitoring-templates.md) article to learn more about managing custom performance counters and important services.
 
 ## CPU, Memory, Disk and Network
 
@@ -116,9 +116,9 @@ The maximum number of different counters that can be displayed at the same time 
 
 You can use the search bar to filter computers and performance counter components \(e.g., categories, counters, and instances\) by their names. Checking or unchecking a specific performance counter status in the status filter will display or hide all the counters and instances that correspond to that status.
 
-> **Please note!** The Detailed Analysis report will display custom performance data only if one or more [Monitoring Templates](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/administration/monitoring-templates.md) has been created and assigned to specific computers or computer groups.
+> **Please note!** The Detailed Analysis report will display custom performance data only if one or more [Monitoring Templates](../../administration/monitoring-templates.md) has been created and assigned to specific computers or computer groups.
 
-The **tree structure status** values on the Detailed Analysis report **change colors** depending on the defined thresholds for the selected performance counters, which are configured through the [Monitoring Templates](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/reports/get-to-know-syskit-monitor/administration/monitoring-templates.md) category on the **Administration** tab.
+The **tree structure status** values on the Detailed Analysis report **change colors** depending on the defined thresholds for the selected performance counters, which are configured through the [Monitoring Templates](../../administration/monitoring-templates.md) category on the **Administration** tab.
 
 Custom performance counters can have **four different statuses** when used to monitor computers:
 

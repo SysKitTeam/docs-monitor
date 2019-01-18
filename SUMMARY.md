@@ -76,7 +76,7 @@
   * [Custom Reports](how-to/custom-reports/README.md)
     * [Create Custom Report](how-to/custom-reports/create-custom-report.md)
     * [Create SQL Custom Report](how-to/custom-reports/create-sql-custom-report.md)
-    * [Create Alert](how-to/custom-reports/create-alert.md)
+    * [Create an Alert](how-to/custom-reports/create-alert.md)
   * [Users](how-to/users/README.md)
     * [Add Users Manually](how-to/users/add-users-manually.md)
     * [Add Users From Active Directory](how-to/users/add-users-from-active-directory.md)
