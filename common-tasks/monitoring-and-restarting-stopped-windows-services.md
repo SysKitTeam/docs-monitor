@@ -25,14 +25,14 @@ This tutorial will provide everything you need to know about these great feature
 * How can I receive Real-time Alerts for stopped services?
 * How can I configure the SysKit Monitor to automatically restart the important services?
 
-The **Services report** is available in the [Inventory Reports – Software](....../get-to-know-syskit-monitor/reports/inventory-reports/hardware-and-software.md) category. This report will help you easily monitor all services that are installed and running on your local and remote computers. It gives you detailed information about services, such as **Display Name**, **Status**, **Startup Type**, **Logon Account** that is used to start the service and **Description**. The values shown on the Services report are updated every **30 seconds**.
+The **Services report** is available in the [Inventory Reports – Software](../../../get-to-know-syskit-monitor/reports/inventory-reports/hardware-and-software.md) category. This report will help you easily monitor all services that are installed and running on your local and remote computers. It gives you detailed information about services, such as **Display Name**, **Status**, **Startup Type**, **Logon Account** that is used to start the service and **Description**. The values shown on the Services report are updated every **30 seconds**.
 
-When a computer is added to the monitoring, SysKit Monitor collects a full list of services installed on it. You can configure the important services through the [Monitoring Templates](....../get-to-know-syskit-monitor/administration/monitoring-templates.md) category. Afterwards, assign the newly created Monitoring Template to designated computers or computer groups.
+When a computer is added to the monitoring, SysKit Monitor collects a full list of services installed on it. You can configure the important services through the [Monitoring Templates](../../../get-to-know-syskit-monitor/administration/monitoring-templates.md) category. Afterwards, assign the newly created Monitoring Template to designated computers or computer groups.
 
-Services that are selected as important, for a designated computer, and configured to be monitored, are displayed in the [Overview report](....../get-to-know-syskit-monitor/reports/performance-reports/computer-performance.md) under **Monitoring Templates &gt; Monitored Services**.
+Services that are selected as important, for a designated computer, and configured to be monitored, are displayed in the [Overview report](../../../get-to-know-syskit-monitor/reports/performance-reports/computer-performance.md) under **Monitoring Templates &gt; Monitored Services**.
 
 Depending on the options you configure in the **Monitoring Template** which is assigned to a computer, SysKit Monitor can send you **e-mail notifications** when one or more important services are `stopped` and can perform **automatic service restarts**. It will also tell you whether it has been successful or not.
 
 See [Real-time Alerting](real-time-alerting.md) to learn more about SysKit Monitor real-time alerts.  
-See the [Monitoring Templates](....../get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn more about managing important services.
+See the [Monitoring Templates](../../../get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn more about managing important services.
 
