@@ -136,5 +136,4 @@
   * [User States](troubleshooting/user-states.md)
   * [User Connections](troubleshooting/user-connections.md)
   * [Miscellaneous](troubleshooting/miscellaneous.md)
-* [index](index.md)
 
