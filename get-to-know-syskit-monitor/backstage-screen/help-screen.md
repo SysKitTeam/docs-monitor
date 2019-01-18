@@ -1,12 +1,17 @@
 ---
 title: Help Screen
-description: This article describes the Backstage Help screen, which has additional help and support information for SysKit Monitor.
+description: >-
+  This article describes the Backstage Help screen, which has additional help
+  and support information for SysKit Monitor.
 author: Andrea Budisa
 date: 29/6/2017
 ---
-To get general information about SysKit Monitor, navigate to **File** > **Help**.
 
-The help page will show you whether your SysKit Monitor version is in trial mode or activated. If activated, you can check your available licenses, and there is an option to change your product key. For more information about online and offline activation, follow the [activation instructions](#internal/activation/online-offline-activation).
+# help-screen
+
+To get general information about SysKit Monitor, navigate to **File** &gt; **Help**.
+
+The help page will show you whether your SysKit Monitor version is in trial mode or activated. If activated, you can check your available licenses, and there is an option to change your product key. For more information about online and offline activation, follow the [activation instructions](help-screen.md#internal/activation/online-offline-activation).
 
 In the Backstage Help screen, you can learn more about SysKit Monitor with information about topics such as:
 
@@ -45,9 +50,9 @@ If you are having trouble with a certain feature or you would like to report a b
 
 ## Quick Start Guide
 
-The __Quick Start Guide__ will teach you how to use the SysKit Monitor UI.
+The **Quick Start Guide** will teach you how to use the SysKit Monitor UI.
 
-This guide is intended as a basic guide to help you get started with SysKit Monitor. The [Quick Start Guide](#internal/get-to-know-syskit-monitor/quick-start-guide) provides step-by-step information about performing common tasks in the SysKit Monitor user interface.
+This guide is intended as a basic guide to help you get started with SysKit Monitor. The [Quick Start Guide](help-screen.md#internal/get-to-know-syskit-monitor/quick-start-guide) provides step-by-step information about performing common tasks in the SysKit Monitor user interface.
 
 These steps cover the following topics:
 
@@ -61,7 +66,7 @@ These steps cover the following topics:
 
 ## Customer Experience Improvement Program
 
-In SysKit Monitor, the __Customer Experience Improvement Program__ is, by default, enabled. However, you can disable it if you do not want to participate in the program. We use the program to improve SysKit Monitor features.
+In SysKit Monitor, the **Customer Experience Improvement Program** is, by default, enabled. However, you can disable it if you do not want to participate in the program. We use the program to improve SysKit Monitor features.
 
 When you exit the SysKit Monitor application, we gather the minimum amount of data about feature usage to see which SysKit Monitor features our customers use the most, so we can make them even better.
 
@@ -69,5 +74,6 @@ Please note that the data about feature usage gathered in Customer Experience Im
 
 ## Check for Updates
 
-Click __Check for Updates__ to check and download the newest updates.  
+Click **Check for Updates** to check and download the newest updates.  
 We recommend that you select the **Check for Updates automatically** checkbox. If this option is enabled, SysKit Monitor periodically checks for new software versions and informs you when a new version is available for download.
+
