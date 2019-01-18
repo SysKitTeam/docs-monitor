@@ -9,6 +9,26 @@ date: 25/5/2017
 
 # Servers and Groups
 
+ If you click on the **Administration** tab in the left navigation, the Administration – Computers section will be displayed.
+
+See the [Monitoring Templates](monitoring-templates.md) article to learn how to simplify performance monitoring for your Windows environments.
+
+* **Add** – allows you to add new computers to monitoring.
+* **Edit** – enables you to update the operating system and computer type and define session thresholds for the selected computer\(s\).  
+  You can **define warning and critical session thresholds**, which will then be displayed on the [Sessions Dashboard](../backstage-screen/dashboards/sessions-dashboard.md). Session thresholds help you visualize the current statuses of your computers.  
+  There are **2 visual color indicators** for computers’ sessions:
+
+  * **Yellow** – online computer that has reached an alarming number of users \(e.g. 51 users online, the warning threshold is 50\)
+  * **Red** – online computer that has reached a critical number of users \(e.g. 101 users online, the warning threshold is 100\)
+
+  Adjust the values for warning and critical thresholds to match the capacity or other constraints on your computers. You can define the length of time before the **alert notification is to be repeated** for the session alerts.  
+  See [Alerts section](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) if you want to enable the option to receive **e-mail notifications** if monitored computer crosses a warning and/or critical session threshold.
+
+* **Use In Reports** – enables using information gathered from the currently not monitored computers in the reports. If the computer is currently disabled, by enabling this option all of the previously gathered data from this computer will be shown in the reports.
+* **Diagnostics** – enables you to perfrom various diagnostics and to identify issues with your product data. These options will also help our developer and support teams to troubleshoot potential problems more efficiently.
+* **Remote Desktop** – starts remote desktop session with the selected computer.
+* **Options** – allows configuration of options for Report and Dashboard data, Alerts, Export and System Jobs.
+
 The **Performance Counters** column displays the performance counters collection status for the computers in your domain. A system job can have **one of four statuses**: Started, Offline or Not Accessible, Unknown, and Disabled. See the [Performance Counters Management](../../how-to/performance-counters-management.md) article to learn more.
 
 If you click on the **Administration** tab in the left navigation, the Administration – Computers section will be displayed.
@@ -65,7 +85,7 @@ Use the Administration ribbon page to change computer settings or take actions:
   * **Red** – online computer that has reached a critical number of users \(e.g. 101 users online, the warning threshold is 100\)
 
   Adjust the values for warning and critical thresholds to match the capacity or other constraints on your computers. You can define the length of time before the **alert notification is to be repeated** for the session alerts.  
-  See [Alerts section](../../../get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) if you want to enable the option to receive **e-mail notifications** if monitored computer crosses a warning and/or critical session threshold.
+  See [Alerts section](https://github.com/SysKitTeam/docs-monitor/tree/0aa443d90ae0eea59b3fe4fb99d1c1fe64294eaa/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) if you want to enable the option to receive **e-mail notifications** if monitored computer crosses a warning and/or critical session threshold.
 
 * **Use In Reports** – enables using information gathered from the currently not monitored computers in the reports. If the computer is currently disabled, by enabling this option all of the previously gathered data from this computer will be shown in the reports.
 * **Diagnostics** – enables you to perfrom various diagnostics and to identify issues with your product data. These options will also help our developer and support teams to troubleshoot potential problems more efficiently.
