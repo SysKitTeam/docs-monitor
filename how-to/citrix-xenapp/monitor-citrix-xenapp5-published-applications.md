@@ -7,7 +7,7 @@ description: >-
 date: 29/06/17
 ---
 
-# Monitor Citrix Xenapp5 Published Applications
+# Configure SysKit Monitor for Citrix XenApp 5 Published Application monitoring
 
 In order for monitoring to be successful these are the steps you will have to perform on your **Citrix Management Server**.
 

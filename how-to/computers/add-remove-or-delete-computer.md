@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 30/6/2017
 ---
 
-# Add Remove or Delete Computer
+# Add/Remove or Delete Computer from Monitoring
 
 If you want to **remove** one or more computers from monitoring, please follow these steps:
 

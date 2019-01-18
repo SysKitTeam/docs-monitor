@@ -7,7 +7,7 @@ description: >-
 date: 29/06/17
 ---
 
-# Offline and Unauthorized Computer States
+# How to resolve the Offline and Unauthorized computer states
 
 ## How to resolve the Unauthorized state?
 

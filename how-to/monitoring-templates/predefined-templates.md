@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 4/7/2017
 ---
 
-# Predefined Templates
+# Predefined Monitoring Templates
 
 SysKit Monitor comes with predefined Monitoring Templates created by SysKit team according to technology’s best practices. They can be used to monitor specific servers out-of-the-box, or modified to answer the specific requirements.
 

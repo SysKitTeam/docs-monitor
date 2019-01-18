@@ -9,7 +9,7 @@ description: >-
 date: 17/12/18
 ---
 
-# Monitor Citrix Xenapp7 Published Applications
+# Configure SysKit Monitor for Citrix XenApp 7.x Published Application monitoring
 
 In order for Citrix XenApp 7.x Published Application monitoring to be successful, here are the steps you need to perform on **each Delivery Controller server**, which is responsible for brokering and optimizing user connections and access.
 

@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 21/6/2017
 ---
 
-# Import Export Template
+# Import / Export Template
 
 This dialog provides options for importing and configuring Monitoring Templates in the SYSmt format, as well as exporting functionality. Monitoring Templates are generated in this format when our development team creates them upon our customers’ requests.
 

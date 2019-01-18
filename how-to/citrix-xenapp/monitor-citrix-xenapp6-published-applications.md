@@ -9,7 +9,7 @@ description: >-
 date: 29/06/17
 ---
 
-# Monitor Citrix Xenapp6 Published Applications
+# Configure SysKit Monitor for Citrix XenApp 6.x Published Application monitoring
 
 In order for monitoring to be successful, these are the steps you will have to perform on **each Citrix XenApp Server** where you run published applications.
 

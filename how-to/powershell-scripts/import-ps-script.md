@@ -7,7 +7,7 @@ author: Andrea Budisa
 date: 23/6/2017
 ---
 
-# Import PS Script
+# Import / Export PowerShell Script Modules
 
 This dialog provides options for importing and configuring PowerShell scripts in SYSpr format, as well as exporting functionality. PowerShell scripts are generated in this format when our development team creates them upon our customers’ requests.
 

@@ -5,7 +5,7 @@ author: Andrea Budisa
 date: 29/6/2017
 ---
 
-# Edit Dashboard
+# Edit Dashboards
 
 This article describes how to edit dashboard reports and format metrics.
 

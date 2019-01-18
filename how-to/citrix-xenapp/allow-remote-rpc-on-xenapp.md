@@ -5,7 +5,7 @@ description: This article describes how to monitor XenDesktop machines with SysK
 date: 29/06/17
 ---
 
-# Allow Remote RCP on Xenapp
+# Allow Remote RPC on Xenapp
 
 In order to monitor **XenDesktop** machines without any agents installed, our software requires to Allow Remote RPC traffic in order to get the data from the client machine. After you enable this you will be able to connect and capture data from the XenDesktop machines completely offloading processing to the SysKit box.
 

@@ -8,7 +8,7 @@ author: Andrea Budisa
 date: 30/6/2017
 ---
 
-# Add Service User Group Policy
+# Add Service User to Local Administrators Group via Group Policy
 
 ## Add Service User to Local Administrators security group through restricted groups
 

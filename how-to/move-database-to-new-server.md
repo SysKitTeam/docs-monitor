@@ -5,7 +5,7 @@ description: This article explains how to move the SysKit Monitor database to a 
 date: 29/06/17
 ---
 
-# Move Database to New Server
+# Move database to new server
 
 Please follow these steps to move a SQL Server database to another location:
 

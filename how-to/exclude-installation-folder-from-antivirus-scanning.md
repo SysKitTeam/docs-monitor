@@ -7,7 +7,7 @@ description: >-
 date: 29/06/17
 ---
 
-# Exclude Installation Folder from Antivirus Scanning
+# Exclude installation folder from antivirus scanning
 
 This folder may have to be excluded from antivirus scanning when you use file-level antivirus software. If this folder is not excluded, you may see unexpected behavior. For example, you may receive “access denied” error messages.
 

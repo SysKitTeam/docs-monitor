@@ -9,7 +9,7 @@ author: Andrea Budisa
 date: 30/6/2017
 ---
 
-# Configure Block Malicious IP Addresses Feature
+# Configure SysKit Monitor server to support the Block Malicious IP Addresses feature
 
 In case you notice that IP addresses are not being reported in the SysKit Monitor application, check if these options on the SysKit Monitor application server are correctly set:
 
