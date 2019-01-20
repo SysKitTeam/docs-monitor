@@ -11,37 +11,51 @@ date: 30/5/2017
 
 Once the installation is completed, the Configuration Wizard will start. If the wizard does not start automatically after installation, you can run it manually from: **Start &gt; All Programs &gt; SysKit Monitor &gt; Configuration Wizard**.
 
-1. In Step 1, you need to choose whether to **create a new** or to **use an existing** database. Click **Next &gt;** to proceed.
+**1.** In Step 1, you need to choose whether to **create a new** or to **use an existing** database. Click **Next &gt;** to proceed.
 
-   > **Please note!** In case you already have a SysKit Monitor database, choose the **Use existing database** option.
+{% hint style="warning" %}
+In case you already have a SysKit Monitor database, choose the **Use existing database** option.
+{% endhint %}
 
-2. In Step 2, you need to specify the **Database server**, **Database name** and **authentication** that will be used. If you have more than one instance of SQL Server, type **SERVER\_NAME\INSTANCE\_NAME**.  
-   You can also browse for existing local and network SQL Servers by clicking on the **Browse** button next to the server field. For Database name, type in the name of the database you would like to use.
+**2.** In Step 2, you need to specify the **Database server**, **Database name** and **authentication** that will be used. If you have more than one instance of SQL Server, type **SERVER\_NAME\INSTANCE\_NAME**.  
+You can also browse for existing local and network SQL Servers by clicking on the **Browse** button next to the server field. For Database name, type in the name of the database you would like to use.
 
-   > **Please note!** If you chose **Create new database** and checked the **Overwrite existing database** option in the previous step, if there is already a database with the same name, data in the original database will be overwritten.  
-   > If you chose **Use existing database** in the previous step, the installation will try to connect to the existing database.
+{% hint style="warning" %}
+If you chose **Create new database** and checked the **Overwrite existing database** option in the previous step, if there is already a database with the same name, data in the original database will be overwritten.  
+If you chose **Use existing database** in the previous step, the installation will try to connect to the existing database.
+{% endhint %}
 
-   Next, you need to define the authentication that is going to be used to connect to your database. There are two options available:
+Next, you need to define the authentication that is going to be used to connect to your database. There are two options available:
 
-   * Windows Authentication \(make sure that the service account used for configuration has the proper privileges on the SQL Server\).
-   * SQL Authentication \(make sure that SQL authentication is enabled on the SQL Server and the account has the proper privileges on the SQL Server\).
+* Windows Authentication \(make sure that the service account used for configuration has the proper privileges on the SQL Server\).
+* SQL Authentication \(make sure that SQL authentication is enabled on the SQL Server and the account has the proper privileges on the SQL Server\).
 
-   See [SQL Permissions](sql-permissions/create-sql-login.md) to learn more about SysKit Monitor SQL Server database requirements.
+See [SQL Permissions](sql-permissions/create-sql-login.md) to learn more about SysKit Monitor SQL Server database requirements.
 
-   If you plan to use the SysKit Monitor in a domain environment with an in-house SQL Server, we strongly **recommend** choosing Windows authentication. Once you have entered the correct database information, click **Test Connection** for verification. Click **Next &gt;** to proceed.
+If you plan to use the SysKit Monitor in a domain environment with an in-house SQL Server, we strongly **recommend** choosing Windows authentication. Once you have entered the correct database information, click **Test Connection** for verification. Click **Next &gt;** to proceed.  
 
-3. In Step 3, you need to enter information about the Service Account that will be used for running the SysKit Monitor Service. This account will be used to gather data from your server\(s\). Enter the custom user account in the following format: **DOMAIN\USERNAME** \(or **MACHINE\_NAME\USERNAME** for workgroup scenarios\).
 
-   > **Please note!** The service user must be in the local admin group to proceed with this step. For more information about the service account configuration, read the [Add Service User to a Local Administrators Group via Group Policy](../../how-to/service-accounts/add-service-user-group-policy.md) article.
-   >
-   > **Please note!** If the software is installed on a non-domain joined machine, the service account name should be entered in the following form: **machine\_name\username**.
+**3.** In Step 3, you need to enter information about the Service Account that will be used for running the SysKit Monitor Service. This account will be used to gather data from your server\(s\). Enter the custom user account in the following format: **DOMAIN\USERNAME** \(or **MACHINE\_NAME\USERNAME** for workgroup scenarios\).
 
-   Click **Validate Account** to check the credentials. To finish the Configuration Wizard, click **Next &gt;**.
+{% hint style="warning" %}
+The service user must be in the local admin group to proceed with this step. For more information about the service account configuration, read the [Add Service User to a Local Administrators Group via Group Policy](../../how-to/service-accounts/add-service-user-group-policy.md) article.
+{% endhint %}
 
-4. If you have previously chosen to install the SysKit Monitor Web application as well, you will have the **Web settings** step enabled. Enter the details for your new IIS website and virtual folder. Also, provide the **Service Account credentials** to configure the application pool to run under a specific user identity. Once you have entered the correct information, click **Validate Account** for verification. Click **Next &gt;** to proceed.
-5. In Step 5, you can view the configuration settings that will be applied.
-6. In Step 6, you can view which actions the application is performing while configuring all settings.
-7. In Step 7, once the SysKit Monitor is installed, you can run the application and choose whether you want to participate in the Customer Experience Improvement Program.
+{% hint style="warning" %}
+If the software is installed on a non-domain joined machine, the service account name should be entered in the following form: **machine\_name\username**.
+{% endhint %}
+
+Click **Validate Account** to check the credentials. To finish the Configuration Wizard, click **Next &gt;**.  
+
+
+**4.** If you have previously chosen to install the SysKit Monitor Web application as well, you will have the **Web settings** step enabled. Enter the details for your new IIS website and virtual folder. Also, provide the **Service Account credentials** to configure the application pool to run under a specific user identity. Once you have entered the correct information, click **Validate Account** for verification. Click **Next &gt;** to proceed.  
+
+
+**5.** In Step 5, you can view the configuration settings that will be applied.
+
+**6.** In Step 6, you can view which actions the application is performing while configuring all settings.
+
+**7.** In Step 7, once the SysKit Monitor is installed, you can run the application and choose whether you want to participate in the Customer Experience Improvement Program.
 
 ## Installation of SysKit Monitor Web App on a Separate Server
 
@@ -53,9 +67,9 @@ In the Install Wizard, on the step which allows you to choose the program featur
 
 ### Configuration Wizard
 
-1. You need to enter the **Database server** and the **Database name** that the web application will connect to. This should be the database you are using for the desktop application. Once you have entered the correct database information, click **Test Connection** for verification. Click **Next &gt;** to proceed.
-2. Enter the details for your new IIS website and virtual folder, and provide the **Service Account** credentials to configure the application pool to run under a specific user identity. Once you have entered the correct information, click the **Validate Account** button for verification. Click **Next &gt;** to proceed.
-3. The next step summarizes the configuration settings that will be applied.
+1. You need to enter the **Database server** and the **Database name** that the web application will connect to. This should be the database you are using for the desktop application. Once you have entered the correct database information, click **Test Connection** for verification. Click **Next &gt;** to proceed. 
+2. Enter the details for your new IIS website and virtual folder, and provide the **Service Account** credentials to configure the application pool to run under a specific user identity. Once you have entered the correct information, click the **Validate Account** button for verification. Click **Next &gt;** to proceed. 
+3. The next step summarizes the configuration settings that will be applied. 
 4. Once the SysKit Monitor Web app is installed and configured, you can run the application and choose whether you want to participate in the Customer Experience Improvement Program.
 
 See the [SysKit Monitor Web App](https://github.com/SysKitTeam/docs-monitor/tree/638b3861bfa1518ebf7fe8a1f1706752bcf7bb98/get-to-know-syskit-monitor/syskit-monitor-web-app.md) article to learn more.
