@@ -55,9 +55,13 @@ See [Managing Security Permissions](../../how-to/users/manage-security-permissio
 
 The Manage Application dialog contains the list of processes running on all monitored computers in your environment. Here you can disable the monitoring of the applications which are of no interest to you or change application names. To edit this data double click the application name in the list or click Edit on the toolbar and a new window will open.
 
-> **Please note!** Data about processes which you have excluded from monitoring will not be saved in the database at all until you change these settings again and turn.
->
-> **Please note!** Windows system processes are by default included into monitoring, to avoid “noise” in the reports, you can disable the monitoring for those system processes.
+{% hint style="warning" %}
+Data about processes which you have excluded from monitoring will not be saved in the database at all until you change these settings again and turn.
+{% endhint %}
+
+{% hint style="warning" %}
+Windows system processes are by default included into monitoring, to avoid “noise” in the reports, you can disable the monitoring for those system processes.
+{% endhint %}
 
 ## Manage File Paths
 
@@ -75,7 +79,9 @@ After you have selected a desired file path\(s\) you can choose to disable or en
 
 If you click on **File Extensions** on the left side of the File Paths Management window you can choose only certain file extensions to be included or excluded from auditing by clicking the **Disable/Enable** button.
 
-> **Please note!** File paths cannot be added but can only be disabled once they appear. Once you have disabled a file path it will no longer be audited. However, if the activity on that path was recorded it will remain in the database.
+{% hint style="warning" %}
+File paths cannot be added but can only be disabled once they appear. Once you have disabled a file path it will no longer be audited. However, if the activity on that path was recorded it will remain in the database.
+{% endhint %}
 
 ## Manage Licenses
 
@@ -90,7 +96,9 @@ To add a new license just click **New License** on the toolbar, choose the licen
 
 ### Adding Microsoft Office Licenses
 
-> **Please note!** In order to be able to add the Microsoft Office license, [Inventory Snapshots](configuration/options.md#inventory-snapshots) system job needs to be executed to gather information about installed Microsoft Office versions.
+{% hint style="warning" %}
+In order to be able to add the Microsoft Office license, [Inventory Snapshots](configuration/options.md#inventory-snapshots) system job needs to be executed to gather information about installed Microsoft Office versions.
+{% endhint %}
 
 1. Open the license manager and click on the **New Office License**.
 2. Choose the Office version you want to monitor, enter the license name, type and number of CALs. Click **OK** to add new Office license to monitor.
@@ -188,5 +196,7 @@ This view displays:
 * Time — The time at which a computer alert was triggered.
 * A list of all performance counters that have crossed the critical or warning threshold for the selected threshold group and the counters’ values.
 
-> **Please note!** When a computer alert is created, it will contain all the active performance counter alerts.
+{% hint style="warning" %}
+When a computer alert is created, it will contain all the active performance counter alerts.
+{% endhint %}
 
