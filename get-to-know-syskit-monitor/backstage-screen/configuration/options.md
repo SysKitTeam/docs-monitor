@@ -21,11 +21,15 @@ This section describes general options for configuring report and dashboard data
 * **Monitor information** about applications will monitor the applications users are running on the Remote Desktop Services / Citrix Xenapp server.
 * **Enable public IP fetching** enables you to get the IP address of the client if he is connecting directly to the server via WAN. If server is sitting on the public IP and your clients are connecting from home or from remote locations, you can monitor the public IP addresses of all the clients that are connecting to your environment.
 
-  > **Please note!** Enabling public IP fetching may decrease the network performance. Please consult with our support team for additional information.
+{% hint style="warning" %}
+Enabling public IP fetching may decrease the network performance. Please consult with our support team for additional information.
+{% endhint %}
 
 * **Anonymous activity tracking** means that activities will still be tracked but you will not be able to see the real usernames and profiles. Data already stored will also be converted.
 
-  > **Please note!** Use this option wisely, in case you proceed with anonymization you will not be able to revert this process!
+{% hint style="warning" %}
+ Use this option wisely, in case you proceed with anonymization you will not be able to revert this process!
+{% endhint %}
 
 * **Use Username instead Full Name** changes all full names in the reports to the corresponding usernames.
 * **Enable Role-based security** allows you to adjust for the each viewer individually which OU’s he can see in the reports.
@@ -126,7 +130,9 @@ In the **Add/Edit Domain** dialog, you can **manage** and **configure** the foll
 * Enable or disable the selected domain; and
 * Modify the credentials for the selected domain.
 
-  > **Please note!** If the trust relationship was established with newly created or existing domains, they will be discovered and shown in the AD integration dialog after the AD integration system job execution.
+{% hint style="warning" %}
+If the trust relationship was established with newly created or existing domains, they will be discovered and shown in the AD integration dialog after the AD integration system job execution.
+{% endhint %}
 
 See the [Monitoring multiple domains](https://www.syskit.com/blog/multi-tenant-server-monitoring-with-syskit/) article to learn more on how to use SysKit Monitor to collect data for more than one AD domain.
 
@@ -203,9 +209,13 @@ Here you can choose which Inventory data SysKit Monitor will collect **when taki
 * Enable the collection of hardware and software inventory components, such as CPU, RAM, available hard disk space, installed programs, Windows updates, and local administrators on the servers.
 * Enable the execution of PowerShell scripts on the defined computers or computer groups. This means the created PowerShell scripts will be **scheduled to run** on every Inventory Snapshots system job triggered.
 
-> **Please note!** When Printers option is enabled, user printer information will be collected on every service triggering along with the other user options. This can slow down data gathering and application performance. We strongly recommend not to enable this feature unless it is necessarily needed.
->
-> **Please note!** When Available and Installed Updates options are enabled, the software information will be collected on every service triggering. This can slow down data gathering and application performance.
+{% hint style="warning" %}
+When Printers option is enabled, user printer information will be collected on every service triggering along with the other user options. This can slow down data gathering and application performance. We strongly recommend not to enable this feature unless it is necessarily needed.
+{% endhint %}
+
+{% hint style="warning" %}
+When Available and Installed Updates options are enabled, the software information will be collected on every service triggering. This can slow down data gathering and application performance.
+{% endhint %}
 
 By default, all options for taking snapshots and for report visibility in the Compare Wizard are set to **Enabled**.
 
