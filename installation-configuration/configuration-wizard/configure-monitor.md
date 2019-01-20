@@ -69,7 +69,7 @@ In the Install Wizard, on the step which allows you to choose the program featur
 3. The next step summarizes the configuration settings that will be applied. 
 4. Once the SysKit Monitor Web app is installed and configured, you can run the application and choose whether you want to participate in the Customer Experience Improvement Program.
 
-See the [SysKit Monitor Web App](https://github.com/SysKitTeam/docs-monitor/tree/638b3861bfa1518ebf7fe8a1f1706752bcf7bb98/get-to-know-syskit-monitor/syskit-monitor-web-app.md) article to learn more.
+See the [SysKit Monitor Web App](../../get-to-know-syskit-monitor/backstage-screen/syskit-monitor-web-app.md) article to learn more.
 
 ### Problems with Installation and Configuration
 
