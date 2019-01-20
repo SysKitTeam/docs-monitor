@@ -32,8 +32,7 @@ Next, you need to define the authentication that is going to be used to connect 
 
 See [SQL Permissions](sql-permissions/create-sql-login.md) to learn more about SysKit Monitor SQL Server database requirements.
 
-If you plan to use the SysKit Monitor in a domain environment with an in-house SQL Server, we strongly **recommend** choosing Windows authentication. Once you have entered the correct database information, click **Test Connection** for verification. Click **Next &gt;** to proceed.  
-
+If you plan to use the SysKit Monitor in a domain environment with an in-house SQL Server, we strongly **recommend** choosing Windows authentication. Once you have entered the correct database information, click **Test Connection** for verification. Click **Next &gt;** to proceed.
 
 **3.** In Step 3, you need to enter information about the Service Account that will be used for running the SysKit Monitor Service. This account will be used to gather data from your server\(s\). Enter the custom user account in the following format: **DOMAIN\USERNAME** \(or **MACHINE\_NAME\USERNAME** for workgroup scenarios\).
 
@@ -45,11 +44,9 @@ The service user must be in the local admin group to proceed with this step. For
 If the software is installed on a non-domain joined machine, the service account name should be entered in the following form: **machine\_name\username**.
 {% endhint %}
 
-Click **Validate Account** to check the credentials. To finish the Configuration Wizard, click **Next &gt;**.  
+Click **Validate Account** to check the credentials. To finish the Configuration Wizard, click **Next &gt;**.
 
-
-**4.** If you have previously chosen to install the SysKit Monitor Web application as well, you will have the **Web settings** step enabled. Enter the details for your new IIS website and virtual folder. Also, provide the **Service Account credentials** to configure the application pool to run under a specific user identity. Once you have entered the correct information, click **Validate Account** for verification. Click **Next &gt;** to proceed.  
-
+**4.** If you have previously chosen to install the SysKit Monitor Web application as well, you will have the **Web settings** step enabled. Enter the details for your new IIS website and virtual folder. Also, provide the **Service Account credentials** to configure the application pool to run under a specific user identity. Once you have entered the correct information, click **Validate Account** for verification. Click **Next &gt;** to proceed.
 
 **5.** In Step 5, you can view the configuration settings that will be applied.
 
