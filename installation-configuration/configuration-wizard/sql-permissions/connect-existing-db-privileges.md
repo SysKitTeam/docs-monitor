@@ -14,7 +14,7 @@ This article covers the following scenario: **The database does not exist or Use
 
 Error message which occurs in the Configuration Wizard: The database you have entered does not exist or DOMAIN\username running the Configuration Wizard does not have the correct priviledges to connect to it.
 
-SOLUTION:
+**SOLUTION:**
 
 If the database does exist, you need to assign `db_owner` role on the database to the user running the Configuration Wizard. To do so, please perform the following steps:
 
