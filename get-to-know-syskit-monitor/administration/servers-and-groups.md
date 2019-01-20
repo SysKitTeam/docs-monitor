@@ -9,7 +9,7 @@ date: 25/5/2017
 
 # Servers and Groups
 
- If you click on the **Administration** tab in the left navigation, the Administration – Computers section will be displayed.
+If you click on the **Administration** tab in the left navigation, the Administration – Computers section will be displayed.
 
 See the [Monitoring Templates](monitoring-templates.md) article to learn how to simplify performance monitoring for your Windows environments.
 
@@ -99,5 +99,7 @@ The **Administration – Computers** ribbon page also contains options for manag
 
 See the [Performance Counters Management](../../how-to/performance-counters-management.md) article to learn more about managing performance counters.
 
-> **Please note!** In the trial version the maximum number of monitored computers is **limited to 20**.
+{% hint style="warning" %}
+In the trial version the maximum number of monitored computers is **limited to 20**.
+{% endhint %}
 
