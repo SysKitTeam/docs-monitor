@@ -9,7 +9,9 @@ date: 30/5/2017
 
 # Install SysKit Monitor Data Collector
 
-> **Tip!** In case you have more than 100 servers, or geographically distribuded servers, you are advised to have SysKit Monitor Data Collector. Please contact our support team who will provide you with the detailed instructions and setup file.
+{% hint style="info" %}
+**Tip!** In case you have more than 100 servers, or geographically distribuded servers, you are advised to have SysKit Monitor Data Collector. Please contact our support team who will provide you with the detailed instructions and setup file.
+{% endhint %}
 
 1. Run the **SysKitMonitorDataCollector.exe**.
 2. Click **Next &gt;** to continue with the installation.

@@ -47,7 +47,7 @@ You need to create an empty database that will be used to store the SysKit Monit
 6. Click **OK** to create a new database.
 
 {% hint style="warning" %}
-The service user that will be used for running the SysKit Monitor Service needs to have **db\_owner**membership assigned on the newly created database. See [SQL Permissions](../installation-configuration/configuration-wizard/sql-permissions/) to learn more.
+The service user that will be used for running the SysKit Monitor Service needs to have **db\_owner** membership assigned on the newly created database. See [SQL Permissions](../installation-configuration/configuration-wizard/sql-permissions/connect-existing-db-privileges.md) to learn more.
 {% endhint %}
 
 Proceed to: [Installation Guide](../installation-configuration/install-wizard/install-monitor.md).
