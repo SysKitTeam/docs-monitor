@@ -26,8 +26,10 @@ If the database does exist, you need to assign `db_owner` role on the database t
 6. Select **Membership** page, give user `db_owner` role and click **OK**.
 7. Return to the Configuration Wizard and continue with the SysKit Monitor configuration.
 
-> Please note! If you are using the **SQL authentication** to access the database, make sure to allow this user to login on the specified SQL Server, and depending on your scenario, you need to assign the following permissions:
->
-> * **Create a new database** – To allow the user using SQL authentication to create a new database, make sure the `dbcreator` role is selected.
-> * **Configure an existing database** – To allow the user using SQL authentication to configure the existing database, make sure the `db_owner` membership is assigned.
+{% hint style="warning" %}
+If you are using the **SQL authentication** to access the database, make sure to allow this user to login on the specified SQL Server, and depending on your scenario, you need to assign the following permissions:
+
+* **Create a new database** – To allow the user using SQL authentication to create a new database, make sure the `dbcreator` role is selected.
+* **Configure an existing database** – To allow the user using SQL authentication to configure the existing database, make sure the `db_owner` membership is assigned.
+{% endhint %}
 

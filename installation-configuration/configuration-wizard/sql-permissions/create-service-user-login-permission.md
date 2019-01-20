@@ -14,7 +14,7 @@ This article covers the following scenario: **User running Configuration Wizard 
 
 Error message which occurs in the Configuration Wizard: Domain\username running Configuration Wizard does not have permission to create a service user login on the SQL Server.
 
-SOLUTION:
+**SOLUTION:**
 
 To allow the user running the Configuration Wizard to configure the database and the service account, please perform the following steps:
 
