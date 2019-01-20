@@ -23,7 +23,9 @@ Values and charts on the Overview report **change colors** depending on the defi
 
 **Every chart and value in this report is clickable**, which makes it very useful as an initial step in identifying performance bottlenecks and for further detailed analysis. When you click on a chart, the resulting drilldown will capture the Filter values and take you to a **more detailed history report**.
 
-> **Please note!** This report displays data for a single computer only.
+{% hint style="warning" %}
+This report displays data for a single computer only.
+{% endhint %}
 
 Depending on whether the custom perfromance counters and important services are configured for the selected computer, there is one more category that can be visible here: [Monitoring Templates.](../../administration/monitoring-templates.md)  
 Depending on what is configured through the assigned Monitoring Template, this category can contain two subcategories: **Performance Counters** and **Monitored Services**.
@@ -78,7 +80,9 @@ The **Network** report in the Computer Performance category displays detailed Ne
 A small but very important item to note here is the **tooltip**. The tooltip displays details about the data point the mouse is currently hovering over, such as the computer name, date and time values, and value of the data point.  
 Use the **Date Range filter** to set date boundaries on your performance data. You can select any day, week, or month or a custom date range.
 
-> **Please note!** You will not be able see any performance data outside 30 days unless you change the Performance Counters [Data Retention](../../backstage-screen/configuration/options.md#data-retention) settings. The default is set to delete performance counters data older than 30 days.
+{% hint style="warning" %}
+You will not be able see any performance data outside 30 days unless you change the Performance Counters [Data Retention](../../backstage-screen/configuration/options.md#data-retention) settings. The default is set to delete performance counters data older than 30 days.
+{% endhint %}
 
 ### Reports Ribbon
 
@@ -116,7 +120,9 @@ The maximum number of different counters that can be displayed at the same time 
 
 You can use the search bar to filter computers and performance counter components \(e.g., categories, counters, and instances\) by their names. Checking or unchecking a specific performance counter status in the status filter will display or hide all the counters and instances that correspond to that status.
 
-> **Please note!** The Detailed Analysis report will display custom performance data only if one or more [Monitoring Templates](../../administration/monitoring-templates.md) has been created and assigned to specific computers or computer groups.
+{% hint style="warning" %}
+The Detailed Analysis report will display custom performance data only if one or more [Monitoring Templates](../../administration/monitoring-templates.md) has been created and assigned to specific computers or computer groups.
+{% endhint %}
 
 The **tree structure status** values on the Detailed Analysis report **change colors** depending on the defined thresholds for the selected performance counters, which are configured through the [Monitoring Templates](../../administration/monitoring-templates.md) category on the **Administration** tab.
 
