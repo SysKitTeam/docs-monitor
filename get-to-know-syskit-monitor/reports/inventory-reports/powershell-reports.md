@@ -26,7 +26,9 @@ Its features include:
 
 You can use PowerShell scripts to retrieve valuable information about a server’s configuration, usage, or performance. With SysKit, you can easily export the results and retrieved information to a PDF or.xlsx file, so that you can view it again later.
 
-> **Please note!** In order to see the PowerShell Reports it is necessary to configure [Inventory Snapshots ](../../backstage-screen/configuration/options.md#inventory-snapshots)system job. The report data will be available after Inventory Snapshots system job execution.
+{% hint style="warning" %}
+In order to see the PowerShell Reports it is necessary to configure [Inventory Snapshots](../../backstage-screen/configuration/options.md#inventory-snapshots) system job. The report data will be available after Inventory Snapshots system job execution.
+{% endhint %}
 
 ## Enhance your reporting using PowerShell Wizard
 
@@ -39,28 +41,39 @@ In your day-to-day activities working with PowerShell, it is likely that you hav
 We’ll break down how you can create custom information reports in SysKit using PowerShell Wizard.
 
 1. In Step 1, simply enter the PowerShell script or report name and select the desired report category. The report category option will help you categorize your reports so you can manage large amounts of different scripts more easily.
+
 2. In Step 2, you will need to enter the PowerShell script you want to use to generate reports. To avoid incorrectly generated reports, the script first needs to be tested on a selected computer. SysKit will run it against the computer that you specify. After entering script, click Next&gt; to see the results.
 
-   > **Please note!** If you have troubles with writing script, or you want to know more about PowerShell rules and limitations, please read [this article](https://technet.microsoft.com/en-us/library/bb978526.aspx).
+{% hint style="warning" %}
+If you have troubles with writing script, or you want to know more about PowerShell rules and limitations, please read [this article](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6).
+{% endhint %}
 
 3. In Step 3, if the script syntax is valid, it will return the results in a grid view. Data that is shown is collected by executing a specified query on the selected computer. You will be able to examine and refine properties in the next step. Please verify whether the query returned the desired data and continue to the next step.
 
-   > **Please note!** The approximate size of the query result can wary depending on the entered script purpose. Take into consideration that large query results can significantly increase server resource utilization.
-   >
-   > **Please note!** If an entered PowerShell query is returned without results after validation in PowerShell wizard, it cannot be saved.
+{% hint style="warning" %}
+The approximate size of the query result can wary depending on the entered script purpose. Take into consideration that large query results can significantly increase server resource utilization.
+{% endhint %}
+
+{% hint style="warning" %}
+If an entered PowerShell query is returned without results after validation in PowerShell wizard, it cannot be saved.
+{% endhint %}
 
 4. In Step 4, you will need to select columns that you want to include in your report and specify unique columns to be used in Snapshots Compare. You can use drag and drop to arrange the rows in the order in which you would like them to appear as columns in the report. You can also use the search box to find and include the desired column\(s\).
 
-   > **Please note!** Identity columns must **unambiguously** define each row of data. If that’s not the case, your data will still be collected, but the report won’t be **comparable** in [Compare Wizard](compare-wizard.md).
+{% hint style="warning" %}
+Identity columns must **unambiguously** define each row of data. If that’s not the case, your data will still be collected, but the report won’t be **comparable** in [Compare Wizard](compare-wizard.md).
+{% endhint %}
 
 5. In Step 5, you will need to select computers on which you want to run the PowerShell script.  
-   Created PowerShell script can be scheduled to run on:
+Created PowerShell script can be scheduled to run on:
 
-   * All computers;
-   * Specific computers;
-   * Specific computer groups.
+* All computers;
+* Specific computers;
+* Specific computer groups.
 
-   > **Please note!** Query results may vary depending on the PowerShell version used on a specific computer.
+{% hint style="warning" %}
+Query results may vary depending on the PowerShell version used on a specific computer.
+{% endhint %}
 
 Reports will be added to the **Inventory Reports &gt; PowerShell Reports** group and all of their data can be compared in [Compare Wizard](compare-wizard.md).
 

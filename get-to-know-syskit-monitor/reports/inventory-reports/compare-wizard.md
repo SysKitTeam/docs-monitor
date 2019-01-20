@@ -44,11 +44,15 @@ The **Compare Wizard** offers two different compare types: **Inventory Snapshots
 
 The **first** option enables you to select two inventory snapshots and explore differences between hardware and software data.
 
-> **Tip!** This option can be useful when you want to compare differences over time.
+{% hint style="info" %}
+**Tip!** This option can be useful when you want to compare differences over time.
+{% endhint %}
 
 The **second** option enables you to compare inventory data on different computers or two selected system environments that are defined through report views. You can define mappings between computers from different environments and determine which inventory items are different.
 
-> **Tip!** This option can be useful when you want to determine whether different computers have the same configurations or when you want to check if test and production environment are configured correctly.
+{% hint style="info" %}
+**Tip!** This option can be useful when you want to determine whether different computers have the same configurations or when you want to check if test and production environment are configured correctly.
+{% endhint %}
 
 ### Inventory Snapshots
 
@@ -99,10 +103,11 @@ Now we will go back to the **Computer Compare Subtype** step and proceed with th
 In this step you need to choose the **Source** and **Target Views** to compare differences between these two selected system environments.
 
 * The Step 3, enables you to select **one or two different snapshots** to compare inventory data on different system environments.
-* In Step 4, you will need to **define mappings** for different computers within the **views**.  
-  For example, if you know that server A, from farm A and server B from farm B must be similar, you can map the FQDN names so every difference related to the name of the server won’t be displayed on the report.
+* In Step 4, you will need to **define mappings** for different computers within the **views**. For example, if you know that server A, from farm A and server B from farm B must be similar, you can map the FQDN names so every difference related to the name of the server won’t be displayed on the report.
 
-  > **Please note!** The current version of SysKit supports only **one-to-one** server mapping!
+{% hint style="warning" %}
+The current version of SysKit Monitor supports only **one-to-one** server mapping!
+{% endhint %}
 
 * The Step 5, **automatically starts the Compare Result** dialog which will display all inventory changes according to previously defined mappings, and depending on what is selected at the Snapshot Selection step, it will show one or two different snapshots.
 

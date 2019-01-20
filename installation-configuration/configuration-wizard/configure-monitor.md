@@ -11,13 +11,13 @@ date: 30/5/2017
 
 Once the installation is completed, the Configuration Wizard will start. If the wizard does not start automatically after installation, you can run it manually from: **Start &gt; All Programs &gt; SysKit Monitor &gt; Configuration Wizard**.
 
-**1.** In Step 1, you need to choose whether to **create a new** or to **use an existing** database. Click **Next &gt;** to proceed.
+1. In Step 1, you need to choose whether to **create a new** or to **use an existing** database. Click **Next &gt;** to proceed.
 
 {% hint style="warning" %}
 In case you already have a SysKit Monitor database, choose the **Use existing database** option.
 {% endhint %}
 
-**2.** In Step 2, you need to specify the **Database server**, **Database name** and **authentication** that will be used. If you have more than one instance of SQL Server, type **SERVER\_NAME\INSTANCE\_NAME**.  
+2. In Step 2, you need to specify the **Database server**, **Database name** and **authentication** that will be used. If you have more than one instance of SQL Server, type **SERVER\_NAME\INSTANCE\_NAME**.  
 You can also browse for existing local and network SQL Servers by clicking on the **Browse** button next to the server field. For Database name, type in the name of the database you would like to use.
 
 {% hint style="warning" %}
@@ -34,7 +34,7 @@ See [SQL Permissions](sql-permissions/create-sql-login.md) to learn more about S
 
 If you plan to use the SysKit Monitor in a domain environment with an in-house SQL Server, we strongly **recommend** choosing Windows authentication. Once you have entered the correct database information, click **Test Connection** for verification. Click **Next &gt;** to proceed.
 
-**3.** In Step 3, you need to enter information about the Service Account that will be used for running the SysKit Monitor Service. This account will be used to gather data from your server\(s\). Enter the custom user account in the following format: **DOMAIN\USERNAME** \(or **MACHINE\_NAME\USERNAME** for workgroup scenarios\).
+3. ****In Step 3, you need to enter information about the Service Account that will be used for running the SysKit Monitor Service. This account will be used to gather data from your server\(s\). Enter the custom user account in the following format: **DOMAIN\USERNAME** \(or **MACHINE\_NAME\USERNAME** for workgroup scenarios\).
 
 {% hint style="warning" %}
 The service user must be in the local admin group to proceed with this step. For more information about the service account configuration, read the [Add Service User to a Local Administrators Group via Group Policy](../../how-to/service-accounts/add-service-user-group-policy.md) article.
@@ -46,13 +46,13 @@ If the software is installed on a non-domain joined machine, the service account
 
 Click **Validate Account** to check the credentials. To finish the Configuration Wizard, click **Next &gt;**.
 
-**4.** If you have previously chosen to install the SysKit Monitor Web application as well, you will have the **Web settings** step enabled. Enter the details for your new IIS website and virtual folder. Also, provide the **Service Account credentials** to configure the application pool to run under a specific user identity. Once you have entered the correct information, click **Validate Account** for verification. Click **Next &gt;** to proceed.
+4. If you have previously chosen to install the SysKit Monitor Web application as well, you will have the **Web settings** step enabled. Enter the details for your new IIS website and virtual folder. Also, provide the **Service Account credentials** to configure the application pool to run under a specific user identity. Once you have entered the correct information, click **Validate Account** for verification. Click **Next &gt;** to proceed.
 
-**5.** In Step 5, you can view the configuration settings that will be applied.
+5. In Step 5, you can view the configuration settings that will be applied.
 
-**6.** In Step 6, you can view which actions the application is performing while configuring all settings.
+6. In Step 6, you can view which actions the application is performing while configuring all settings.
 
-**7.** In Step 7, once the SysKit Monitor is installed, you can run the application and choose whether you want to participate in the Customer Experience Improvement Program.
+7. In Step 7, once the SysKit Monitor is installed, you can run the application and choose whether you want to participate in the Customer Experience Improvement Program.
 
 ## Installation of SysKit Monitor Web App on a Separate Server
 
