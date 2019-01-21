@@ -16,7 +16,7 @@ If you have a **Citrix 7.x environment** and you plan to **monitor user sessions
 3. A list of computers from the **Active Directory** will be displayed.
 
 {% hint style="info" %}
-Your computers will be added regardless of the listed warnings or errors!
+If you have __Citrix 7.x environment__, you need to add both __Delivery Controller servers__ and Virtual Delivery Agent servers to monitoring. If you only add the Virtual Delivery Agent servers from your Citrix infrastructure, SysKit Monitor will be __unable to collect data and the reports will be empty__.
 {% endhint %}
 
    This wizard screen also shows the number of remaining monitoring licenses. You must have enough licenses to add the computer for monitoring, please please [contact us](https://www.syskit.com/company/contact-us) to add additional licenses. Click **Next &gt;** proceed.
