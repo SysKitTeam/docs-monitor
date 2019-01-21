@@ -12,11 +12,7 @@ This article explains how to create a **Custom SQL Report**.
 Open the **Custom Report Wizard** by selecting Custom Reports in the left navigation bar and then clicking the **Create** button from the ribbon.
 
 1. In Step 1, enter the report name and select a preferred category for your report. To create a SQL report, select the **SQL** from the **Report Type**. Once you do so, you will see a modified version of the Custom Report Wizard. Click **Next &gt;** to proceed.
-2. In Step 2, enter the preferred SQL **SELECT** statement. SQL statement you enter will serve as base for your report and will give you the same result as SQL Server Management Studio would.  
-   You can write a simple plain SQL statement using common keywords, with or without parameters. Parameters are words prefixed with special character ‘@‘ \(ex. @param1, @param2\) and will be used as filters which you can modify outside of the SQL editor in the same way as filters used in standard reports. If you use clean SQL statement, your SQL report will not have any applicable filters.
-
-   > **Please note!** If you are not familiar with SQL or with SysKit Monitor database schema, please [contact us](https://www.syskit.com/company/contact-us) and we will create an SQL report for your needs.
-
+2. In Step 2, enter the preferred SQL **SELECT** statement. SQL statement you enter will serve as base for your report and will give you the same result as SQL Server Management Studio would. You can write a simple plain SQL statement using common keywords, with or without parameters. Parameters are words prefixed with special character ‘@‘ \(ex. @param1, @param2\) and will be used as filters which you can modify outside of the SQL editor in the same way as filters used in standard reports. If you use clean SQL statement, your SQL report will not have any applicable filters.
 3. In Step 3, depending on whether you have used the parameters in the previous step, you will be able to initialize them here. If you have used clean SQL statement, you can skip this step.
 
    There are two main options to initialize parameter: as a **Specific Value** or **Select from filter**.
@@ -45,6 +41,10 @@ Open the **Custom Report Wizard** by selecting Custom Reports in the left naviga
    Perform steps described above for each detected parameter and proceed to the next step.
 
 4. Close the Custom Report Wizard by clicking the **Finish** button.
+
+{% hint style="info" %}
+If you are not familiar with SQL or with SysKit Monitor database schema, please contact us and we will create an SQL report for your needs.
+{% endhint %}
 
 ## Get to know your Custom Report
 
