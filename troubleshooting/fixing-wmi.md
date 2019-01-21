@@ -22,11 +22,15 @@ To resolve the issue, the following actions should be performed on the **destina
 1. Check the repository for **consistencies**: For Windows Server 2008, Windows Server 2008 R2, and Windows Server 2012 run: **winmgmt /verifyrepository** from the command prompt. For older OS like Windows Server 2003 run: **WmiDiag tool** with the **checkconsistency** option. You can download it from [here](https://www.microsoft.com/en-us/download/details.aspx?id=7684).
 2. If repository is found to be **inconsistent**: For Windows Server 2008 and newer, run the Command Prompt as an administrator and enter: **Winmgmt /salvagerepository**.
 
-> **Please note!** This command will take the content of the inconsistent repository and merge it into the rebuilt repository if it is readable.
+{% hint style="warning" %}
+This command will take the content of the inconsistent repository and merge it into the rebuilt repository if it is readable.
+{% endhint %}
 
 If the above procedure does not work, then run: **Winmgmt /resetrepository**.
 
-> **Please note!** This will reset repository to the initial state when the OS was first installed.
+{% hint style="warning" %}
+This will reset repository to the initial state when the OS was first installed.
+{% endhint %}
 
 For older OS like Windows Server 2003, there are no built in switches to rebuild the Repository, so you must do it manually.
 

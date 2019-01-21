@@ -35,7 +35,9 @@ If you select Concurrent Users per Day, you will see the usage of the farm for e
 3. Execute the application by right-clicking and choosing **Run as administrator**.
 4. UAC will prompt you to run as admin, and SysKit Monitor will start initializing.
 
-> **Please Note!** You are required to create a shortcut directly from the file in the installation directory, not from the shortcut in the Start menu.
+{% hint style="warning" %}
+You are required to create a shortcut directly from the file in the installation directory, not from the shortcut in the Start menu.
+{% endhint %}
 
 ## How can I check which database SysKit Monitor is using?
 
