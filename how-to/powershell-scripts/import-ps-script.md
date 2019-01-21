@@ -30,5 +30,7 @@ If the **After another script** option is selected, you will be offered a dropdo
 
 All imported PowerShell report definitions, depending on the scripts’ type, will be added to the Administration tab &gt; PowerShell Scripts &gt; Reports or Management Tasks group.
 
-> **Tip!** When you are importing or exporting a PowerShell report definition, all its script modules, if any, will be imported / exported as well. All imported script modules can be managed through the Manage modules dialog in the Enter PowerShell step of the PowerShell Script Wizard.
+{% hint style="info" %}
+When you are importing or exporting a PowerShell report definition, all its script modules, if any, will be imported / exported as well. All imported script modules can be managed through the Manage modules dialog in the Enter PowerShell step of the PowerShell Script Wizard.
+{% endhint %}
 
