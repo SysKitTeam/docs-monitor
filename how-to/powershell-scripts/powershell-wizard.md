@@ -41,13 +41,13 @@ We’ll break down how you can create report and management scripts in SysKit Mo
 
 4. In Step 4, if the script and module syntax are valid, the results of the **report script** will be returned in a grid view. Please verify whether the script returned the desired results, then continue to the next step. As mentioned previously, if you are creating a **management script**, your script will only be validated; you will not have this step.
 
-    {% hint style="warning" %}
-    The approximate size of the query result can wary depending on the entered script purpose. Take into consideration that large query results can significantly increase server resource utilization.
-    {% endhint %}
+{% hint style="warning" %}
+  The approximate size of the query result can wary depending on the entered script purpose. Take into consideration that large query results can significantly increase server resource utilization.
+{% endhint %}
 
-    {% hint style="warning" %}
-    If an entered PowerShell query is returned without results after validation in PowerShell wizard, it cannot be saved.
-    {% endhint %}
+{% hint style="warning" %}
+  If an entered PowerShell query is returned without results after validation in PowerShell wizard, it cannot be saved.
+{% endhint %}
 
 5. In Step 5, you will need to select the computers you want to run the PowerShell script on.  
    Created PowerShell script can be scheduled to run on:
@@ -56,9 +56,9 @@ We’ll break down how you can create report and management scripts in SysKit Mo
    * Specific computers; or
    * Specific computer groups.
 
-    {% hint style="warning" %}
-    Query results may vary depending on the PowerShell version used on a specific computer.
-    {% endhint %}
+{% hint style="warning" %}
+  Query results may vary depending on the PowerShell version used on a specific computer.
+{% endhint %}
 
 6. In Step 6, you will need to specify the **conditions** that will trigger the PowerShell script.  
    The following **schedule options** are available:
@@ -66,13 +66,13 @@ We’ll break down how you can create report and management scripts in SysKit Mo
    * **Manual only**—the script will be executed only when the **Run** button is clicked.
    * **Automatic**—the script will be executed automatically on a **defined schedule**, which has two types: **Recurrence** or **After another script**.
 
-    {% hint style="info" %}
-    If the __Recurrence__ option is selected, you will be offered __several recurrence__ types: one time, minutely, hourly, daily, weekly, monthly, and quarterly. Here, you can select the start date and time for the selected recurrence type.
-    {% endhint %}
+{% hint style="info" %}
+  If the __Recurrence__ option is selected, you will be offered __several recurrence__ types: one time, minutely, hourly, daily, weekly, monthly, and quarterly. Here, you can select the start date and time for the selected recurrence type.
+{% endhint %}
    
-    {% hint style="info" %}
-    If the __After another script__ option is selected, you will be offered a drop-down menu that contains all PowerShell scripts available in SysKit Monitor. The script for which you configure the trigger will be executed after the script selected from the drop-down.
-    {% endhint %}
+{% hint style="info" %}
+  If the __After another script__ option is selected, you will be offered a drop-down menu that contains all PowerShell scripts available in SysKit Monitor. The script for which you configure the trigger will be executed after the script selected from the drop-down.
+{% endhint %}
 
 7. In Step 7, you can **enable** and **configure conditions** for alerts sent after the script finishes. SysKit Monitor will **detect and set** the PowerShell script **column types** and allow configuration of real-time alerts based on the **desired conditions**. A PowerShell script can return different column types. The ones that are **discoverable** by SysKit Monitor are String, DateTime, UInt64, UInt32, Int64, Int32, Double, Boolean, and Decimal.
 8. In Step 8, if the alert condition is met you can choose whether you want to be notified immediately. Alternatively, you can be notified if the state remains unchanged after the specified time interval has passed. Note: in both cases, you will receive an alert when the condition is met and you will also receive an email after everything returns to the normal state. SysKit Monitor will generate a **.csv file**, which contains all the data **matching the applied conditions** and include it in the email attachment of the alert. Here you can also select whether to send alerts to email addresses defined in the **Options** dialog or you can specify different ones.
