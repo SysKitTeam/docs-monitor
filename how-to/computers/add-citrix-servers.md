@@ -21,8 +21,8 @@ If you have **Citrix 7.x environment**, you need to add both **Delivery Controll
 
 This wizard screen also shows the number of remaining monitoring licenses. You must have enough licenses to add the computer for monitoring, please please [contact us](https://www.syskit.com/company/contact-us) to add additional licenses. Click **Next &gt;** proceed.
 
-1. The **License Summary** step shows the number of computers that will be added and the remaining licenses. Click **Next &gt;** to proceed.
-2. In the **Adding Computers** step, a computer status check will be performed for a list of selected computers. This functionality will provide you with more information about possible misconfigurations if the load finishes with warnings or errors.
+4. The **License Summary** step shows the number of computers that will be added and the remaining licenses. Click **Next &gt;** to proceed.
+5. In the **Adding Computers** step, a computer status check will be performed for a list of selected computers. This functionality will provide you with more information about possible misconfigurations if the load finishes with warnings or errors.
 
 {% hint style="info" %}
 Your computers will be added regardless of the listed warnings or errors!
