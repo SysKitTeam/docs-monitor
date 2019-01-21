@@ -9,6 +9,10 @@ date: 23/6/2017
 
 # PowerShell Wizard
 
+We’ll break down how you can create report and management scripts in SysKit Monitor using PowerShell Script Wizard.
+
+1. In Step 1, specify the PowerShell script type you wish to create. The wizard offers two different script types: **PowerShell Report** and **PowerShell Management Task**.
+
 {% hint style="info" %}
 The first option can be useful for retrieving a wealth of information about a server’s configuration, usage, or performance. The second option is useful for performing various administration and maintenance jobs.
 {% endhint %}
