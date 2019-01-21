@@ -17,14 +17,20 @@ In case you notice that IP addresses are not being reported in the SysKit Monito
 2. Double click on the **RDP-Tcp** connection.
 3. In the **RDP-Tcp Properties** dialog, choose the General tab and change the **Security Layer** setting to the **RDP Security Layer**.
 
-   > **Please note!** In case this security setting is configured to **Negotiate**, Windows server will always use the SSL \(TLS 1.0\) security layer and IP addresses will not be fetched.
+{% hint style="warning" %}
+In case this security setting is configured to Negotiate, Windows server will always use the SSL \(TLS 1.0\) security layer and IP addresses will not be fetched.
+{% endhint %}
 
 4. Change the Encryption level to **High** in the same screen.
+
 5. Click **Apply** and **OK** to finish.
 
-   > **Please note!** Next two steps should be performed on every monitored server!
+{% hint style="warning" %}
+Next two steps should be performed on every monitored server!
+{% endhint %}
 
 6. Now open the **Server Manager** and select the **Configure Server Manager Remote Management**.
+
 7. In this dialog, enable the **Enable remote management of this server from other computers** option.
 
 The server configuration is finished and now you should be able to use the Block Malicious IP Addresses feature within the SysKit Monitor.
