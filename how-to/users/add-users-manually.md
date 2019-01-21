@@ -21,9 +21,18 @@ SysKit Monitor desktop and web app permissions can only be managed through the d
 
 ## Give access to SysKit Monitor users who haven't connected previously to the monitored computers
 
-If you want to give access to SysKit Monitor to one user, please follow these instructions: 1. In **Manage Users and Groups** dialog click the **arrow** by the Grant Access button and then click the **Grant Access Manually** button. In the Create new user dialog, enter information about the user you want to give access to SysKit Monitor. 2. Under **Security – Role** select **Viewer**. This user will now have rights to read the data and to use SysKit Monitor to view reports. 3. If you give someone the **Administrator** role, they will also be able to administer the database and will have a full permission to use the SysKit Monitor.
+If you want to give access to SysKit Monitor to one user, please follow these instructions:
 
-If you want to give access to SysKit Monitor to a whole group, please follow these instructions: 1. In **Manage Users and Groups** click on the **Security and distribution groups**. 2. Select the group you want and click **Edit**. 3. In tab Members you can see all the users that are members of this specific group. 4. Change **Security – Role** to **Administrator** and click **OK**.
+1. In **Manage Users and Groups** dialog click the **arrow** by the Grant Access button and then click the **Grant Access Manually** button. In the Create new user dialog, enter information about the user you want to give access to SysKit Monitor.
+2. Under **Security – Role** select **Viewer**. This user will now have rights to read the data and to use SysKit Monitor to view reports.
+3. If you give someone the **Administrator** role, they will also be able to administer the database and will have a full permission to use the SysKit Monitor.
+
+ If you want to give access to SysKit Monitor to a whole group, please follow these instructions: 
+
+1.  In **Manage Users and Groups** click on the **Security and distribution groups**.
+2. Select the group you want and click **Edit**.
+3. In tab Members you can see all the users that are members of this specific group.
+4. Change **Security – Role** to **Administrator** and click **OK**.
 
 {% hint style="info" %}
 A new security group will be added as soon as the first user from it is connected to the computer and recognized by SysKit Monitor. It is not possible to add anyone manually to the group, SysKit Monitor will do it automatically. Also, now you can give Administrator role to the whole group.
