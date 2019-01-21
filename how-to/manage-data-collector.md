@@ -7,14 +7,18 @@ date: 29/06/17
 
 # Manage SysKit Monitor Data Collector
 
-> **Please note!** If you have more than 100 servers, or geographically distributed servers, it is recommended that you use SysKit Monitor Data Collector. Please contact our support team, which will provide you with detailed instructions and a setup file.
+{% hint style="warning" %}
+If you have more than 100 servers, or geographically distributed servers, it is recommended that you use SysKit Monitor Data Collector. Please contact our support team, which will provide you with detailed instructions and a setup file.
+{% endhint %}
 
 After you [install Data Collectors](../installation-configuration/install-wizard/install-agent.md) on the desired computers and configure them to the same database as the SysKit Monitor application on the central computer, the **Manage Data Collectors** dialog will appear on the Administration tab. Another way to access Data Collectors is by navigating to the **File** tab, selecting **Manage** from the left navigation bar, and then clicking **Data Collectors**.
 
 The Manage Data Collectors dialog contains the list of data collectors installed and running on the servers in your environment. Use this dialog to configure each Data Collector according to your preferences and they will gather data as configured.  
 Here you can see the Data Collector name, its status, when it was last seen online, and the Data Collector service version.
 
-> **Please note!** The Data Collector marked as **default** cannot be disabled nor deleted, as it is the main collecting service.
+{% hint style="warning" %}
+The Data Collector marked as **default** cannot be disabled nor deleted, as it is the main collecting service.
+{% endhint %}
 
 The following options are available:
 
@@ -43,7 +47,9 @@ If the mode is changed from automatic to manual, every Data Collector, depending
 In Manual – Computers mode, you will have the Computers filter available for each Data Collector.  
 In Manual – Organizational Units mode, you will have the OU filter available for each Data Collector.
 
-> **Please note!** Data Collectors cannot gather data for the same computers or OUs! A computer or OU can be covered by one Data Collector only. Duplicate selection of computers or OUs on multiple Data Collectors will be ignored and assigned to the last selected Data Collector.
+{% hint style="warning" %}
+Data Collectors cannot gather data for the same computers or OUs! A computer or OU can be covered by one Data Collector only. Duplicate selection of computers or OUs on multiple Data Collectors will be ignored and assigned to the last selected Data Collector.
+{% endhint %}
 
 Currently, if any of Data Collectors are **offline** in this mode, data collection will **not be performed** for the assigned computers or organizational units.  
 While configuring Data Collectors, if there are any unassigned Computers or OUs, you will have the option of assigning them to the default Data Collector or to reconfigure Data Collectors to cover these Computers or OUs. The same applies to a scenario where one or more Data Collectors are disabled.
