@@ -21,7 +21,9 @@ If you are using SysKit Monitor Data Collector, please exclude the following fol
 
 * Drive:\Program Files\SysKit\Monitor Data Collector
 
-> **Please note!** The placeholder 'Drive' represents the letter of the drive on which you have the application installed. Typically, this drive letter is C.
+{% hint style="info" %}
+The placeholder 'Drive' represents the letter of the drive on which you have the application installed. Typically, this drive letter is C.
+{% endhint %}
 
 In case you have a policy that you mustn’t exclude the whole folder, please configure your antivirus software to exclude the following file from antivirus scanning:
 
