@@ -32,7 +32,9 @@ With these reports you can easily check disk space usage to identify computers l
 The software inventory reports provide information about all the software installed across your server environment. The reports contain various pieces of information about installed programs, all available updates, as well as already installed updates.  
 Also, you can view all the services running on local and remote computers and a list of certificates in the personal store. This may be particularly useful when you’re interested in the validity period, friendly name, thumbprint or an intended purpose of a piece of software.
 
-> **Please note!** The values shown on the Services report are, by default, collected weekly within the Inventory Snapshots. However, they are real time in the Windows Services report in the [Custom Reports](../get-to-know-syskit-monitor/reports/custom-reports.md) section.
+{% hint style="warning" %}
+The values shown on the Services report are, by default, collected weekly within the Inventory Snapshots. However, they are real time in the Windows Services report in the Custom Reports section.
+{% endhint %}
 
 All of the above reports offer better management and optimization of your software inventory.
 

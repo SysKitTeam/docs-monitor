@@ -15,7 +15,9 @@ Views can be saved with two different visibility types: **Public \(for all users
 
 You can also select whether to **save the report view for this report only** or for **all reports \(global\)**.
 
-> **Tip!** If you want the customized view to be the default view for all reports, set the Type to **Global**. You can use views as logical groups for **different server farms** or **monitored domains**.
+{% hint style="info" %}
+If you want the customized view to be the default view for all reports, set the Type to Global. You can use views as logical groups for different server farms or monitored domains.
+{% endhint %}
 
 ## Which customizations are saved?
 
