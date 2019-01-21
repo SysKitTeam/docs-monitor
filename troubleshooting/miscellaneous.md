@@ -71,7 +71,11 @@ When installing or upgrading SysKit Monitor Web App you may encounter the follow
 System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {2B72133B-3F5B-4602-8952-803546CE3344} failed due to the following error: 80040154
 ```
 
-This particular issue requires Internet Information Services \(IIS\) to be reinstalled. Please note that you are not advised to follow these instructions if you have other web instances installed on server besides the SysKit Monitor Web Application. In that case, we recommend you to contact our support team.
+This particular issue requires Internet Information Services \(IIS\) to be reinstalled. 
+
+{% hint style="warning" %}
+Please note that you are not advised to follow these instructions if you have other web instances installed on server besides the SysKit Monitor Web Application. In that case, we recommend you to contact our support team.
+{% endhint %}
 
 To fix the problem follow this steps:
 

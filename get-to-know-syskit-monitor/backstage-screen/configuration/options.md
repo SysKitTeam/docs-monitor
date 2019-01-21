@@ -175,7 +175,11 @@ If you notice that your concurrent usage reports are incomplete, or you have jus
 
 This section describes how to configure the **Aggregation** system job.
 
-This feature is used for loading balanced Citrix farm environments. If you are not using the farm environment, do not enable this option. If you have issues with farm reports please use the Reset button to reset states in the SysKit Monitor. Please note that this will not erase your data, your data will be recalculated from the beginning. Idle states shorter than X minutes will not be included.
+This feature is used for loading balanced Citrix farm environments. If you are not using the farm environment, do not enable this option. If you have issues with farm reports please use the Reset button to reset states in the SysKit Monitor. 
+
+{% hint style="warning" %}
+Please note that this will not erase your data, your data will be recalculated from the beginning. Idle states shorter than X minutes will not be included.
+{% endhint %}
 
 ### Aggregation Settings
 

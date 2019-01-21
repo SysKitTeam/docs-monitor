@@ -52,8 +52,11 @@ Read more on this issue in the next paragraf of this article.
 
 ## I am getting: "The service did not respond to the start or control request in timely fashion."
 
-This is an issue on servers that don’t have access to the Internet. Windows Server will try to check the code signing certificate that was used to sign application executables. Allow access to the Internet for the server once and then start the service to solve the issue.  
+This is an issue on servers that don’t have access to the Internet. Windows Server will try to check the code signing certificate that was used to sign application executables. Allow access to the Internet for the server once and then start the service to solve the issue.
+
+{% hint style="warning" %}
 Please note that it is required to do this only once; the first time, Windows will check SysKit's code signing certificate, and then it will work fine.
+{% endhint %}
 
 If this is not possible, [contact us](https://www.syskit.com/company/contact-us) and we will provide you with a certificate and the instructions on how to import the certificate to your problematic server.
 
