@@ -15,10 +15,14 @@ In order for monitoring to be successful these are the steps you will have to pe
 
 1. [Download the SDK](http://www.citrix.com/static/cdn/archivedsdks/mfcom/5.0/mpssdk.msi) from Citrix web site.
 
-   > **Please note!** Turn off your User Account Control in order for installation to be successful.
+{% hint style="info" %}
+Turn off your User Account Control in order for installation to be successful.
+{% endhint %}
 
 2. Follow the **Installation Wizard** steps.
+
 3. Make sure that the **Register remote MFCOM server** option is checked in.
+
 4. Enter the **Citrix Management Server** name and click **Next** to proceed and finish the installation.
 
 ## Add SysKit Monitor service user to the Citrix Farm Administrators group
