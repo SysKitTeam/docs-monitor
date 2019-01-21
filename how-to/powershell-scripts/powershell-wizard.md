@@ -22,7 +22,7 @@ We’ll break down how you can create report and management scripts in SysKit Mo
    _How to enable the CredSSP authentication_  
    If the entered PS script requires the credentials to be delegated and you have enabled the **CredSSP** option, the error dialog will be shown upon validation of the script. It will guide you on how to switch to **custom credentials**. Just click the **Configure** button in this dialog, and the **Edit domain** dialog will be shown. Select the **Specify credentials** option and re-enter the service credentials.
 
-   >{% hint style="info" %}
+    {% hint style="info" %}
     It is recommended that you enable the __Use credentials only for PowerShell__ option as the custom credentials are meant for authentication when monitoring computers from untrusted domains.
     {% endhint %}
 
@@ -33,7 +33,7 @@ We’ll break down how you can create report and management scripts in SysKit Mo
    **All referenced modules will also be validated in both cases** before the wizard returns and displays the results of the script and modules you have run.  
    After entering script, click Next&gt; to see the results.
 
-   >{% hint style="warning" %}
+    {% hint style="warning" %}
     If you have troubles with writing script, or you want to know more about PowerShell rules and limitations, please read this article.
     {% endhint %}
 
@@ -41,9 +41,10 @@ We’ll break down how you can create report and management scripts in SysKit Mo
 
 4. In Step 4, if the script and module syntax are valid, the results of the **report script** will be returned in a grid view. Please verify whether the script returned the desired results, then continue to the next step. As mentioned previously, if you are creating a **management script**, your script will only be validated; you will not have this step.
 
-   >{% hint style="warning" %}
+    {% hint style="warning" %}
     The approximate size of the query result can wary depending on the entered script purpose. Take into consideration that large query results can significantly increase server resource utilization.
     {% endhint %}
+
     {% hint style="warning" %}
     If an entered PowerShell query is returned without results after validation in PowerShell wizard, it cannot be saved.
     {% endhint %}
@@ -55,7 +56,7 @@ We’ll break down how you can create report and management scripts in SysKit Mo
    * Specific computers; or
    * Specific computer groups.
 
-   >{% hint style="warning" %}
+    {% hint style="warning" %}
     Query results may vary depending on the PowerShell version used on a specific computer.
     {% endhint %}
 
@@ -65,11 +66,11 @@ We’ll break down how you can create report and management scripts in SysKit Mo
    * **Manual only**—the script will be executed only when the **Run** button is clicked.
    * **Automatic**—the script will be executed automatically on a **defined schedule**, which has two types: **Recurrence** or **After another script**.
 
-   >{% hint style="info" %}
+    {% hint style="info" %}
     If the __Recurrence__ option is selected, you will be offered __several recurrence__ types: one time, minutely, hourly, daily, weekly, monthly, and quarterly. Here, you can select the start date and time for the selected recurrence type.
     {% endhint %}
    
-   >{% hint style="info" %}
+    {% hint style="info" %}
     If the __After another script__ option is selected, you will be offered a drop-down menu that contains all PowerShell scripts available in SysKit Monitor. The script for which you configure the trigger will be executed after the script selected from the drop-down.
     {% endhint %}
 
