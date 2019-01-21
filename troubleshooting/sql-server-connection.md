@@ -19,15 +19,18 @@ How to configure the SQL Server to listen on a specific port?
 
 Due to security issues it is often not recommended to use the default port number 1433 for communicating with the SQL Server. This article helps set up the SQL Server to use a non-standard port number.
 
-1. Run the **SQL Server Configuration Manager**.
-2. Select the **SQL Server Network Configuration**.
-3. Select from the list the instance you want to configure to listen to on a specific port.
-4. To change the port assignment right-click on the **TCP/IP** protocol and select **Properties**.
+1.Run the **SQL Server Configuration Manager**.  
+2. Select the **SQL Server Network Configuration**.  
+3. Select from the list the instance you want to configure to listen to on a specific port.  
+4. To change the port assignment right-click on the **TCP/IP** protocol and select **Properties**.  
 5. Click on the IP Addresses tab.
 
-   > **Please note!** Both IP5 and IP6 are disabled and the TCP Dynamic Ports setting is set to “0”, which means that the database engine is listening on dynamic ports. This instance currently uses the port number **1433**.
+{% hint style="info" %}
+Both IP5 and IP6 are disabled and the TCP Dynamic Ports setting is set to “0”, which means that the database engine is listening on dynamic ports. This instance currently uses the port number **1433**.
+{% endhint %}
 
 6. Specify the **TCP Port** number you want to use instead of 1433, by entering the preferred port number. In this case the new port number is going to be **8181**. Also, turn off the dynamical port number setting by removing the “0” mark in the **TCP Dynamic Ports** field for both IP5 and IP6.
+
 7. In order to finish the adjustment, select **SQL Server Services**, right-click the SQL Server and restart it.
 
 ## Error: Configuration Wizard won’t connect to a provided server and database
@@ -87,15 +90,17 @@ Port 1433 is closed on the SQL Server.
 
 Inbound traffic on the TCP Port 1433 needs to be allowed on the SQL Server.
 
-1. Connect to your **SQL Server**.
-2. Open the Windows Firewall, click on **Inbound Rules** and select **New Rule**.
-3. In the Rule Type step, select the **Port** rule type.
-4. In the Protocol and Ports step, select the **TCP** port and specify the **local ports** which this rule applies to. In this case, 1433 stands for the SQL Server, and 1434 for the SQL Server Browser. Enter the ports in the following format: `1433,1434`.
-5. In the Action step, leave the default selection: **Allow the connection**.
-6. In the Profile step, select the profiles which this rule applies to.
+1.Connect to your **SQL Server**.  
+2. Open the Windows Firewall, click on **Inbound Rules** and select **New Rule**.  
+3. In the Rule Type step, select the **Port** rule type.  
+4. In the Protocol and Ports step, select the **TCP** port and specify the **local ports** which this rule applies to. In this case, 1433 stands for the SQL Server, and 1434 for the SQL Server Browser. Enter the ports in the following format: `1433,1434`.  
+5. In the Action step, leave the default selection: **Allow the connection**.  
+6.In the Profile step, select the profiles which this rule applies to.
 
-   > **Please note!** If the SQL server is in the same domain with other servers and you wish to open this port only for the domain traffic, it is enough to select **Domain**. For other scenarios use the Private or Public profile option.
+{% hint style="info" %}
+If the SQL server is in the same domain with other servers and you wish to open this port only for the domain traffic, it is enough to select **Domain**. For other scenarios use the Private or Public profile option.
+{% endhint %}
 
-7. In the Name step, specify the name and the description of this rule, e.g. Name: SQL, and the Description: Allows SQL to connect to the SQL Server and SQL Server Browser.
+7.In the Name step, specify the name and the description of this rule, e.g. Name: SQL, and the Description: Allows SQL to connect to the SQL Server and SQL Server Browser.  
 8. The inbound traffic on the SQL Server is now allowed and the SQL connection should be available.
 
