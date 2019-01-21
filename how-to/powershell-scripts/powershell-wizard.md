@@ -17,15 +17,7 @@ We’ll break down how you can create report and management scripts in SysKit Mo
 The first option can be useful for retrieving a wealth of information about a server’s configuration, usage, or performance. The second option is useful for performing various administration and maintenance jobs.
 {% endhint %}
 
-2. In Step 2, simply enter the PowerShell script name and select the desired category. Note that based on the script type you have selected in the previous step, your script will be added to the corresponding category. The report category option will help you categorize your reports and management tasks so you can manage large amounts of scripts more easily. For more advanced scripts, you can also enable the **CredSSP authentication** to avoid double-hop problems. In cases where a PowerShell script may need to access resources outside the remote server machine, the credentials must be delegated to the target machine. _How to enable the CredSSP authentication_ If the entered PS script requires the credentials to be delegated and you have enabled the **CredSSP** option, the error dialog will be shown upon validation of the script. It will guide you on how to switch to **custom credentials**. Just click the **Configure** button in this dialog, and the **Edit domain** dialog will be shown. Select the **Specify credentials** option and re-enter the service credentials.
-
-2. In Step 2, simply enter the PowerShell script name and select the desired category. Note that based on the script type you have selected in the previous step, your script will be added to the corresponding category. The report category option will help you categorize your reports and management tasks so you can manage large amounts of scripts more easily.  
-
-   For more advanced scripts, you can also enable the **CredSSP authentication** to avoid double-hop problems. In cases where a PowerShell script may need to access resources outside the remote server machine, the credentials must be delegated to the target machine.  
-
-   _How to enable the CredSSP authentication_  
-
-   If the entered PS script requires the credentials to be delegated and you have enabled the **CredSSP** option, the error dialog will be shown upon validation of the script. It will guide you on how to switch to **custom credentials**. Just click the **Configure** button in this dialog, and the **Edit domain** dialog will be shown. Select the **Specify credentials** option and re-enter the service credentials.
+2. In Step 2, simply enter the PowerShell script name and select the desired category. Note that based on           the script type you have selected in the previous step, your script will be added to the corresponding category. The report category option will help you categorize your reports and management tasks so you can manage large amounts of scripts more easily. For more advanced scripts, you can also enable the **CredSSP authentication** to avoid double-hop problems. In cases where a PowerShell script may need to access resources outside the remote server machine, the credentials must be delegated to the target machine. _How to enable the CredSSP authentication_ If the entered PS script requires the credentials to be delegated and you have enabled the **CredSSP** option, the error dialog will be shown upon validation of the script. It will guide you on how to switch to **custom credentials**. Just click the **Configure** button in this dialog, and the **Edit domain** dialog will be shown. Select the **Specify credentials** option and re-enter the service credentials.
 
 {% hint style="info" %}
 It is recommended that you enable the **Use credentials only for PowerShell** option as the custom credentials are meant for authentication when monitoring computers from untrusted domains.
@@ -33,13 +25,13 @@ It is recommended that you enable the **Use credentials only for PowerShell** op
 
 See the [Configuring CredSSP for use with PowerShell](../../troubleshooting/credssp-for-use-with-powershell.md) article to learn more on how to delegate the user’s credentials through SysKit Monitor.
 
-3. In Step 3, you will need to enter the PowerShell script you want to use to create reports or management tasks. Here you can also **import the script modules** whose members can contain functions, variables, and more. To avoid incorrectly generated reports, the report script first needs to be tested on a selected computer. SysKit Monitor will run it against the computer that you specify.  
+3. In Step 3, you will need to enter the PowerShell script you want to use to create reports or management tasks. Here you can also **import the script modules** whose members can contain functions, variables, and more. To avoid incorrectly generated reports, the report script first needs to be tested on a selected computer. SysKit Monitor will run it against the computer that you specify.
 
-   If you have selected the **management task** script type in the first step, the management script will **only be validated for syntax errors**.  
+If you have selected the **management task** script type in the first step, the management script will **only be validated for syntax errors**.
 
-   **All referenced modules will also be validated in both cases** before the wizard returns and displays the results of the script and modules you have run.  
+**All referenced modules will also be validated in both cases** before the wizard returns and displays the results of the script and modules you have run.
 
-   After entering script, click Next&gt; to see the results.
+After entering script, click Next&gt; to see the results.
 
 {% hint style="warning" %}
 If you have troubles with writing script, or you want to know more about PowerShell rules and limitations, please read this article.
@@ -58,17 +50,19 @@ If an entered PowerShell query is returned without results after validation in P
 {% endhint %}
 
 5. In Step 5, you will need to select the computers you want to run the PowerShell script on. Created PowerShell script can be scheduled to run on:
-   * All computers;
-   * Specific computers; or
-   * Specific computer groups.
+
+* All computers;
+* Specific computers; or
+* Specific computer groups.
 
 {% hint style="warning" %}
 Query results may vary depending on the PowerShell version used on a specific computer.
 {% endhint %}
 
 6. In Step 6, you will need to specify the **conditions** that will trigger the PowerShell script. The following **schedule options** are available:
-   * **Manual only**—the script will be executed only when the **Run** button is clicked.
-   * **Automatic**—the script will be executed automatically on a **defined schedule**, which has two types: **Recurrence** or **After another script**.
+
+* **Manual only**—the script will be executed only when the **Run** button is clicked.
+* **Automatic**—the script will be executed automatically on a **defined schedule**, which has two types: **Recurrence** or **After another script**.
 
 {% hint style="info" %}
 If the **Recurrence** option is selected, you will be offered **several recurrence** types: one time, minutely, hourly, daily, weekly, monthly, and quarterly. Here, you can select the start date and time for the selected recurrence type.
