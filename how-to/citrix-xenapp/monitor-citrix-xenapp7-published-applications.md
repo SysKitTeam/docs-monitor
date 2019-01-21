@@ -32,7 +32,9 @@ In order for Citrix XenApp 7.x Published Application monitoring to be successful
 5. Enter the name of the **service user** that you would like to add and click **OK**. After you added the service user, click **OK** and then **Next**.
 6. In the next step of the wizard, choose the **Read Only Administrator** privilege level for the newly added administrator.
 
-   > **Please note!** You need to perform this on **all the Delivery Controller servers** in your environment.
+{% hint style="info" %}
+You need to perform this on **all the Delivery Controller servers** in your environment.
+{% endhint %}
 
 After you adjust the privileges on all the Delivery Controller servers, your Citrix environment will be configured for the SysKit Monitor Published Applications monitoring.
 

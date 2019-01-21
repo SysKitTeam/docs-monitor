@@ -20,9 +20,13 @@ The **Performance Counters** column in the computers grid view displays the perf
 * **Unknown** – SysKit Monitor has not yet collected the performance counters for the computer.
 * **Disabled** – SysKit Monitor is not collecting the performance counters.
 
-> **Please note!** Performance Counters are being collected only for the enabled computers.
->
-> **Please note!** The Performance Counters Extraction is automatically enabled. If you disable the Performance Counters Extraction, you will not be able to view any data on the Performance Reports.
+{% hint style="warning" %}
+Performance Counters are being collected only for the enabled computers.
+{% endhint %}
+
+{% hint style="warning" %}
+The Performance Counters Extraction is automatically enabled. If you disable the Performance Counters Extraction, you will not be able to view any data on the Performance Reports.
+{% endhint %}
 
 The **details panel** below the grid view, under the **Settings** section, displays additional information about the last time Performance Counters data was collected on a selected computer.
 
