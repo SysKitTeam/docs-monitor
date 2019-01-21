@@ -13,18 +13,18 @@ We’ll break down how you can create report and management scripts in SysKit Mo
 
 1. In Step 1, specify the PowerShell script type you wish to create. The wizard offers two different script types: **PowerShell Report** and **PowerShell Management Task**.
 
-    {% hint style="info" %}
-    The first option can be useful for retrieving a wealth of information about a server’s configuration, usage, or performance. The second option is useful for performing various administration and maintenance jobs.
-    {% endhint %}
+{% hint style="info" %}
+  The first option can be useful for retrieving a wealth of information about a server’s configuration, usage, or performance. The second option is useful for performing various administration and maintenance jobs.
+{% endhint %}
 
 2. In Step 2, simply enter the PowerShell script name and select the desired category. Note that based on the script type you have selected in the previous step, your script will be added to the corresponding category. The report category option will help you categorize your reports and management tasks so you can manage large amounts of scripts more easily.  
    For more advanced scripts, you can also enable the **CredSSP authentication** to avoid double-hop problems. In cases where a PowerShell script may need to access resources outside the remote server machine, the credentials must be delegated to the target machine.  
    _How to enable the CredSSP authentication_  
    If the entered PS script requires the credentials to be delegated and you have enabled the **CredSSP** option, the error dialog will be shown upon validation of the script. It will guide you on how to switch to **custom credentials**. Just click the **Configure** button in this dialog, and the **Edit domain** dialog will be shown. Select the **Specify credentials** option and re-enter the service credentials.
 
-    {% hint style="info" %}
-    It is recommended that you enable the __Use credentials only for PowerShell__ option as the custom credentials are meant for authentication when monitoring computers from untrusted domains.
-    {% endhint %}
+{% hint style="info" %}
+  It is recommended that you enable the __Use credentials only for PowerShell__ option as the custom credentials are meant for authentication when monitoring computers from untrusted domains.
+{% endhint %}
 
    See the [Configuring CredSSP for use with PowerShell](../../troubleshooting/credssp-for-use-with-powershell.md) article to learn more on how to delegate the user’s credentials through SysKit Monitor.
 
@@ -33,9 +33,9 @@ We’ll break down how you can create report and management scripts in SysKit Mo
    **All referenced modules will also be validated in both cases** before the wizard returns and displays the results of the script and modules you have run.  
    After entering script, click Next&gt; to see the results.
 
-    {% hint style="warning" %}
-    If you have troubles with writing script, or you want to know more about PowerShell rules and limitations, please read this article.
-    {% endhint %}
+{% hint style="warning" %}
+  If you have troubles with writing script, or you want to know more about PowerShell rules and limitations, please read this article.
+{% endhint %}
 
    See the article on the [PowerShell script modules](import-and-use-ps-script-modules.md) to learn more how and when to import and use script modules.
 
