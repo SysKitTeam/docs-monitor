@@ -21,7 +21,9 @@ If there are no modules referenced to the current script, click the **Manage mod
 If there are no imported modules, the list will be empty and you will have the option to **Import** modules from your local or network drive.  
 After you select and import the desired modules with .ps1 and .psm1 extensions, they will appear in the modules list.
 
-> **Please note!** All PowerShell modules selected for import will be validated for syntax errors before they can be used and referenced to scripts.
+{% hint style="warning" %}
+All PowerShell modules selected for import will be validated for syntax errors before they can be used and referenced to scripts.
+{% endhint %}
 
 The following options are available:
 
