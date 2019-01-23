@@ -100,6 +100,7 @@ The **Administration – Computers** ribbon page also contains options for manag
 See the [Performance Counters Management](../../how-to/performance-counters-management.md) article to learn more about managing performance counters.
 
 {% hint style="warning" %}
+**Please note!**  
 In the trial version the maximum number of monitored computers is **limited to 20**.
 {% endhint %}
 
