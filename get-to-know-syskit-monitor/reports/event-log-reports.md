@@ -20,6 +20,7 @@ These include:
 SysKit Monitor allows you to monitor all user activities performed on the file system. The Event Log reports will show you all read, write, append and delete operations performed on selected files and folders. Administrators can select the paths they want to monitor as well as file types that will be included in these reports. This kind of reports also include Blocked IP Addresses report.
 
 {% hint style="warning" %}
+**Please note!**  
 In order to see the Event Log Reports data it is necessary to configure [Extract Event Log](../backstage-screen/configuration/options.md#extract-event-log) system job. Report data will be available after the Event Log system job execution.
 {% endhint %}
 
@@ -56,6 +57,7 @@ The next option that needs to be enabled for this feature’s good performance i
 After every Event Log system job run, each IP address that had more than or exactly X failed attempts will be blocked for Y hours. You will be able to see the malicious IP addresses in the Block IP Addresses report. \(In this case after the 5 failed logon attempts, malicious IP address will be blocked for the next 24 hours.\)
 
 {% hint style="warning" %}
+**Please note!**  
 If you are having problem seeing this report check if you have properly [configured SysKit Monitor server](../../how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to support this feature.
 {% endhint %}
 
