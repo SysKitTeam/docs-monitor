@@ -27,6 +27,7 @@ The **Performance Dashboard** displays data about the status of core system reso
 **Performance counter values** on the dashboard **change colors** depending on the defined thresholds, and the time period spent above these thresholds, which are configured through the [Monitoring Templates ](../../administration/monitoring-templates.md)category on the Administration tab. When a cell is painted red \(or yellow\), it means that a threshold has been crossed for the associated performance counter. Red indicates a critical threshold, while yellow indicates a warning threshold.
 
 {% hint style="warning" %}
+**Please note!**  
 Values for Disk and Network performance counters are displayed for the **most critical** Disk and Network Adapter on each computer.
 {% endhint %}
 
