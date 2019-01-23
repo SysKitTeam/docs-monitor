@@ -71,7 +71,8 @@ In SysKit Monitor, the **Customer Experience Improvement Program** is, by defaul
 When you exit the SysKit Monitor application, we gather the minimum amount of data about feature usage to see which SysKit Monitor features our customers use the most, so we can make them even better.
 
 {% hint style="warning" %}
-Please note that the data about feature usage gathered in Customer Experience Improvement Program does not include the content of your reports. Find out more about our [privacy policy](https://www.syskit.com/privacy-policy/).
+**Please note!**  
+The data about feature usage gathered in Customer Experience Improvement Program does not include the content of your reports. Find out more about our [privacy policy](https://www.syskit.com/privacy-policy/).
 {% endhint %}
 
 ## Check for Updates
