@@ -16,6 +16,7 @@ The Standard edition comes with a predefined, basic set of User and Application 
 This edition can be used with a LocalDB or SQL Server as the database backend.
 
 {% hint style="warning" %}
+**Please note!**  
 If you are using a **LocalDB database**, we recommend that you have at least 10 and no more than 20 monitored servers depending on your server environment. If you wish to monitor more than 20 servers, please use the SQL Server database.
 {% endhint %}
 
