@@ -12,6 +12,7 @@ date: 23/5/207
 SysKit Monitor database, application settings and data will be conserved in the upgrade process.
 
 {% hint style="warning" %}
+**Please note!**  
 We recommend you to perform the database backup before proceeding with the upgrade process.
 {% endhint %}
 
@@ -24,6 +25,7 @@ We recommend you to perform the database backup before proceeding with the upgra
    If you decide to unselect this check box, you will have to go through all the steps in the [Configuration Wizard](configuration-wizard/configure-monitor.md), including entering the database server name and service account information.
 
 {% hint style="warning" %}
+**Please note!**  
 SysKit Monitor requires configuration with a dedicated [Service Account](../requirements/user-permission-requirements.md), so you will be prompted to enter the password for such an account.
 {% endhint %}
 
