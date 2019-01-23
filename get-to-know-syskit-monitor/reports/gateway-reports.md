@@ -18,6 +18,7 @@ Currently available reports are:
 * **Current Connections** – displays the current user connections to the computers made via RD Gateway.
 
 {% hint style="warning" %}
+**Please note!**  
 The Current Connections report is a real time report.
 {% endhint %}
 
@@ -26,6 +27,7 @@ The Current Connections report is a real time report.
 * **Client IP Addresses and Targets** – shows the source IP address for each user that connected via RD Gateway. When combined with a computer filter, you can pinpoint the exact computer a user had connected to.
 
 {% hint style="warning" %}
+**Please note!**  
 In order to see the Gateway Reports it is necessary to have at least one RD Gateway server added to monitoring.
 {% endhint %}
 
