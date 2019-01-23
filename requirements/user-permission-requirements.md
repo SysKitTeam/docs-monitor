@@ -15,6 +15,7 @@ Please read this article before choosing your service account.
 You can configure SysKit Monitor to run under designated domain account or local user on a particular computer. When prompted for the Service Account under **SysKit Monitor Service credentials**, enter a dedicated **service user**. It must have the proper permission to collect the required activity data and proper privileges to store data to your database.
 
 {% hint style="warning" %}
+**Please note!**  
 As a best practice, we recommend setting a service user that is in the Adminstrators or Domain Admins group.
 {% endhint %}
 
@@ -32,6 +33,7 @@ This is the **recommended** method for most scenarios.
 There are two ways to add a service user to the Local Administrators security group. You can configure this [manually](../how-to/service-accounts/add-service-user-manually.md) or via [Group Policy](../how-to/service-accounts/add-service-user-group-policy.md).
 
 {% hint style="warning" %}
+**Please note!**  
 If the software is installed on a non-domain joined machine, the service account name should be entered in the following form: **machine\_name\username**.
 {% endhint %}
 
