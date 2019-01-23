@@ -48,6 +48,7 @@ A small but very important item to note here is the **chart tooltip**. The toolt
 Use the **Date Range filter** to set date boundaries on your performance data. You can select any day, week, or month or a custom date range.
 
 {% hint style="warning" %}
+**Please note!**  
 You will not be able see any performance data outside 30 days, unless you change the Performance Counters [Data Retention](../../backstage-screen/configuration/options.md#data-retention) settings. The default is set to delete performance counters data older than 30 days.
 {% endhint %}
 
