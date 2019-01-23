@@ -28,7 +28,7 @@ This tutorial will provide everything you need to know about these great feature
 * Why are my Windows Servers painted light green on the Performance Dashboard?
 * Where can I find more detailed history reports for my servers?
 
-The [Performance Dashboard](../get-to-know-syskit-monitor/backstage-screen/dashboards/performance-dashboard.md) displays data about the status of core system resources, such as **CPU**, **Memory usage**, **Disk performance** \(Disk Queue, Disk Read, Disk Write, and Disk Transfers\), and **Network utilization** \(Sent and Received\). You can also view real-time User and Process counts for all computers.
+The [Performance Dashboard](../get-to-know-syskit-monitor/dashboards/performance-dashboard.md) displays data about the status of core system resources, such as **CPU**, **Memory usage**, **Disk performance** \(Disk Queue, Disk Read, Disk Write, and Disk Transfers\), and **Network utilization** \(Sent and Received\). You can also view real-time User and Process counts for all computers.
 
 If you want to access more detailed information about a particular computer, the [Overview report](../get-to-know-syskit-monitor/reports/performance-reports/computer-performance.md), with its out-of-the-box charts and threshold colors, is a great way to monitor the overall computer performance over the last 15 minutes. This report will also show you which processes are consuming the most CPU time on the selected computer.
 

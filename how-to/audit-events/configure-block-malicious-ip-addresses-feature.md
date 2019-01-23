@@ -18,6 +18,7 @@ In case you notice that IP addresses are not being reported in the SysKit Monito
 3. In the **RDP-Tcp Properties** dialog, choose the General tab and change the **Security Layer** setting to the **RDP Security Layer**.
 
 {% hint style="warning" %}
+**Please note!**  
 In case this security setting is configured to Negotiate, Windows server will always use the SSL \(TLS 1.0\) security layer and IP addresses will not be fetched.
 {% endhint %}
 
@@ -26,6 +27,7 @@ In case this security setting is configured to Negotiate, Windows server will al
 5. Click **Apply** and **OK** to finish.
 
 {% hint style="warning" %}
+**Please note!**  
 Next two steps should be performed on every monitored server!
 {% endhint %}
 

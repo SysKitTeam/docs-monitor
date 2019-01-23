@@ -36,6 +36,7 @@ If you select Concurrent Users per Day, you will see the usage of the farm for e
 4. UAC will prompt you to run as admin, and SysKit Monitor will start initializing.
 
 {% hint style="warning" %}
+**Please note!**  
 You are required to create a shortcut directly from the file in the installation directory, not from the shortcut in the Start menu.
 {% endhint %}
 
@@ -74,7 +75,8 @@ System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM cla
 This particular issue requires Internet Information Services \(IIS\) to be reinstalled. 
 
 {% hint style="warning" %}
-Please note that you are not advised to follow these instructions if you have other web instances installed on server besides the SysKit Monitor Web Application. In that case, we recommend you to contact our support team.
+**Please note!**  
+You are not advised to follow these instructions if you have other web instances installed on server besides the SysKit Monitor Web Application. In that case, we recommend you to contact our support team.
 {% endhint %}
 
 To fix the problem follow this steps:

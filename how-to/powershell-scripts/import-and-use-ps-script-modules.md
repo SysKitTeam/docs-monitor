@@ -22,6 +22,7 @@ If there are no imported modules, the list will be empty and you will have the o
 After you select and import the desired modules with .ps1 and .psm1 extensions, they will appear in the modules list.
 
 {% hint style="warning" %}
+**Please note!**  
 All PowerShell modules selected for import will be validated for syntax errors before they can be used and referenced to scripts.
 {% endhint %}
 

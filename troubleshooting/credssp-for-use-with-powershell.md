@@ -20,6 +20,7 @@ For example, when the data from SharePoint server are retrieved and a dedicated 
 Use the following cmdlet to enable CredSSP on the client by specifying Client in the Role parameter.
 
 {% hint style="warning" %}
+**Please note!**  
 The command must be executed on the **application server where SysKit Monitor is installed**, and **for** the **remote server\(s\) where SysKit Monitor is executing the script**.
 {% endhint %}
 
@@ -28,6 +29,7 @@ The command must be executed on the **application server where SysKit Monitor is
 This policy setting allows the client to delegate explicit credentials to a remote server when server authentication is achieved. Credentials can be delegated to: **one**, **multiple** or **all** servers in a domain.
 
 {% hint style="warning" %}
+**Please note!**  
 If you want to tighten the security risk, instead of an asterisk, it is recommended to enter the FQDN of the remote server\(s\) where SysKit Monitor is executing the script.
 {% endhint %}
 

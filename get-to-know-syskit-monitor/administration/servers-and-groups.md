@@ -15,7 +15,7 @@ See the [Monitoring Templates](monitoring-templates.md) article to learn how to 
 
 * **Add** – allows you to add new computers to monitoring.
 * **Edit** – enables you to update the operating system and computer type and define session thresholds for the selected computer\(s\).  
-  You can **define warning and critical session thresholds**, which will then be displayed on the [Sessions Dashboard](../backstage-screen/dashboards/sessions-dashboard.md). Session thresholds help you visualize the current statuses of your computers.  
+  You can **define warning and critical session thresholds**, which will then be displayed on the [Sessions Dashboard](../dashboards/sessions-dashboard.md). Session thresholds help you visualize the current statuses of your computers.  
   There are **2 visual color indicators** for computers’ sessions:
 
   * **Yellow** – online computer that has reached an alarming number of users \(e.g. 51 users online, the warning threshold is 50\)
@@ -78,7 +78,7 @@ Use the Administration ribbon page to change computer settings or take actions:
 
 * **Add** – allows you to add new computers to monitoring.
 * **Edit** – enables you to update the operating system and computer type and define session thresholds for the selected computer\(s\).  
-  You can **define warning and critical session thresholds**, which will then be displayed on the [Sessions Dashboard](../backstage-screen/dashboards/sessions-dashboard.md). Session thresholds help you visualize the current statuses of your computers.  
+  You can **define warning and critical session thresholds**, which will then be displayed on the [Sessions Dashboard](../dashboards/sessions-dashboard.md). Session thresholds help you visualize the current statuses of your computers.  
   There are **2 visual color indicators** for computers’ sessions:
 
   * **Yellow** – online computer that has reached an alarming number of users \(e.g. 51 users online, the warning threshold is 50\)

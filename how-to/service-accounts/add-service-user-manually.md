@@ -18,6 +18,7 @@ date: 30/6/2017
    After adding the service user, the Administrators security group will have the members listed similarly to the following: Administrator, domain\Domain Admins.
 
 {% hint style="warning" %}
+**Please note!**  
 You need to repeat this procedure for every server you plan to monitor with the SysKit Monitor. If you plan to monitor multiple servers, we recommend adding the SysKit Monitor service user via Group Policy.
 {% endhint %}
 

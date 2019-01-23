@@ -19,6 +19,7 @@ By default, access to the instance of LocalDB is **limited to its owner**. The d
 If you are having connection problems and getting errors while accessing the LocalDB instance, we recommend that you **delete the instance** owned by the other user and create a new instance under a different user.
 
 {% hint style="warning" %}
+**Please note!**  
 If you want to use a different user account, the existing database cannot be used!
 {% endhint %}
 

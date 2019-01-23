@@ -22,6 +22,7 @@ You can add the service user to the local Administrators Security Group [manuall
 Our software requires to **Allow Remote RPC traffic** in order to get the data from the client workstations. After you enable this you will be able to connect and capture data from the **workstations**.
 
 {% hint style="warning" %}
+**Please note!**  
 This is required only in case you need to monitor workstations.
 {% endhint %}
 

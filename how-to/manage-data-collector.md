@@ -8,6 +8,7 @@ date: 29/06/17
 # Manage SysKit Monitor Data Collector
 
 {% hint style="warning" %}
+**Please note!**  
 If you have more than 100 servers, or geographically distributed servers, it is recommended that you use SysKit Monitor Data Collector. Please contact our support team, which will provide you with detailed instructions and a setup file.
 {% endhint %}
 
@@ -17,6 +18,7 @@ The Manage Data Collectors dialog contains the list of data collectors installed
 Here you can see the Data Collector name, its status, when it was last seen online, and the Data Collector service version.
 
 {% hint style="warning" %}
+**Please note!**  
 The Data Collector marked as **default** cannot be disabled nor deleted, as it is the main collecting service.
 {% endhint %}
 
@@ -48,6 +50,7 @@ In Manual – Computers mode, you will have the Computers filter available for e
 In Manual – Organizational Units mode, you will have the OU filter available for each Data Collector.
 
 {% hint style="warning" %}
+**Please note!**  
 Data Collectors cannot gather data for the same computers or OUs! A computer or OU can be covered by one Data Collector only. Duplicate selection of computers or OUs on multiple Data Collectors will be ignored and assigned to the last selected Data Collector.
 {% endhint %}
 

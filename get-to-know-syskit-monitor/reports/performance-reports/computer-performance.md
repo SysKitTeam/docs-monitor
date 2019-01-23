@@ -9,7 +9,7 @@ date: 25/5/2017
 
 # Computer Performance
 
-This report category also includes the [Performance Dashboard](../../backstage-screen/dashboards/performance-dashboard.md), which is described under Dashboards category.
+This report category also includes the [Performance Dashboard](../../dashboards/performance-dashboard.md), which is described under Dashboards category.
 
 ## Overview
 

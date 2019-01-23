@@ -34,7 +34,8 @@ If you have selected the **management task** script type in the first step, the 
 After entering script, click Next&gt; to see the results.
 
 {% hint style="warning" %}
-If you have troubles with writing script, or you want to know more about PowerShell rules and limitations, please read this article.
+**Please note!**  
+If you have troubles with writing script, or you want to know more about PowerShell rules and limitations, please read [this article](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6).
 {% endhint %}
 
 See the article on the [PowerShell script modules](import-and-use-ps-script-modules.md) to learn more how and when to import and use script modules.
@@ -42,10 +43,12 @@ See the article on the [PowerShell script modules](import-and-use-ps-script-modu
 4.  In Step 4, if the script and module syntax are valid, the results of the **report script** will be returned in a grid view. Please verify whether the script returned the desired results, then continue to the next step. As mentioned previously, if you are creating a **management script**, your script will only be validated; you will not have this step.
 
 {% hint style="warning" %}
+**Please note!**  
 The approximate size of the query result can wary depending on the entered script purpose. Take into consideration that large query results can significantly increase server resource utilization.
 {% endhint %}
 
 {% hint style="warning" %}
+**Please note!**  
 If an entered PowerShell query is returned without results after validation in PowerShell wizard, it cannot be saved.
 {% endhint %}
 
@@ -57,6 +60,7 @@ Created PowerShell script can be scheduled to run on:
 * Specific computer groups.
 
 {% hint style="warning" %}
+**Please note!**  
 Query results may vary depending on the PowerShell version used on a specific computer.
 {% endhint %}
 

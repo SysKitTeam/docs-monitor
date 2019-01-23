@@ -55,7 +55,7 @@ Another way to define your subscription is to access it through the main report 
 
 ## Step 5: Get to know your dashboard
 
-The [Sessions Dashboard](backstage-screen/dashboards/sessions-dashboard.md) is shown at the start of the SysKit Monitor application. It enables you to see live data, such as the number of sessions in progress, and the number of currently running sessions, processes, and computer states.
+The [Sessions Dashboard](dashboards/sessions-dashboard.md) is shown at the start of the SysKit Monitor application. It enables you to see live data, such as the number of sessions in progress, and the number of currently running sessions, processes, and computer states.
 
 You can also [create your own dashboards](../how-to/dashboards/create-custom-dashboard.md) by accessing **My Dashboards** in the Dashboard panel and selecting **New** from the ribbon.
 

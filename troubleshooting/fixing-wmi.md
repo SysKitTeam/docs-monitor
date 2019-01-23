@@ -23,12 +23,14 @@ To resolve the issue, the following actions should be performed on the **destina
 2. If repository is found to be **inconsistent**: For Windows Server 2008 and newer, run the Command Prompt as an administrator and enter: **Winmgmt /salvagerepository**.
 
 {% hint style="warning" %}
+**Please note!**  
 This command will take the content of the inconsistent repository and merge it into the rebuilt repository if it is readable.
 {% endhint %}
 
 If the above procedure does not work, then run: **Winmgmt /resetrepository**.
 
 {% hint style="warning" %}
+**Please note!**  
 This will reset repository to the initial state when the OS was first installed.
 {% endhint %}
 
