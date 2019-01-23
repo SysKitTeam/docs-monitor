@@ -24,6 +24,7 @@ Values and charts on the Overview report **change colors** depending on the defi
 **Every chart and value in this report is clickable**, which makes it very useful as an initial step in identifying performance bottlenecks and for further detailed analysis. When you click on a chart, the resulting drilldown will capture the Filter values and take you to a **more detailed history report**.
 
 {% hint style="warning" %}
+**Please note!**   
 This report displays data for a single computer only.
 {% endhint %}
 
@@ -81,6 +82,7 @@ A small but very important item to note here is the **tooltip**. The tooltip dis
 Use the **Date Range filter** to set date boundaries on your performance data. You can select any day, week, or month or a custom date range.
 
 {% hint style="warning" %}
+**Please note!**  
 You will not be able see any performance data outside 30 days unless you change the Performance Counters [Data Retention](../../backstage-screen/configuration/options.md#data-retention) settings. The default is set to delete performance counters data older than 30 days.
 {% endhint %}
 
@@ -121,6 +123,7 @@ The maximum number of different counters that can be displayed at the same time 
 You can use the search bar to filter computers and performance counter components \(e.g., categories, counters, and instances\) by their names. Checking or unchecking a specific performance counter status in the status filter will display or hide all the counters and instances that correspond to that status.
 
 {% hint style="warning" %}
+**Please note!**  
 The Detailed Analysis report will display custom performance data only if one or more [Monitoring Templates](../../administration/monitoring-templates.md) has been created and assigned to specific computers or computer groups.
 {% endhint %}
 
