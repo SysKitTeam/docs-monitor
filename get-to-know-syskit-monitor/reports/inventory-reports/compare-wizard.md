@@ -106,6 +106,7 @@ In this step you need to choose the **Source** and **Target Views** to compare d
 * In Step 4, you will need to **define mappings** for different computers within the **views**. For example, if you know that server A, from farm A and server B from farm B must be similar, you can map the FQDN names so every difference related to the name of the server won’t be displayed on the report.
 
 {% hint style="warning" %}
+**Please note!**  
 The current version of SysKit Monitor supports only **one-to-one** server mapping!
 {% endhint %}
 

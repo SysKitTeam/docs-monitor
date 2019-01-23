@@ -33,6 +33,7 @@ The software inventory reports provide information about all the software instal
 Also, you can view all the services running on local and remote computers and a list of certificates in the personal store. This may be particularly useful when you’re interested in the validity period, friendly name, thumbprint or an intended purpose of a piece of software.
 
 {% hint style="warning" %}
+**Please note!**  
 The values shown on the Services report are, by default, collected weekly within the Inventory Snapshots. However, they are real time in the Windows Services report in the Custom Reports section.
 {% endhint %}
 
