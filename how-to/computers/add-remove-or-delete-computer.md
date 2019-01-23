@@ -32,7 +32,8 @@ If you have sufficient number of licenses, you can add another computer to monit
 4. The **License Summary** step shows the number of computers that will be added and the remaining licenses. Click **Next &gt;** to proceed.
 5. In the **Adding Computers** step, a computer status check will be performed for a list of selected computers. This functionality will provide you with more information about possible misconfigurations if the load finishes with warnings or errors.
 
-{% hint style="info" %}
+{% hint style="warning" %}
+**Please note!**  
 Your computers will be added regardless of the listed warnings or errors!
 {% endhint %}
 
