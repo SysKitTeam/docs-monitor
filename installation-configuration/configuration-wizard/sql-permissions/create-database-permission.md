@@ -27,6 +27,7 @@ To allow the user running the Configuration Wizard to configure the database and
 7. You will see that the database was successfully created. Click **Finish** to complete the SysKit Monitor configuration.
 
 {% hint style="warning" %}
+**Please note!**  
 If you are using the **SQL authentication** to access the database, make sure to allow this user to login on the specified SQL server, and depending on your scenario, you need to assign the following permissions:
 
 * **Create a new database** – To allow the user using SQL authentication to create a new database, make sure the `dbcreator` role is selected.
