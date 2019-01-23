@@ -19,6 +19,7 @@ SysKit Monitor requires a service account in order to run. We recommend creating
 * This account needs to have the [Logon as a service](../how-to/service-accounts/add-service-user-group-policy.md) privileges.
 
 {% hint style="warning" %}
+**Please note!**  
 As a best practice, we recommend setting a service user that is in the Adminstrators or Domain Admins group.
 {% endhint %}
 
@@ -47,6 +48,7 @@ You need to create an empty database that will be used to store the SysKit Monit
 6. Click **OK** to create a new database.
 
 {% hint style="warning" %}
+**Please note!**  
 The service user that will be used for running the SysKit Monitor Service needs to have **db\_owner** membership assigned on the newly created database. See [SQL Permissions](../installation-configuration/configuration-wizard/sql-permissions/connect-existing-db-privileges.md) to learn more.
 {% endhint %}
 
@@ -61,6 +63,7 @@ SQL Server authentication is used in environments without the Active Directory d
 To use SQL Server authentication instead of Windows authentication please do the following: 1. Connect to the SQL Server using SQL Server Management Studio. 2. Right-click on the **Security** folder, point to **New** and select **Login**. 3. In the new dialog box, select **SQL Server authentication** and in Login name field type a new SQL Server login. 4. Fill in the Password and Confirm password fields.
 
 {% hint style="warning" %}
+**Please note!**  
 You need to remember the login name and password as you will use them to connect to the SQL Server using SQL Server authentication.
 {% endhint %}
 
