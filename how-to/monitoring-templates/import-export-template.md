@@ -17,7 +17,8 @@ When applying the template\(s\) to collect custom performance counters data for 
 
 If one or more Monitoring Templates have been assigned to specific computers or computer groups, the associated performance data will be displayed on the [Detailed Analysis](../../get-to-know-syskit-monitor/reports/performance-reports/computer-performance.md#detailed-analysis) report.
 
-{% hint style="info" %}
+{% hint style="warning" %}
+**Please note!**  
 When you are importing or exporting a monitoring template definition, all its monitoring elements will be imported / exported.
 {% endhint %}
 
