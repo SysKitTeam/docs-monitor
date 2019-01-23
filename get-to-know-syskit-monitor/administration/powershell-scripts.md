@@ -46,16 +46,19 @@ Error results are returned from the target computers in the following cases:
 * If other errors are thrown by Windows PowerShell.
 
 {% hint style="info" %}
-**Tip!** If an executed report or management script has the Status marked **`Error`**, you will be able to see the error message returned from the destination computer by **hovering over the column** marked ‘Error.’ This applies to all PowerShell Scripts.
+**Tip!**   
+If an executed report or management script has the Status marked **`Error`**, you will be able to see the error message returned from the destination computer by **hovering over the column** marked ‘Error.’ This applies to all PowerShell Scripts.
 {% endhint %}
 
 {% hint style="info" %}
-**Tip!** If run **after another script** functionality is enabled and an error occurs in the previous script, execution of all following scripts will not be performed.
+**Tip!**   
+If run **after another script** functionality is enabled and an error occurs in the previous script, execution of all following scripts will not be performed.
 {% endhint %}
 
 All PowerShell Scripts available on the Administration tab have the **filter panel** available to the right. It contains three filter types—**Date Range, Computer Groups,** and **Computer**—so you can filter your data more easily. Use the **Date Range** filter to select any day, week, month, or custom date range.
 
 {% hint style="warning" %}
+**Please note!**  
 You will not be able to see any PowerShell script data outside 30 days, unless you change the [PowerShell Scripts Data Retention](../backstage-screen/configuration/options.md#data-retention) settings. The default is set to delete PowerShell script data older than 30 days.
 {% endhint %}
 
@@ -91,6 +94,7 @@ Ribbon provides a set of basic functions for managing the **created or imported*
 If you click the **Status bar** at the lower left side of the screen, information about currently running system jobs and PowerShell scripts will be shown. You can use this progress bar to check for the PowerShell scripts’ **execution statuses** and determine whether each script is still in the **queue**, it’s **being executed** or it was recently **executed**.
 
 {% hint style="warning" %}
+**Please note!**  
 The PowerShell status bar will always show execution history for the last five minutes.
 {% endhint %}
 
