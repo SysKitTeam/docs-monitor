@@ -22,13 +22,15 @@ This section describes general options for configuring report and dashboard data
 * **Enable public IP fetching** enables you to get the IP address of the client if he is connecting directly to the server via WAN. If server is sitting on the public IP and your clients are connecting from home or from remote locations, you can monitor the public IP addresses of all the clients that are connecting to your environment.
 
 {% hint style="warning" %}
+**Please note!**  
 Enabling public IP fetching may decrease the network performance. Please consult with our support team for additional information.
 {% endhint %}
 
 * **Anonymous activity tracking** means that activities will still be tracked but you will not be able to see the real usernames and profiles. Data already stored will also be converted.
 
 {% hint style="warning" %}
- Use this option wisely, in case you proceed with anonymization you will not be able to revert this process!
+**Please note!**  
+Use this option wisely, in case you proceed with anonymization you will not be able to revert this process!
 {% endhint %}
 
 * **Use Username instead Full Name** changes all full names in the reports to the corresponding usernames.
@@ -131,6 +133,7 @@ In the **Add/Edit Domain** dialog, you can **manage** and **configure** the foll
 * Modify the credentials for the selected domain.
 
 {% hint style="warning" %}
+**Please note!**  
 If the trust relationship was established with newly created or existing domains, they will be discovered and shown in the AD integration dialog after the AD integration system job execution.
 {% endhint %}
 
@@ -178,7 +181,8 @@ This section describes how to configure the **Aggregation** system job.
 This feature is used for loading balanced Citrix farm environments. If you are not using the farm environment, do not enable this option. If you have issues with farm reports please use the Reset button to reset states in the SysKit Monitor. 
 
 {% hint style="warning" %}
-Please note that this will not erase your data, your data will be recalculated from the beginning. Idle states shorter than X minutes will not be included.
+**Please note!**  
+This will not erase your data, your data will be recalculated from the beginning. Idle states shorter than X minutes will not be included.
 {% endhint %}
 
 ### Aggregation Settings
@@ -214,10 +218,12 @@ Here you can choose which Inventory data SysKit Monitor will collect **when taki
 * Enable the execution of PowerShell scripts on the defined computers or computer groups. This means the created PowerShell scripts will be **scheduled to run** on every Inventory Snapshots system job triggered.
 
 {% hint style="warning" %}
+**Please note!**  
 When Printers option is enabled, user printer information will be collected on every service triggering along with the other user options. This can slow down data gathering and application performance. We strongly recommend not to enable this feature unless it is necessarily needed.
 {% endhint %}
 
 {% hint style="warning" %}
+**Please note!**  
 When Available and Installed Updates options are enabled, the software information will be collected on every service triggering. This can slow down data gathering and application performance.
 {% endhint %}
 
