@@ -14,6 +14,7 @@ Once the installation is completed, the Configuration Wizard will start. If the 
 1. In Step 1, you need to choose whether to **create a new** or to **use an existing** database. Click **Next &gt;** to proceed.
 
 {% hint style="warning" %}
+**Please note!**  
 In case you already have a SysKit Monitor database, choose the **Use existing database** option.
 {% endhint %}
 
@@ -21,6 +22,7 @@ In case you already have a SysKit Monitor database, choose the **Use existing da
 You can also browse for existing local and network SQL Servers by clicking on the **Browse** button next to the server field. For Database name, type in the name of the database you would like to use.
 
 {% hint style="warning" %}
+**Please note!**  
 If you chose **Create new database** and checked the **Overwrite existing database** option in the previous step, if there is already a database with the same name, data in the original database will be overwritten.  
 If you chose **Use existing database** in the previous step, the installation will try to connect to the existing database.
 {% endhint %}
@@ -37,10 +39,12 @@ If you plan to use the SysKit Monitor in a domain environment with an in-house S
 3. ****In Step 3, you need to enter information about the Service Account that will be used for running the SysKit Monitor Service. This account will be used to gather data from your server\(s\). Enter the custom user account in the following format: **DOMAIN\USERNAME** \(or **MACHINE\_NAME\USERNAME** for workgroup scenarios\).
 
 {% hint style="warning" %}
+**Please note!**  
 The service user must be in the local admin group to proceed with this step. For more information about the service account configuration, read the [Add Service User to a Local Administrators Group via Group Policy](../../how-to/service-accounts/add-service-user-group-policy.md) article.
 {% endhint %}
 
 {% hint style="warning" %}
+**Please note!**  
 If the software is installed on a non-domain joined machine, the service account name should be entered in the following form: **machine\_name\username**.
 {% endhint %}
 
