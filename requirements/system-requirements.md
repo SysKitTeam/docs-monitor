@@ -21,6 +21,7 @@ These are minimum hardware requirements for deploying the **SysKit Monitor**, in
 * **Display:** 1366 × 768
 
 {% hint style="warning" %}
+**Please note!**   
 If you are using the SysKit Monitor Web application, it is necessary to have at least 4 GB of RAM.
 {% endhint %}
 
@@ -34,6 +35,7 @@ These are minimum hardware requirements for deploying the **SQL Database** for t
 * **Display:** 1366 × 768
 
 {% hint style="warning" %}
+**Please note!**  
 Under normal conditions, the application will take around 40MB of data per server each month for a server that hosts approximately 50 users.
 {% endhint %}
 
