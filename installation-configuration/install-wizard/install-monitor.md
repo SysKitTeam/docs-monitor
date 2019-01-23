@@ -36,7 +36,8 @@ To install the SysKit Monitor, proceed with the following steps:
 Once the installation is completed, the Configuration Wizard will start. If the wizard does not start automatically after installation, you can run it manually from: **Start &gt; All Programs &gt; SysKit Monitor &gt; Configuration Wizard**.
 
 {% hint style="warning" %}
- The SysKit Monitor web application can be installed on the same server as the desktop application or on a separate server. If you choose to install the web application separately, please read [this article](../configuration-wizard/configure-monitor.md).
+ **Please note!**  
+The SysKit Monitor web application can be installed on the same server as the desktop application or on a separate server. If you choose to install the web application separately, please read [this article](../configuration-wizard/configure-monitor.md).
 {% endhint %}
 
 Proceed to: [Configuration Wizard](../configuration-wizard/configure-monitor.md).
