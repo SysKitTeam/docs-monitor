@@ -22,7 +22,7 @@ We’ll highlight the features and some of the key improvements. To dig out more
 [Click here to download the new release.](https://www.syskit.com/products/monitor/download)
 
 Product version: 9.0.0  
-Build number: 2159  
+Build number: 2173  
 Database version: 9.0.0
 
 Release date: Sept 27, 2018
