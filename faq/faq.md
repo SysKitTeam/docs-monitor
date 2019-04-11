@@ -24,7 +24,7 @@ Yes, XenDesktop versions 5.x and higher are supported. All the performance data,
 
 ## Is VMware Horizon \(with View\) supported?
 
-Yes, VMware Horizon \(with View\) is supported with workstations and servers from version 5.x to version 6.x.
+Yes, VMware Horizon \(with View\) is supported with workstations and servers from version 5.x to version 7.x.
 
 ## Do you support third-party application publishing software?
 
