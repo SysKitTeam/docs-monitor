@@ -49,7 +49,7 @@ The SysKit Monitor runs on Windows Server 2008 SP2 or later. We recommend that y
 
 ## Database System
 
-In order to run the SysKit Monitor, you need a database. The SysKit Monitor supports **SQL Server databases only**. You can use the following **SQL Server** editions: **SQL Server 2008 – 2016**, all editions. We advise you to use the latest available SQL Server version and apply all the available Service Packs before installing our application. If you are moving your existing SQL server database to a new SQL server, please follow the instructions in [this article](../how-to/move-database-to-new-server.md).
+In order to run the SysKit Monitor, you need a database. The SysKit Monitor supports **SQL Server databases only**. You can use the following **SQL Server** versions: **SQL Server 2008 – 2016**, all editions. We advise you to use the latest available SQL Server version and apply all the available Service Packs before installing our application. If you are moving your existing SQL server database to a new SQL server, please follow the instructions in [this article](../how-to/move-database-to-new-server.md).
 
 See [SQL Permissions](../installation-configuration/configuration-wizard/sql-permissions/create-sql-login.md) to learn more about SysKit Monitor SQL Server database requirements.
 
