@@ -39,8 +39,6 @@ All Monitoring Template\(s\) that are **assigned to the monitored computer\(s\)*
 **Tip!** In cases where an SQL template has been applied to a server with **named SQL Server instances installed**, no data will be collected for those instances. You need to create a new template by adding performance counters for each instance you wish to monitor, while following the naming convention.
 {% endhint %}
 
-> **Tip!** In cases where an SQL template has been applied to a server with **named SQL Server instances installed**, no data will be collected for those instances. You need to create a new template by adding performance counters for each instance you wish to monitor, while following the naming convention.
-
 ### Monitoring Templates Ribbon
 
 Ribbon provides a set of basic functions for managing the **created** monitoring templates.
