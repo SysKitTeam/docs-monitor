@@ -25,8 +25,6 @@ Product version: 9.0.0
 Build number: 2173  
 Database version: 9.0.0
 
-Release date: Sept 27, 2018
-
 ## SysKit’s Features
 
 ### Citrix Virtual Apps and Desktops support

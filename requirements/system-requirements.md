@@ -21,7 +21,7 @@ These are minimum hardware requirements for deploying the **SysKit Monitor**, in
 * **Display:** 1366 × 768
 
 {% hint style="warning" %}
-**Please note!**   
+**Please note!**  
 If you are using the SysKit Monitor Web application, it is necessary to have at least 4 GB of RAM.
 {% endhint %}
 
@@ -56,7 +56,7 @@ See [SQL Permissions](../installation-configuration/configuration-wizard/sql-per
 If you **do not have an SQL Server instance** installed in your server environment, the SysKit Monitor installation will offer to install the **SQL Server Express 2012 LocalDB** \(free license\) automatically.
 
 {% hint style="info" %}
- **LocalDB** is an instance of SQL Server Express that can create and open SQL Server databases. Once LocalDB is installed, the necessary SQL Server infrastructure is automatically created and started, enabling the application to use the database without complex configuration tasks.  
+**LocalDB** is an instance of SQL Server Express that can create and open SQL Server databases. Once LocalDB is installed, the necessary SQL Server infrastructure is automatically created and started, enabling the application to use the database without complex configuration tasks.  
 The system database files for the database are stored in the users’ local AppData path which is normally hidden.  
 For example **C:\Users\user\AppData\Local\SysKit Monitor\SysKit\_database**.  
 User database files are stored where the user designates, typically somewhere in the **C:\Users\user\Documents** folder.
