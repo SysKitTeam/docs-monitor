@@ -21,8 +21,6 @@ Product version: 8.4.0
 Build number: 2119  
 Database version: 8.3.0
 
-Release date: Sept 6, 2017
-
 ## Improvements
 
 * SysKit Monitor now has a new name, logo, and splash screen!
