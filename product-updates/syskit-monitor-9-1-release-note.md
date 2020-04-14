@@ -11,7 +11,7 @@ Database version: 9.0.0
 ### Improvements
 
 * SysKit Monitor will **automatically detect and add the Citrix Delivery Controller** when you add Citrix Virtual Delivery Agents to SysKit Monitor, if gathering of published applications is enabled. Before, it required you to manually add Delivery Controllers to the list of monitored servers to start data collection. 
-* A new column „**State**“ was added to the **Client IP Addresses and Targets** report in the Gateway Reports section to make it easier to distinct if the user has been idle or active at the specified time frame during his session. 
+* A new column „**State**“ was added to the **Client IP Addresses and Targets** report in the Gateway Reports section to distinct more easier if the user has been idle or active at the specified time frame during his session. 
 
 ### Bug fixes
 
