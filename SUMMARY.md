@@ -2,6 +2,7 @@
 
 * [SysKit Monitor](README.md)
 * [Product Updates](product-updates/README.md)
+  * [SysKit Monitor 9.1.0 - Release Note](product-updates/syskit-monitor-9-1-release-note.md)
   * [SysKit Monitor 9 – The monster has awoken!](product-updates/syskit-monitor-9-release-note.md)
   * [SysKit Monitor 8.4.0 - Release Note](product-updates/syskit-monitor-8-4-release-note.md)
   * [SysKit 2012 R2 8.3.0 - Release Note](product-updates/syskit-8-3-release-note.md)
