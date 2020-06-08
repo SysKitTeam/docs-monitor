@@ -33,7 +33,7 @@ The easiest way to perform this is via the group policy. We will create either n
 3. Right click on the newly created policy and click **Edit**.
 4. Group policy management editor will open – navigate to Computer Configuration &gt; Preferences &gt; Windows Settings &gt; Registry.
 5. Now right click on the Registry &gt; New &gt; Registry Item.
-6. In the key path navigate to **SYSTEM\CurrentControlSet\Control\Terminal Server** and set **Value data** to **1** and the **Base** to **Decimal**.
+6. In the key path, navigate to **HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server**, select **AllowRemoteRPC** key, and set **Value data** to **1** and the **Base** to **Decimal**.
 7. Confirm everything and that’s it, now SysKit Monitor is able to get the data from workstations as well.
 
 What you need to do now is to go back to the SysKit Monitor and add extra workstations you want to monitor.
