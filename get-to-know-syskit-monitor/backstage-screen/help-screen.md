@@ -1,10 +1,5 @@
 ---
-title: Help Screen
-description: >-
-  This article describes the Backstage Help screen, which has additional help
-  and support information for SysKit Monitor.
-author: Andrea Budisa
-date: 29/6/2017
+description: This article describes the Backstage Help screen, which has additional help and support information for SysKit Monitor.
 ---
 
 # Help Screen

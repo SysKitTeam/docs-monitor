@@ -1,10 +1,5 @@
 ---
-title: Download Templates
-description: >-
-  This article describes how to download and import the predefined Monitoring
-  Templates from SysKit’s repository.
-author: Andrea Budisa
-date: 21/6/2017
+description: This article describes how to download and import the predefined Monitoring Templates from SysKit’s repository.
 ---
 
 # Download Templates

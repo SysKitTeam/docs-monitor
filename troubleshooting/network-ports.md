@@ -1,8 +1,5 @@
 ---
-title: Network Ports
-author: Andrea Budisa
 description: This articles outlines the network ports required for gathering the data.
-date: 29/06/17
 ---
 
 # Network Ports

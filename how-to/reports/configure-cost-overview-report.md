@@ -1,10 +1,5 @@
 ---
-title: Configure Resource Cost Overview Report
-description: >-
-  This article explains how to define the Hourly Wage of users connecting to the
-  computers.
-author: Andrea Budisa
-date: 29/6/2017
+description: This article explains how to define the Hourly Wage of users connecting to the computers.
 ---
 
 # Configure Cost Overview Report

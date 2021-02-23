@@ -1,10 +1,5 @@
 ---
-title: Upgrade to the Latest Version
-description: >-
-  This article explains how to upgrade the SysKit Monitor to the latest major
-  version.
-author: Andrea Budisa
-date: 23/5/207
+description: This article explains how to upgrade the SysKit Monitor to the latest major version.
 ---
 
 # Upgrade to the Latest Version

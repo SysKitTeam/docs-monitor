@@ -1,10 +1,5 @@
 ---
-title: Application Reports
-description: >-
-  Application Reports provide information about applications being used on
-  monitored servers.
-author: Andrea Budisa
-date: 25/5/2017
+description: Application Reports provide information about applications being used on monitored servers.
 ---
 
 # Application Reports

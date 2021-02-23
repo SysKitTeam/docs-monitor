@@ -1,11 +1,5 @@
 ---
-title: Add Service User to Local Administrators Group via Group Policy
-description: >-
-  This article provides guidelines on how to add the SysKit Monitor service user
-  to the Local Administrators security group via Group Policy on each server you
-  plan to monitor.
-author: Andrea Budisa
-date: 30/6/2017
+description: This article provides guidelines on how to add the SysKit Monitor service user to the Local Administrators security group via Group Policy on each server you plan to monitor.
 ---
 
 # Add Service User to Local Administrators Group via Group Policy

@@ -1,10 +1,5 @@
 ---
-title: SysKit Monitor 8.4.0 - Release Note
-description: >-
-  This article describes a couple of improvements and bug fixes delivered in
-  SysKit Monitor – 8.4.0.
-author: Andrea Budisa
-date: 26/7/2017
+description: This article describes a couple of improvements and bug fixes delivered in SysKit Monitor – 8.4.0.
 ---
 
 # SysKit Monitor 8.4.0 - Release Note

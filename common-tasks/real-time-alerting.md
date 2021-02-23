@@ -1,11 +1,5 @@
 ---
-title: Real-time Alerting
-description: >-
-  This article discusses intelligent alerting and how you can set up different
-  notifications with SysKit Monitor about the activities and issues in your
-  environment.
-author: Andrea Budisa
-date: 28/6/2017
+description: This article discusses intelligent alerting and how you can set up different notifications with SysKit Monitor about the activities and issues in your environment.
 ---
 
 # Real Time Alerting

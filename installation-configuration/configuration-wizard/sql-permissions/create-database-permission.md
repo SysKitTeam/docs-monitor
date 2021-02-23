@@ -1,11 +1,5 @@
 ---
-title: Create a SQL Server Database
-desription: >-
-  This article will guide you through the steps you need to perform to allow the
-  user running the Configuration Wizard to configure the database and the
-  service account.
-author: Andrea Budisa
-date: 30/5/2017
+description: This article will guide you through the steps you need to perform to allow the user running the Configuration Wizard to configure the database and the service account.
 ---
 
 # Create a SQL Server Database

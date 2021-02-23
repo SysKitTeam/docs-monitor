@@ -1,11 +1,5 @@
 ---
-title: Manage Data Gathering
-description: >-
-  This article explains how you can manage data gathering in SysKit Monitor
-  which includes Users and Groups, Applications, File Paths, Licenses, Subnets,
-  System Jobs, Subscriptions, and Alerts.
-author: Andrea Budisa
-date: 29/6/2017
+description: This article explains how you can manage data gathering in SysKit Monitor which includes Users and Groups, Applications, File Paths, Licenses, Subnets, System Jobs, Subscriptions, and Alerts.
 ---
 
 # Manage Data Gathering

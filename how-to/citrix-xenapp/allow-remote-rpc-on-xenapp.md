@@ -1,8 +1,5 @@
 ---
-title: Allow Remote RPC on XenDesktop machines.
-author: Andrea Budisa
 description: This article describes how to monitor XenDesktop machines with SysKit Monitor.
-date: 29/06/17
 ---
 
 # Allow Remote RPC on Xenapp

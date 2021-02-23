@@ -1,10 +1,5 @@
 ---
-title: PowerShell Wizard
-description: >-
-  This article outlines all necessary steps for creating report or management
-  scripts and the successful administration of your Windows environments.
-author: Andrea Budisa
-date: 23/6/2017
+description: This article outlines all necessary steps for creating report or management scripts and the successful administration of your Windows environments.
 ---
 
 # PowerShell Wizard

@@ -1,8 +1,5 @@
 ---
-title: Create customized report views
 description: This article explains how to create customized report views in SysKit Monitor.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Create Customized Report Views

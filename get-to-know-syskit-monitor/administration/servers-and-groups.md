@@ -1,10 +1,5 @@
 ---
-title: Servers and Groups
-description: >-
-  This article outlines all the options for the successful administration of
-  servers that are being monitored with SysKit Monitor.
-author: Andrea Budisa
-date: 25/5/2017
+description: This article outlines all the options for the successful administration of servers that are being monitored with SysKit Monitor.
 ---
 
 # Servers and Groups

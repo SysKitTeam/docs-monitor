@@ -1,10 +1,5 @@
 ---
-title: Import / Export PowerShell Script
-description: >-
-  This article describes how to import, configure and export PowerShell scripts
-  for the successful reporting and management of your Windows environments.
-author: Andrea Budisa
-date: 23/6/2017
+description: This article describes how to import, configure and export PowerShell scripts for the successful reporting and management of your Windows environments.
 ---
 
 # Import / Export PowerShell Script

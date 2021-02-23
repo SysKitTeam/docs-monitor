@@ -1,11 +1,5 @@
 ---
-title: User Permission Requirements
-desription: >-
-  This article discusses the necessary Service Account you need in order to run
-  the SysKit Monitor in various environments and describes deployment scenarios
-  that affect account requirements.
-author: Andrea Budisa
-date: 26/5/2017
+description: This article discusses the necessary Service Account you need in order to run the SysKit Monitor in various environments and describes deployment scenarios that affect account requirements.
 ---
 
 # User Permission Requirements

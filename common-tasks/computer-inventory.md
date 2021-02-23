@@ -1,11 +1,5 @@
 ---
-title: Computer Inventory
-description: >-
-  This article describes how you can use the Computer Inventory reports to
-  gather a detailed overview of everything that is deployed accross your server
-  environment.
-author: Andrea Budisa
-date: 28/6/2017
+description: This article describes how you can use the Computer Inventory reports to gather a detailed overview of everything that is deployed accross your server environment.
 ---
 
 # Computer Inventory

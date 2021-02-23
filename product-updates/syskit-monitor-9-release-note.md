@@ -1,10 +1,5 @@
 ---
-title: SysKit Monitor 9 – The monster has awoken!
-description: >-
-  This article describes all the new features, the improvements, and the bug
-  fixes delivered in SysKit Monitor 9.
-author: Andrea Budisa
-date: 19/9/2018
+description: This article describes all the new features, the improvements, and the bug fixes delivered in SysKit Monitor 9.
 ---
 
 # SysKit Monitor 9 – The monster has awoken!

@@ -1,10 +1,5 @@
 ---
-title: Fixing WMI to work with SysKit Monitor
-author: Andrea Budisa
-description: >-
-  This article explains how to resolve WMI failure by rebuilding the WMI
-  repository.
-date: 29/06/17
+description: This article explains how to resolve WMI failure by rebuilding the WMI repository.
 ---
 
 # Fixing WMI to work with SysKit Monitor

@@ -1,10 +1,5 @@
 ---
-title: Add / remove or delete a computer from monitoring
-description: >-
-  This article explains how to add, remove or delete one or more computers from
-  monitoring.
-author: Andrea Budisa
-date: 30/6/2017
+description: This article explains how to add, remove or delete one or more computers from monitoring.
 ---
 
 # Add/Remove or Delete Computer from Monitoring

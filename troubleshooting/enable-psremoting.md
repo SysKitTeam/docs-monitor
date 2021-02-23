@@ -1,10 +1,5 @@
 ---
-title: Enable-PSRemoting for untrusted domains to work with SysKit Monitor
-author: Andrea Budisa
-description: >-
-  This article explains how to enable PSRemoting for untrusted domains to work
-  with SysKit Monitor.
-date: 29/06/17
+description: This article explains how to enable PSRemoting for untrusted domains to work with SysKit Monitor.
 ---
 
 # Enable-PSRemoting for untrusted domains to work with SysKit Monitor

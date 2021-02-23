@@ -1,10 +1,5 @@
 ---
-title: How to resolve the Offline and Unauthorized computer states
-author: Andrea Budisa
-description: >-
-  This article explains how to resolve the offline and unauthorized computer
-  states shown in SysKit Monitor.
-date: 29/06/17
+description: This article explains how to resolve the offline and unauthorized computer states shown in SysKit Monitor.
 ---
 
 # How to resolve the Offline and Unauthorized computer states

@@ -1,11 +1,5 @@
 ---
-title: Options
-description: >-
-  This article explains how to you configure the available options for SysKit
-  Monitor. Options include General, Alerts, Export and System Jobs
-  configuration.
-author: Andrea Budisa
-date: 29/6/2017
+description: This article explains how to you configure the available options for SysKit Monitor. Options include General, Alerts, Export and System Jobs configuration.
 ---
 
 # Options

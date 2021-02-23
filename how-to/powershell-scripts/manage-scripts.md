@@ -1,10 +1,5 @@
 ---
-title: Manage Scripts
-description: >-
-  This article describes how to manage all available PowerShell scripts that are
-  created or imported through SysKit Monitor.
-author: Andrea Budisa
-date: 23/6/2017
+description: This article describes how to manage all available PowerShell scripts that are created or imported through SysKit Monitor.
 ---
 
 # Manage Scripts

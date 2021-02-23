@@ -1,8 +1,5 @@
 ---
-title: FAQ
 description: This article outlines frequently asked questions regarding the SysKit Monitor.
-author: Andrea Budisa
-date: 25/5/2017
 ---
 
 # FAQ

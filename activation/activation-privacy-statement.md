@@ -1,10 +1,5 @@
 ---
-title: Activation Privacy Statement
-description: >-
-  Read important info about the activation process. You need to activate your
-  SysKit Monitor so we may verify if your product was purchased legally.
-author: Andrea Budisa
-date: 23/5/2017
+description: Read important info about the activation process. You need to activate your SysKit Monitor so we may verify if your product was purchased legally.
 ---
 
 # Activation Privacy Statement

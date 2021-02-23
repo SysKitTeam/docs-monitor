@@ -1,10 +1,5 @@
 ---
-title: Configuring outgoing email with an smtp.gmail account
-author: Andrea Budisa
-description: >-
-  This article explains how to configure outgoing email with an smtp.gmail
-  account to use with SysKit Monitor.
-date: 29/06/17
+description: This article explains how to configure outgoing email with an smtp.gmail account to use with SysKit Monitor.
 ---
 
 # Configuring outgoing email with an smtp.gmail account

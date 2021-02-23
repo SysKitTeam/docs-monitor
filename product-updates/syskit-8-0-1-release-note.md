@@ -1,10 +1,5 @@
 ---
-title: SysKit 2016 R2 8.0.1 - Release Note
-description: >-
-  This article describes all improvements and bug fixes delivered in SysKit 2016
-  R2 – 8.0.1.
-author: Andrea Budisa
-date: 12/7/2017
+description: This article describes all improvements and bug fixes delivered in SysKit 2016 R2 – 8.0.1.
 ---
 
 # SysKit 2016 R2 8.0.1 - Release Note

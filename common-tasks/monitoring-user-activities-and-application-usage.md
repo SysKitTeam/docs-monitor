@@ -1,10 +1,5 @@
 ---
-title: Monitoring User Activities and Application Usage
-description: >-
-  This article focuses on auditing and monitoring user activity on Windows
-  Servers in your environment.
-author: Andrea Budisa
-date: 28/6/2017
+description: This article focuses on auditing and monitoring user activity on Windows Servers in your environment.
 ---
 
 # Monitoring User Activities and Application Usage

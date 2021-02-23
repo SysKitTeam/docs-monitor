@@ -1,8 +1,5 @@
 ---
-title: Create SQL Custom Report
 description: This article explains how to create a Custom SQL Report.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Create SQL Custom Report

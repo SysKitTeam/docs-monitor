@@ -1,8 +1,5 @@
 ---
-title: Create a Custom Report
 description: This article explains how to create a custom report that meets your needs.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Create Custom Report

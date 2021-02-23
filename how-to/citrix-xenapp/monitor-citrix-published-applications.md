@@ -1,10 +1,5 @@
 ---
-title: Monitor Citrix Published Applications
-author: Andrea Budisa
-description: >-
-  This article explains how to adjust SysKit Monitor for the Citrix Published
-  Applications monitoring.
-date: 29/06/17
+description: This article explains how to adjust SysKit Monitor for the Citrix Published Applications monitoring.
 ---
 
 # Monitor Citrix Published Applications

@@ -1,8 +1,5 @@
 ---
-title: Configure Report Subscriptions
 description: This article explains how to configure report subscriptions in SysKit Monitor.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Configure Report Subscriptions

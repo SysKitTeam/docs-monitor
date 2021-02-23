@@ -1,10 +1,5 @@
 ---
-title: SQL Server Connection
-description: >-
-  This article explains how to troubleshoot some of the most common SQL Server
-  Connection problems to get the SysKit Monitor up and running.
-author: Andrea Budisa
-date: 7/7/2017
+description: This article explains how to troubleshoot some of the most common SQL Server Connection problems to get the SysKit Monitor up and running.
 ---
 
 # SQL Server Connection

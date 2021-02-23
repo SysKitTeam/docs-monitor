@@ -1,8 +1,5 @@
 ---
-title: Add Users Manually
 description: This article explains how to add users manually.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Add Users Manually

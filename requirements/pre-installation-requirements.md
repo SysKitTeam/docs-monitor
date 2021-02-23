@@ -1,10 +1,5 @@
 ---
-title: Pre-Installation Requirements
-desription: >-
-  This article gives you an overview of the steps you will need to perform in
-  order to prepare your server environment for the SysKit Monitor installation.
-author: Andrea Budisa
-date: 26/5/2017
+description: This article gives you an overview of the steps you will need to perform in order to prepare your server environment for the SysKit Monitor installation.
 ---
 
 # Pre Installation Requirements

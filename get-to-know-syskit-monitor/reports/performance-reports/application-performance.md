@@ -1,11 +1,5 @@
 ---
-title: Application Performance
-description: >-
-  These reports help you easily track the performance values of the processes
-  running on all the servers in your environment, such as CPU, Memory, IO Reads,
-  IO Writes, and IO Operations.
-author: Andrea Budisa
-date: 25/5/2017
+description: These reports help you easily track the performance values of the processes running on all the servers in your environment, such as CPU, Memory, IO Reads, IO Writes, and IO Operations.
 ---
 
 # Application Performance

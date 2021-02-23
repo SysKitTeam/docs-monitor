@@ -1,10 +1,5 @@
 ---
-title: Configuring CredSSP for use with PowerShell in SysKit Monitor
-author: Andrea Budisa
-description: >-
-  This article explains how to enable WSManCredSSP for more advanced PowerShell
-  scripts to work in SysKit Monitor.
-date: 29/06/17
+description: This article explains how to enable WSManCredSSP for more advanced PowerShell scripts to work in SysKit Monitor.
 ---
 
 # Configuring CredSSP for use with PowerShell in SysKit Monitor

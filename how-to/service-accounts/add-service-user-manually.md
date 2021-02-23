@@ -1,10 +1,5 @@
 ---
-title: Add Service User to Local Administrators Group Manually
-description: >-
-  This article explains how to manually add the SysKit Monitor service user to
-  the Local Administrators security group.
-author: Andrea Budisa
-date: 30/6/2017
+description: This article explains how to manually add the SysKit Monitor service user to the Local Administrators security group.
 ---
 
 # Add Service User to Local Administrators Group Manually

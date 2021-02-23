@@ -1,11 +1,5 @@
 ---
-title: Monitoring and Restarting Stopped Windows Services
-description: >-
-  This article describes how to use Syskit Monitor to track important services
-  that are running on the servers and restart them automatically if they stop or
-  crash.
-author: Andrea Budisa
-date: 28/6/2017
+description: This article describes how to use Syskit Monitor to track important services that are running on the servers and restart them automatically if they stop or crash.
 ---
 
 # Monitoring and Restarting Stopped Windows Services

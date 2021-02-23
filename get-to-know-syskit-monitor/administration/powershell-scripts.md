@@ -1,10 +1,5 @@
 ---
-title: PowerShell Scripts
-description: >-
-  This article discusses the options for creating PowerShell reports and
-  management tasks through SysKit Monitor.
-author: Andrea Budisa
-date: 23/6/2017
+description: This article discusses the options for creating PowerShell reports and management tasks through SysKit Monitor.
 ---
 
 # PowerShell Scripts

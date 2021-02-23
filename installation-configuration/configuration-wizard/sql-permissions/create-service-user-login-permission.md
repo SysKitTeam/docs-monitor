@@ -1,11 +1,5 @@
 ---
-title: Create a Service User Login
-desription: >-
-  This article will guide you through the steps you need to perform to allow the
-  user running the Configuration Wizard to create a new database and configure
-  the service account.
-author: Andrea Budisa
-date: 30/5/2017
+description: This article will guide you through the steps you need to perform to allow the user running the Configuration Wizard to create a new database and configure the service account.
 ---
 
 # Create a Service User Login Permission

@@ -1,10 +1,5 @@
 ---
-title: Configure SysKit Monitor
-desription: >-
-  This article will guide you through the steps you need to perform in order to
-  configure SysKit Monitor to work properly.
-author: Andrea Budisa
-date: 30/5/2017
+description: This article will guide you through the steps you need to perform in order to configure SysKit Monitor to work properly.
 ---
 
 # Configure SysKit Monitor

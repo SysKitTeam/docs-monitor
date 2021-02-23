@@ -1,10 +1,5 @@
 ---
-title: Create a SQL Server Login
-desription: >-
-  This article will guide you through the steps you need to perform to allow the
-  user running the Configuration Wizard to login and create the database.
-author: Andrea Budisa
-date: 30/5/2017
+description: This article will guide you through the steps you need to perform to allow the user running the Configuration Wizard to login and create the database.
 ---
 
 # Create a SQL Server Login

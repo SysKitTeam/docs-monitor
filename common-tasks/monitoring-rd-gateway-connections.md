@@ -1,10 +1,5 @@
 ---
-title: Monitoring RD Gateway Connections
-description: >-
-  This article focuses on the Gateway Reports and how you can measure, track,
-  and monitor connections made via RD Gateway to your Remote Desktop Services.
-author: Andrea Budisa
-date: 28/6/2017
+description: This article focuses on the Gateway Reports and how you can measure, track, and monitor connections made via RD Gateway to your Remote Desktop Services.
 ---
 
 # Monitoring RD Gateway Connections

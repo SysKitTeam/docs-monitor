@@ -1,8 +1,5 @@
 ---
-title: Installation Issues
-author: Andrea Budisa
 description: This article outlines some of the common installation issues.
-date: 29/06/17
 ---
 
 # Installation Issues

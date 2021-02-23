@@ -1,10 +1,5 @@
 ---
-title: Miscellaneous
-author: Andrea Budisa
-description: >-
-  This article contains various miscellaneous questions and answers related to
-  SysKit Monitor.
-date: 29/06/17
+description: This article contains various miscellaneous questions and answers related to SysKit Monitor.
 ---
 
 # Miscellaneous

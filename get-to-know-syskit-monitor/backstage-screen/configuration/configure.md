@@ -1,10 +1,5 @@
 ---
-title: Configure
-description: >-
-  This article explains how to change your Syskit Monitor Service Account and
-  Database Settings.
-author: Andrea Budisa
-date: 29/6/2017
+description: This article explains how to change your Syskit Monitor Service Account and Database Settings.
 ---
 
 # Configure

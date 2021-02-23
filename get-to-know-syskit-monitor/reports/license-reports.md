@@ -1,10 +1,5 @@
 ---
-title: License Reports
-description: >-
-  License Reports give valuable information on the number of licenses for all
-  applications which are running in a server environment.
-author: Andrea Budisa
-date: 25/5/2017
+description: License Reports give valuable information on the number of licenses for all applications which are running in a server environment.
 ---
 
 # License Reports

@@ -1,8 +1,5 @@
 ---
-title: Create an Alert
 description: This article explains how to set Custom Reports e-mail alerts.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Create an Alert

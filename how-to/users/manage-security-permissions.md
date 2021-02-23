@@ -1,8 +1,5 @@
 ---
-title: Manage Security Permissions
 description: This article explains how to manage security permissions in SysKit Monitor.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Manage Security Permissions

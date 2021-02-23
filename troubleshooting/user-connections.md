@@ -1,10 +1,5 @@
 ---
-title: User Connections
-author: Andrea Budisa
-description: >-
-  This article will help you to understand the user connections in SysKit
-  Monitor.
-date: 29/06/17
+description: This article will help you to understand the user connections in SysKit Monitor.
 ---
 
 # User Connections

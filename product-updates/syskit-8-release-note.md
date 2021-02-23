@@ -1,10 +1,5 @@
 ---
-title: SysKit 2016 R2 – Monitor and script all the things!
-description: >-
-  This article describes all new features, improvements and bug fixes delivered
-  in SysKit 2016 R2.
-author: Andrea Budisa
-date: 12/7/2017
+description: This article describes all new features, improvements and bug fixes delivered in SysKit 2016 R2.
 ---
 
 # SysKit 2016 R2 – Monitor and script all the things!

@@ -1,7 +1,3 @@
----
-private: true
----
-
 # SysKit Monitor
 
 SysKit Monitor enables users to monitor and administer their entire server environment. It’s an agentless enterprise solution which helps users monitor server performance, track user activity, analyze application usage, document environment, and more.

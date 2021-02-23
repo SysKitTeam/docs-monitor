@@ -1,10 +1,5 @@
 ---
-title: Download Scripts
-description: >-
-  This article describes how to download and import the available predefined
-  PowerShell scripts from SysKit’s repository.
-author: Andrea Budisa
-date: 23/6/2017
+description: This article describes how to download and import the available predefined PowerShell scripts from SysKit’s repository.
 ---
 
 # Download Scripts

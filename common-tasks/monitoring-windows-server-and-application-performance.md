@@ -1,10 +1,5 @@
 ---
-title: Monitoring Windows Server and Application Performance
-description: >-
-  This article describes how to use Syskit Monitor to collect the performance
-  data from your servers in real time.
-author: Andrea Budisa
-date: 24/5/2017
+description: This article describes how to use Syskit Monitor to collect the performance data from your servers in real time.
 ---
 
 # Monitoring Windows Server and Application Performance

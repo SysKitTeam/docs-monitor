@@ -1,8 +1,5 @@
 ---
-title: Enable Folder Auditing
 description: This article explains how to enable Windows folder auditing.
-author: Andrea Budisa
-date: 30/6/2017
 ---
 
 # Enable Folder Auditing

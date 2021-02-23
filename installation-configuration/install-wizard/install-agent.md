@@ -1,10 +1,5 @@
 ---
-title: Install SysKit Monitor Data Collector
-desription: >-
-  This article describes how to install the SysKit Monitor Data Collector for
-  the SysKit Monitor application.
-author: Andrea Budisa
-date: 30/5/2017
+description: This article describes how to install the SysKit Monitor Data Collector for the SysKit Monitor application.
 ---
 
 # Install SysKit Monitor Data Collector

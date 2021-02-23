@@ -1,10 +1,5 @@
 ---
-title: Add Citrix servers to monitoring
-description: >-
-  This article explains how to add Citrix servers to monitoring to properly
-  collect all the data.
-author: Andrea Budisa
-date: 30/6/2017
+description: This article explains how to add Citrix servers to monitoring to properly collect all the data.
 ---
 
 # Add Citrix Servers to Monitoring

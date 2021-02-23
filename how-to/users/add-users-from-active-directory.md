@@ -1,8 +1,5 @@
 ---
-title: Add Users From Active Directory
 description: This article explains how to add users from the Active Directory.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Add Users From Active Directory

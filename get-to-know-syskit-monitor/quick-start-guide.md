@@ -1,10 +1,5 @@
 ---
-title: Quick Start Guide
-description: >-
-  This article provides a quick overview of things that can be done through the
-  SysKit Monitor UI.
-author: Andrea Budisa
-date: 25/5/2017
+description: This article provides a quick overview of things that can be done through the SysKit Monitor UI.
 ---
 
 # Quick Start Guide

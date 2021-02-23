@@ -1,8 +1,5 @@
 ---
-title: Create a Custom Dashboard
 description: This article explains how to create a custom dashboard within SysKit Monitor.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Create a Custom Dashboard

@@ -1,8 +1,5 @@
 ---
-title: Manage SysKit Monitor Data Collector
-author: Andrea Budisa
 description: This article describes how to manage SysKit Monitor Data Collectors.
-date: 29/06/17
 ---
 
 # Manage SysKit Monitor Data Collector

@@ -1,10 +1,5 @@
 ---
-title: Install SysKit Monitor
-desription: >-
-  Read this article for detailed step-by-step instructions on how to install the
-  SysKit Monitor and all its prerequisites.
-author: Andrea Budisa
-date: 30/5/2017
+description: Read this article for detailed step-by-step instructions on how to install the SysKit Monitor and all its prerequisites.
 ---
 
 # Install SysKit Monitor

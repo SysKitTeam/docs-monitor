@@ -1,11 +1,5 @@
 ---
-title: Predefined Monitoring Templates
-description: >-
-  Predefined templates are designed to quickly get you up and running with
-  performance monitoring for the most common server roles—SQL, IIS, SharePoint,
-  Hyper-V, and Citrix.
-author: Andrea Budisa
-date: 4/7/2017
+description: Predefined templates are designed to quickly get you up and running with performance monitoring for the most common server roles—SQL, IIS, SharePoint, Hyper-V, and Citrix.
 ---
 
 # Predefined Monitoring Templates

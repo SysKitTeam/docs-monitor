@@ -1,8 +1,5 @@
 ---
-title: User States
-author: Andrea Budisa
 description: This article explains how the SysKit Monitor reports on user states.
-date: 29/06/17
 ---
 
 # User States

@@ -1,8 +1,5 @@
 ---
-title: Add Formatting Condition To Metrics
 description: This article expalins how to add formatting condition to metrics.
-author: Andrea Budisa
-date: 29/6/2017
 ---
 
 # Add Formatting Condition to Metrics

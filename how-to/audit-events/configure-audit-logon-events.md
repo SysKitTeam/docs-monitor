@@ -1,10 +1,5 @@
 ---
-title: Configure Audit Logon Events
-description: >-
-  This article explains steps required to configure Audit Logon Events for
-  Windows Servers.
-author: Andrea Budisa
-date: 30/6/2017
+description: This article explains steps required to configure Audit Logon Events for Windows Servers.
 ---
 
 # Configure Audit Logon Events

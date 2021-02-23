@@ -1,8 +1,5 @@
 ---
-title: Performance Counters Management
-description: This article explains how to manage Performance Counters in SysKit Monitor.
 author: Andrea Budisa
-date: 30/6/2017
 ---
 
 # Performance Counters Management

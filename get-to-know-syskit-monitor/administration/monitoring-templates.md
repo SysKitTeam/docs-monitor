@@ -1,11 +1,5 @@
 ---
-title: Monitoring Templates
-description: >-
-  Monitoring Templates are designed to make it as easy as possible for you to
-  analyze system performance and simplify the performance monitoring of your
-  Windows environments.
-author: Andrea Budisa
-date: 21/6/2017
+description: Monitoring Templates are designed to make it as easy as possible for you to analyze system performance and simplify the performance monitoring of your Windows environments.
 ---
 
 # Monitoring Templates
