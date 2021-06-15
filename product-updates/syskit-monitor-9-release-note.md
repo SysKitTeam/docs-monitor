@@ -10,7 +10,7 @@ Here at SysKit, we are always striving to support the latest technology and solu
 
 Thanks to our hardworking SysKit team, you can now monitor **Windows Server 2019** VMs, **Remote Desktop Web Client** sessions, **Citrix Virtual Apps and Desktops**, and much more! Awesome, isn’t it?
 
-You can read more about the latest innovations and how SysKit Monitor 9 handles them [in our blog post](https://blog.syskit.com/syskit-monitor-9-keeping-up-with-the-latest-technology).
+You can read more about the latest innovations and how SysKit Monitor 9 handles them [in our blog post](https://www.syskit.com/blog/syskit-monitor-9-keeping-up-with-the-latest-technology/).
 
 We’ll highlight the features and some of the key improvements. To dig out more details, read this release note.
 
