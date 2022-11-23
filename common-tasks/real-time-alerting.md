@@ -44,7 +44,7 @@ SysKit Monitor Session Alerts can be configured through the [Edit Computer](../g
 
 ## Service Alerts
 
-SysKit Monitor Service Alerts can be configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category and [Options](https://github.com/SysKitTeam/docs-monitor/tree/955f0161938e8d56b74b18e9077bfe5dcc62bf63/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) dialog. Service Alerts list computers with important services that have stopped or crashed. Depending on the configured options, it can also display whether SysKit Monitor successfully restarted these services.
+SysKit Monitor Service Alerts can be configured through the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) category and [Options](../get-to-know-syskit-monitor/backstage-screen/configuration/options.md#alerts) dialog. Service Alerts list computers with important services that have stopped or crashed. Depending on the configured options, it can also display whether SysKit Monitor successfully restarted these services.
 
 See the [Manage Alerts](../get-to-know-syskit-monitor/backstage-screen/manage-data-gathering.md#manage-alerts) article to learn more about SysKit Monitor alert classification.  
 See the [Monitoring Templates](../get-to-know-syskit-monitor/administration/monitoring-templates.md) article to learn more about monitoring of the custom performance counters and important services.
