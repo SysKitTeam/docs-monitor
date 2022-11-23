@@ -80,7 +80,7 @@ Use the Administration ribbon page to change computer settings or take actions:
   * **Red** – online computer that has reached a critical number of users \(e.g. 101 users online, the warning threshold is 100\)
 
   Adjust the values for warning and critical thresholds to match the capacity or other constraints on your computers. You can define the length of time before the **alert notification is to be repeated** for the session alerts.  
-  See [Alerts section](https://github.com/SysKitTeam/docs-monitor/tree/0aa443d90ae0eea59b3fe4fb99d1c1fe64294eaa/get-to-know-syskit-monitor/get-to-know-syskit-monitor/backstage-screen/configuration/options/README.md#alerts.md) if you want to enable the option to receive **e-mail notifications** if monitored computer crosses a warning and/or critical session threshold.
+  See [Alerts section](../backstage-screen/configuration/options.md#alerts) if you want to enable the option to receive **e-mail notifications** if monitored computer crosses a warning and/or critical session threshold.
 
 * **Use In Reports** – enables using information gathered from the currently not monitored computers in the reports. If the computer is currently disabled, by enabling this option all of the previously gathered data from this computer will be shown in the reports.
 * **Diagnostics** – enables you to perform various diagnostics and to identify issues with your product data. These options will also help our developer and support teams to troubleshoot potential problems more efficiently.
