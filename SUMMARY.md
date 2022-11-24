@@ -132,7 +132,6 @@
   * [Fixing WMI to work with SysKit Monitor](troubleshooting/fixing-wmi.md)
   * [Enable-PSRemoting for untrusted domains to work with SysKit Monitor](troubleshooting/enable-psremoting.md)
   * [Configuring CredSSP for use with PowerShell in SysKit Monitor](troubleshooting/credssp-for-use-with-powershell.md)
-  * [Configuring outgoing email with an smtp.gmail account](troubleshooting/outgoing-email-with-smtp-gmail-account.md)
   * [Installation Issues](troubleshooting/installation-issues.md)
   * [User States](troubleshooting/user-states.md)
   * [User Connections](troubleshooting/user-connections.md)

@@ -6,9 +6,9 @@ description: This article describes how to configure your server to monitor Citr
 
 In order for monitoring to be successful these are the steps you will have to perform on your **Citrix Management Server**.
 
-## Install Citrix XenApp 5.0 SDK
+## Install Citrix XenApp SDK
 
-1. [Download the SDK](http://www.citrix.com/static/cdn/archivedsdks/mfcom/5.0/mpssdk.msi) from Citrix web site.
+1. [Download the SDK](http://downloadns.citrix.com.edgesuite.net/8387/XASDK60.zip) from Citrix web site.
 
 {% hint style="info" %}
 Turn off your User Account Control in order for installation to be successful.
