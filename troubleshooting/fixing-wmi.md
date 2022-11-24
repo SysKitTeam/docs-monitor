@@ -14,7 +14,7 @@ Large WMI repositories can create problems and can be interpreted as corrupted, 
 
 To resolve the issue, the following actions should be performed on the **destination server**:
 
-1. Check the repository for **consistencies**: For Windows Server 2008, Windows Server 2008 R2, and Windows Server 2012 run: **winmgmt /verifyrepository** from the command prompt. For older OS like Windows Server 2003 run: **WmiDiag tool** with the **checkconsistency** option. You can download it from [here](https://www.microsoft.com/en-us/download/details.aspx?id=7684).
+1. Check the repository for **consistencies**: For Windows Server 2008, Windows Server 2008 R2, and Windows Server 2012 run: **winmgmt /verifyrepository** from the command prompt. For older OS like Windows Server 2003 run: **WmiDiag tool** with the **checkconsistency** option. Find more information on WMI troubleshooting [here](https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmi-troubleshooting).
 2. If repository is found to be **inconsistent**: For Windows Server 2008 and newer, run the Command Prompt as an administrator and enter: **Winmgmt /salvagerepository**.
 
 {% hint style="warning" %}
