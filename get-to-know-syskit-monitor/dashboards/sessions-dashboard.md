@@ -4,7 +4,7 @@ description: Sessions Dashboard provides a quick view of all types of sessions r
 
 # Sessions Dashboard
 
-**Sessions Dashboard** is shown when you start the SysKit application and it enables you to see live data, such as the **current sessions** and **running processes** on all servers. There are five system dashboards which provide a quick overview of user activities, application usage, used licenses and overview of important reports.
+**Sessions Dashboard** is shown when you start the Syskit application and it enables you to see live data, such as the **current sessions** and **running processes** on all servers. There are five system dashboards which provide a quick overview of user activities, application usage, used licenses and overview of important reports.
 
 * **Dashboard navigation bar** – Provides the list of System Dashboards and custom made dashboards. By navigating throughout them, you will get an easy overview of your computers, users and applications data.
 * **Sessions Dashboard chart** – Provides live time graphical overview of sessions in progress.

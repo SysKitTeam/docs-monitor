@@ -4,7 +4,7 @@ description: This article outlines all necessary steps for creating report or ma
 
 # PowerShell Wizard
 
-We’ll break down how you can create report and management scripts in SysKit Monitor using PowerShell Script Wizard.
+We’ll break down how you can create report and management scripts in Syskit Monitor using PowerShell Script Wizard.
 
 1.  In Step 1, specify the PowerShell script type you wish to create. The wizard offers two different script types: **PowerShell Report** and **PowerShell Management Task**.
 
@@ -21,9 +21,9 @@ If the entered PS script requires the credentials to be delegated and you have e
 It is recommended that you enable the **Use credentials only for PowerShell** option as the custom credentials are meant for authentication when monitoring computers from untrusted domains.
 {% endhint %}
 
-See the [Configuring CredSSP for use with PowerShell](../../troubleshooting/credssp-for-use-with-powershell.md) article to learn more on how to delegate the user’s credentials through SysKit Monitor.
+See the [Configuring CredSSP for use with PowerShell](../../troubleshooting/credssp-for-use-with-powershell.md) article to learn more on how to delegate the user’s credentials through Syskit Monitor.
 
-3.  In Step 3, you will need to enter the PowerShell script you want to use to create reports or management tasks. Here you can also **import the script modules** whose members can contain functions, variables, and more. To avoid incorrectly generated reports, the report script first needs to be tested on a selected computer. SysKit Monitor will run it against the computer that you specify.  
+3.  In Step 3, you will need to enter the PowerShell script you want to use to create reports or management tasks. Here you can also **import the script modules** whose members can contain functions, variables, and more. To avoid incorrectly generated reports, the report script first needs to be tested on a selected computer. Syskit Monitor will run it against the computer that you specify.  
 If you have selected the **management task** script type in the first step, the management script will **only be validated for syntax errors**.  
 **All referenced modules will also be validated in both cases** before the wizard returns and displays the results of the script and modules you have run.  
 After entering script, click Next&gt; to see the results.
@@ -70,13 +70,13 @@ If the **Recurrence** option is selected, you will be offered **several recurren
 {% endhint %}
 
 {% hint style="info" %}
-If the **After another script** option is selected, you will be offered a drop-down menu that contains all PowerShell scripts available in SysKit Monitor. The script for which you configure the trigger will be executed after the script selected from the drop-down.
+If the **After another script** option is selected, you will be offered a drop-down menu that contains all PowerShell scripts available in Syskit Monitor. The script for which you configure the trigger will be executed after the script selected from the drop-down.
 {% endhint %}
 
-7.  In Step 7, you can **enable** and **configure conditions** for alerts sent after the script finishes. SysKit Monitor will **detect and set** the PowerShell script **column types** and allow configuration of real-time alerts based on the **desired conditions**. A PowerShell script can return different column types. The ones that are **discoverable** by SysKit Monitor are String, DateTime, UInt64, UInt32, Int64, Int32, Double, Boolean, and Decimal.
+7.  In Step 7, you can **enable** and **configure conditions** for alerts sent after the script finishes. Syskit Monitor will **detect and set** the PowerShell script **column types** and allow configuration of real-time alerts based on the **desired conditions**. A PowerShell script can return different column types. The ones that are **discoverable** by Syskit Monitor are String, DateTime, UInt64, UInt32, Int64, Int32, Double, Boolean, and Decimal.
 
 8.  In Step 8, if the alert condition is met you can choose whether you want to be notified immediately. Alternatively, you can be notified if the state remains unchanged after the specified time interval has passed. Note: in both cases, you will receive an alert when the condition is met and you will also receive an email after everything returns to the normal state.  
-SysKit Monitor will generate a **.csv file**, which contains all the data **matching the applied conditions** and include it in the email attachment of the alert. Here you can also select whether to send alerts to email addresses defined in the **Options** dialog or you can specify different ones.
+Syskit Monitor will generate a **.csv file**, which contains all the data **matching the applied conditions** and include it in the email attachment of the alert. Here you can also select whether to send alerts to email addresses defined in the **Options** dialog or you can specify different ones.
 
 All created and saved PowerShell scripts, depending on the script’s type, will be added to the Administration tab &gt; PowerShell Scripts &gt; Reports or Management Tasks group.
 

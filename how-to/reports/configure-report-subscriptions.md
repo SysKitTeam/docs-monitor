@@ -1,5 +1,5 @@
 ---
-description: This article explains how to configure report subscriptions in SysKit Monitor.
+description: This article explains how to configure report subscriptions in Syskit Monitor.
 ---
 
 # Configure Report Subscriptions

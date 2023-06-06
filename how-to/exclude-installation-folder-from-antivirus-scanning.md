@@ -10,11 +10,11 @@ Please configure your antivirus software to exclude the following folder from an
 
 ## 32-bit and 64-bit version
 
-* Drive:\Program Files\SysKit\Monitor
+* Drive:\Program Files\Syskit\Monitor
 
-If you are using SysKit Monitor Data Collector, please exclude the following folder:
+If you are using Syskit Monitor Data Collector, please exclude the following folder:
 
-* Drive:\Program Files\SysKit\Monitor Data Collector
+* Drive:\Program Files\Syskit\Monitor Data Collector
 
 {% hint style="info" %}
 The placeholder 'Drive' represents the letter of the drive on which you have the application installed. Typically, this drive letter is C.
@@ -22,5 +22,5 @@ The placeholder 'Drive' represents the letter of the drive on which you have the
 
 In case you have a policy that you mustn’t exclude the whole folder, please configure your antivirus software to exclude the following file from antivirus scanning:
 
-`SysKitMonitorService.exe`
+`SyskitMonitorService.exe`
 

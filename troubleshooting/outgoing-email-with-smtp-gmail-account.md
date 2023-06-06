@@ -1,10 +1,10 @@
 ---
-description: This article explains how to configure outgoing email with an smtp.gmail account to use with SysKit Monitor.
+description: This article explains how to configure outgoing email with an smtp.gmail account to use with Syskit Monitor.
 ---
 
 # Configuring outgoing email with an smtp.gmail account
 
-Google blocks sign-in attempts from some apps or devices that do not follow modern security standards. Since these apps and devices are easier to break into, blocking them helps keep your account safe. Unfortunately, Google thinks SysKit Monitor is also unsafe.
+Google blocks sign-in attempts from some apps or devices that do not follow modern security standards. Since these apps and devices are easier to break into, blocking them helps keep your account safe. Unfortunately, Google thinks Syskit Monitor is also unsafe.
 
 Therefore, you have to enable **Less Secure Sign-In** for your Google account in order to enable sending emails in this configuration.
 
@@ -16,7 +16,7 @@ To enable this feature, please follow these steps:
 
 After you enable this feature, you should be able to send e-mails without a problem.
 
-Make sure that you have properly configured the **Outgoing email settings** in the **Send e-mails** system job within SysKit Monitor:
+Make sure that you have properly configured the **Outgoing email settings** in the **Send e-mails** system job within Syskit Monitor:
 
 * The outgoing server should be **smtp.gmail.com** with port **587**.
 * **Use encrypted connection \(SSL\)** option should be turned on.

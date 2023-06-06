@@ -21,7 +21,7 @@ When specifying the conditions that will trigger the imported PowerShell script\
 
 If the **Recurrence** option is selected, you will be offered **several recurrence types**: one time, minutely, hourly, daily, weekly, monthly, and quarterly. Here, you can select the start date and time for the selected recurrence type.
 
-If the **After another script** option is selected, you will be offered a dropdown menu that contains all PowerShell scripts available in SysKit Monitor. The script for which you configure the trigger will be executed after the script selected from the dropdown.
+If the **After another script** option is selected, you will be offered a dropdown menu that contains all PowerShell scripts available in Syskit Monitor. The script for which you configure the trigger will be executed after the script selected from the dropdown.
 
 All imported PowerShell report definitions, depending on the scripts’ type, will be added to the Administration tab &gt; PowerShell Scripts &gt; Reports or Management Tasks group.
 

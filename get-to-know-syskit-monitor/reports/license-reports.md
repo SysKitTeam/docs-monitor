@@ -6,7 +6,7 @@ description: License Reports give valuable information on the number of licenses
 
 Use the License Reports to verify that you meet all license compliance requirements or to check if you need to purchase additional licenses for published applications.
 
-SysKit provides you with compliance reports which are categorized **per user** and **per device**. By reporting unused licenses, SysKit can save you money.
+Syskit provides you with compliance reports which are categorized **per user** and **per device**. By reporting unused licenses, Syskit can save you money.
 
 {% hint style="warning" %}
 **Please note!**  

@@ -1,12 +1,12 @@
 ---
-description: This article explains how to export SysKit Monitor reports to Excel.
+description: This article explains how to export Syskit Monitor reports to Excel.
 ---
 
 # Export Report to Excel
 
-This article explains how to export SysKit Monitor reports to Excel.
+This article explains how to export Syskit Monitor reports to Excel.
 
-Data from the SysKit Monitor can be exported to **Excel** using the Export button from the **Report** ribbon. You will be prompted to select the export format.
+Data from the Syskit Monitor can be exported to **Excel** using the Export button from the **Report** ribbon. You will be prompted to select the export format.
 
 There are three types of worksheets to export:
 

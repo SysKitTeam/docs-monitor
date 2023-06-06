@@ -1,5 +1,5 @@
 ---
-description: Learn how to use SysKit Monitor to track all user activities performed on the file system.
+description: Learn how to use Syskit Monitor to track all user activities performed on the file system.
 ---
 
 # Event Log Reports
@@ -12,7 +12,7 @@ These include:
 * Monitoring of operations performed on the file system.
 * Preventing attackers from guessing users’ passwords, and decreasing the likelihood of successful attacks on your network.
 
-SysKit Monitor allows you to monitor all user activities performed on the file system. The Event Log reports will show you all read, write, append and delete operations performed on selected files and folders. Administrators can select the paths they want to monitor as well as file types that will be included in these reports. This kind of reports also include Blocked IP Addresses report.
+Syskit Monitor allows you to monitor all user activities performed on the file system. The Event Log reports will show you all read, write, append and delete operations performed on selected files and folders. Administrators can select the paths they want to monitor as well as file types that will be included in these reports. This kind of reports also include Blocked IP Addresses report.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -37,7 +37,7 @@ Currently available reports are:
 
 ## Blocked IP Addresses
 
-SysKit Monitor detects potentially malicious IP addresses – this report shows the list of blocked IP addresses via Windows Firewall rules.
+Syskit Monitor detects potentially malicious IP addresses – this report shows the list of blocked IP addresses via Windows Firewall rules.
 
 In order to be able to see this report, you should necessarily have the **Extract Event Log** system job enabled and running.
 
@@ -53,7 +53,7 @@ After every Event Log system job run, each IP address that had more than or exac
 
 {% hint style="warning" %}
 **Please note!**  
-If you are having problem seeing this report check if you have properly [configured SysKit Monitor server](../../how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to support this feature.
+If you are having problem seeing this report check if you have properly [configured Syskit Monitor server](../../how-to/audit-events/configure-block-malicious-ip-addresses-feature.md) to support this feature.
 {% endhint %}
 
 See [How to Enable Folder Auditing ](../../how-to/audit-events/enable-folder-auditing.md)to learn more.  

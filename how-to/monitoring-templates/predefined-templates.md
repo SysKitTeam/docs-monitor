@@ -4,15 +4,15 @@ description: Predefined templates are designed to quickly get you up and running
 
 # Predefined Monitoring Templates
 
-SysKit Monitor comes with predefined Monitoring Templates created by SysKit team according to technology’s best practices. They can be used to monitor specific servers out-of-the-box, or modified to answer the specific requirements.
+Syskit Monitor comes with predefined Monitoring Templates created by Syskit team according to technology’s best practices. They can be used to monitor specific servers out-of-the-box, or modified to answer the specific requirements.
 
-The following monitoring templates are included in SysKit Monitor and come with the installation:
+The following monitoring templates are included in Syskit Monitor and come with the installation:
 
 * **IIS Monitoring Template** - tracks the most critical performance counters for web server functionality.
 * **SQL Monitoring Template** - tracks the most critical performance counters for SQL Server functionality.
 * **ShrePoint Monitoring Template** - tracks the most critical performance counters for SharePoint farms functionality.
 
-The monitoring templates below are located in SysKit's **repository** and are ready for you to download and use.
+The monitoring templates below are located in Syskit's **repository** and are ready for you to download and use.
 
 * **Hyper-V Monitoring Template** - tracks the most critical Hyper-V counters for virtual machine management.
 * **Citrix Monitoring Template** - tracks the most critical Citrix performance counters for XenApp and XenDesktop functionality.

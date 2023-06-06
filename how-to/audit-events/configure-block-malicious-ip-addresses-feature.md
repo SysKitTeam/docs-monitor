@@ -1,10 +1,10 @@
 ---
-description: This article explains how to configure the SysKit server for the Block Malicious IP Addresses feature to work.
+description: This article explains how to configure the Syskit server for the Block Malicious IP Addresses feature to work.
 ---
 
-# Configure SysKit Monitor server to support the Block Malicious IP Addresses feature
+# Configure Syskit Monitor server to support the Block Malicious IP Addresses feature
 
-In case you notice that IP addresses are not being reported in the SysKit Monitor application, check if these options on the SysKit Monitor application server are correctly set:
+In case you notice that IP addresses are not being reported in the Syskit Monitor application, check if these options on the Syskit Monitor application server are correctly set:
 
 1. Go to the **Start** &gt; **Administrative Tools** &gt; **Remote Desktop Services** &gt; **Remote Desktop Session Host Configuration**.
 2. Double click on the **RDP-Tcp** connection.
@@ -28,7 +28,7 @@ Next two steps should be performed on every monitored server!
 
 7. In this dialog, enable the **Enable remote management of this server from other computers** option.
 
-The server configuration is finished and now you should be able to use the Block Malicious IP Addresses feature within the SysKit Monitor.
+The server configuration is finished and now you should be able to use the Block Malicious IP Addresses feature within the Syskit Monitor.
 
 See [Event Log System Job](../../get-to-know-syskit-monitor/backstage-screen/configuration/options.md#extract-event-log) to learn more.  
 See [Configure Audit Logon Events](configure-audit-logon-events.md) to learn more.

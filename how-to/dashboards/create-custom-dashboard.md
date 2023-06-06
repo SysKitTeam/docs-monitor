@@ -1,5 +1,5 @@
 ---
-description: This article explains how to create a custom dashboard within SysKit Monitor.
+description: This article explains how to create a custom dashboard within Syskit Monitor.
 ---
 
 # Create a Custom Dashboard

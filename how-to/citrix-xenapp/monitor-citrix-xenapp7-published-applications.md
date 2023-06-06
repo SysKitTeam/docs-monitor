@@ -1,8 +1,8 @@
 ---
-description: This article describes how to configure your server to monitor Citrix Published Applications with the SysKit Monitor.
+description: This article describes how to configure your server to monitor Citrix Published Applications with the Syskit Monitor.
 ---
 
-# Configure SysKit Monitor for Citrix XenApp 7.x Published Application monitoring
+# Configure Syskit Monitor for Citrix XenApp 7.x Published Application monitoring
 
 In order for Citrix XenApp 7.x Published Application monitoring to be successful, here are the steps you need to perform on **each Delivery Controller server**, which is responsible for brokering and optimizing user connections and access.
 
@@ -16,7 +16,7 @@ In order for Citrix XenApp 7.x Published Application monitoring to be successful
 
 4. Confirm **Yes** that you want to create a WinRM listener and enable the WinRM firewall exception.
 
-## Add SysKit Monitor service user to the Citrix Farm Administrators group on the Delivery Controller server
+## Add Syskit Monitor service user to the Citrix Farm Administrators group on the Delivery Controller server
 
 1. Navigate to the **Start** &gt; **Citrix** &gt; **Citrix Studio** and choose the Citrix farm.
 2. Expand the **Configuration** section and right click the **Administrators** subsection.
@@ -29,7 +29,7 @@ In order for Citrix XenApp 7.x Published Application monitoring to be successful
 You need to perform this on **all the Delivery Controller servers** in your environment.
 {% endhint %}
 
-After you adjust the privileges on all the Delivery Controller servers, your Citrix environment will be configured for the SysKit Monitor Published Applications monitoring.
+After you adjust the privileges on all the Delivery Controller servers, your Citrix environment will be configured for the Syskit Monitor Published Applications monitoring.
 
 **In case of any difficulties during the configuration feel free to** [**contact**](https://www.syskit.com/company/contact-us) **our support team**.
 

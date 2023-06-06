@@ -1,5 +1,5 @@
 ---
-description: This article outlines all the options for the successful administration of servers that are being monitored with SysKit Monitor.
+description: This article outlines all the options for the successful administration of servers that are being monitored with Syskit Monitor.
 ---
 
 # Servers and Groups
@@ -36,11 +36,11 @@ Displays all monitored computers in your domain and their characteristics, such 
 
 Monitored computers can have **one of five statuses** in the Administration tab:
 
-* **Online** – The computer is active and is currently being monitored by SysKit Monitor.
-* **Offline** – The computer is offline and is being monitored, but SysKit Monitor is not collecting the data because the computer is unreachable.
-* **Unauthorized** – The computer is active and being monitored, but SysKit Monitor is not collecting the data because the appropriate permissions are missing.
-* **Unknown** – SysKit Monitor is determining the computer status.
-* **Disabled** – The computer is not active and is not being monitored by SysKit Monitor.
+* **Online** – The computer is active and is currently being monitored by Syskit Monitor.
+* **Offline** – The computer is offline and is being monitored, but Syskit Monitor is not collecting the data because the computer is unreachable.
+* **Unauthorized** – The computer is active and being monitored, but Syskit Monitor is not collecting the data because the appropriate permissions are missing.
+* **Unknown** – Syskit Monitor is determining the computer status.
+* **Disabled** – The computer is not active and is not being monitored by Syskit Monitor.
 
 The **Type** column displays the computer type, which is automatically assigned to computers during the adding process. The type can be **Server, Gateway,** or **Workstation**.
 
@@ -50,7 +50,7 @@ The **Performance Counters** column displays the performance counters collection
 
 The **details panel** below the grid view displays additional information for the **selected computer**.
 
-* The **Identification** section displays various status monitoring elements, such as the monitoring status within SysKit, the current computer status, the last time the computer was seen online, the last time Event log data was retrieved, the Total System Uptime, and the IP Address.
+* The **Identification** section displays various status monitoring elements, such as the monitoring status within Syskit, the current computer status, the last time the computer was seen online, the last time Event log data was retrieved, the Total System Uptime, and the IP Address.
 * The **Details** section displays more detailed information on the computer’s specifications, such as the physical memory, the operating system and its version, installed service packs, whether the computer is enabled in Active Directory, and the Organizational Unit to which it belongs.
 * The **Settings** section displays various configuration options that have been applied, such as session thresholds information, which are used to display the warning and critical session counts on the Sessions Dashboard. It also displays the last time Performance Counters data was collected and information on all Monitoring Templates that have been applied.
 

@@ -1,19 +1,19 @@
 ---
-description: This article discusses the necessary Service Account you need in order to run the SysKit Monitor in various environments and describes deployment scenarios that affect account requirements.
+description: This article discusses the necessary Service Account you need in order to run the Syskit Monitor in various environments and describes deployment scenarios that affect account requirements.
 ---
 
 # User Permission Requirements
 
 Please read this article before choosing your service account.
 
-You can configure SysKit Monitor to run under designated domain account or local user on a particular computer. When prompted for the Service Account under **SysKit Monitor Service credentials**, enter a dedicated **service user**. It must have the proper permission to collect the required activity data and proper privileges to store data to your database.
+You can configure Syskit Monitor to run under designated domain account or local user on a particular computer. When prompted for the Service Account under **Syskit Monitor Service credentials**, enter a dedicated **service user**. It must have the proper permission to collect the required activity data and proper privileges to store data to your database.
 
 {% hint style="warning" %}
 **Please note!**  
 As a best practice, we recommend setting a service user that is in the Adminstrators or Domain Admins group.
 {% endhint %}
 
-We recommend using the **domain account** as the service account. In order for the account to be eligible for running the SysKit Monitor service, it must have administrative privileges and must have the [**Logon as a service**](../how-to/service-accounts/add-service-user-group-policy.md) permission.
+We recommend using the **domain account** as the service account. In order for the account to be eligible for running the Syskit Monitor service, it must have administrative privileges and must have the [**Logon as a service**](../how-to/service-accounts/add-service-user-group-policy.md) permission.
 
 ## Account setup
 
@@ -34,12 +34,12 @@ If the software is installed on a non-domain joined machine, the service account
 ## SQL Server setup
 
 * You can use the Windows Authentication to access the database – the service user will be used for authentication on the SQL Server \(recommended\).
-* SQL Server Authentication should be used only when Windows Authentication is not possible. This scenario is supported through the SysKit Monitor Configuration Wizard.
+* SQL Server Authentication should be used only when Windows Authentication is not possible. This scenario is supported through the Syskit Monitor Configuration Wizard.
 
-If you plan to use Windows authentication, we recommend using our Configuration Wizard to create and configure the SysKit Monitor database. The Active Directory \(Windows service\) user running the configuration wizard needs to have **dbcreator** and **securityadmin** privileges on the SQL Server to create and configure the database.
+If you plan to use Windows authentication, we recommend using our Configuration Wizard to create and configure the Syskit Monitor database. The Active Directory \(Windows service\) user running the configuration wizard needs to have **dbcreator** and **securityadmin** privileges on the SQL Server to create and configure the database.
 
-See [SQL Permissions](../installation-configuration/configuration-wizard/sql-permissions/create-sql-login.md) to learn more about SysKit SQL server database requirements.  
-See [Configure](../get-to-know-syskit-monitor/backstage-screen/configuration/configure.md) article to learn more on how to change the Service Account or SysKit Monitor database.
+See [SQL Permissions](../installation-configuration/configuration-wizard/sql-permissions/create-sql-login.md) to learn more about Syskit SQL server database requirements.  
+See [Configure](../get-to-know-syskit-monitor/backstage-screen/configuration/configure.md) article to learn more on how to change the Service Account or Syskit Monitor database.
 
 Proceed to: [Pre-Installation Requirements](pre-installation-requirements.md).
 

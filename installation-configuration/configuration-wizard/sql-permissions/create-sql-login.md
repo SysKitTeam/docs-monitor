@@ -19,7 +19,7 @@ To allow this user to login and create the database please perform the following
 3. In the new dialog box, select **Windows authentication** and in **Login name** field type the user’s username in **DOMAIN\username** format.
 4. Select **Server Roles** page on the left side and make sure the user has `dbcreator` and `securityadmin` roles.
 5. Click **OK** and return to the Configuration Wizard – Database Configuration step. 
-6. Click **Test Connection** button. The connection will now be successful. Please continue with the SysKit Monitor configuration.
+6. Click **Test Connection** button. The connection will now be successful. Please continue with the Syskit Monitor configuration.
 
 {% hint style="warning" %}
 **Please note!**   

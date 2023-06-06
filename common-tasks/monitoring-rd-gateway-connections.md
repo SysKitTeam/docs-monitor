@@ -4,9 +4,9 @@ description: This article focuses on the Gateway Reports and how you can measure
 
 # Monitoring RD Gateway Connections
 
-SysKit Monitor provides you with a clear understanding of who is using your **Remote Desktop Gateway** to access the corporate network from the outside. Measure, track, and monitor connections made via RD Gateway to your Remote Desktop Services. Gateway reports provide both **real-time** and **historical data** about users and **logon activities**.
+Syskit Monitor provides you with a clear understanding of who is using your **Remote Desktop Gateway** to access the corporate network from the outside. Measure, track, and monitor connections made via RD Gateway to your Remote Desktop Services. Gateway reports provide both **real-time** and **historical data** about users and **logon activities**.
 
-With SysKit Monitor, you can **monitor users’ activities** and **get summaries** of important statistical data about past activities for all servers and users. It helps you meet regulatory compliance standards and optimize IT infrastructure investments.  
+With Syskit Monitor, you can **monitor users’ activities** and **get summaries** of important statistical data about past activities for all servers and users. It helps you meet regulatory compliance standards and optimize IT infrastructure investments.  
 You can perform time tracking and check users’ activities by connection state \(Active, Idle, Disconnected, and Remote Control\). Gateway reports provide access information, giving detailed insights about Gateway usage such as who is connected and on which target computer, the IP address of the client who connected, when they connected and for how long, etc.
 
 You can also audit all users who are connecting through the Remote Desktop Gateway Server, track logon hours, and get a **complete logon history**. Employee **log on/off times** can be monitored and user logs archived in one easy to manage central database.

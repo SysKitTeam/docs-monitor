@@ -1,14 +1,14 @@
 ---
-description: This article describes all new features, improvements and bug fixes delivered in SysKit 2016 R2 – 8.2.0.
+description: This article describes all new features, improvements and bug fixes delivered in Syskit 2016 R2 – 8.2.0.
 ---
 
-# SysKit 2012 R2 8.2.0 Release Note
+# Syskit 2012 R2 8.2.0 Release Note
 
-We have shipped SysKit 2016 R2 – 8.2.0. This minor release brings new features and improvements.
+We have shipped Syskit 2016 R2 – 8.2.0. This minor release brings new features and improvements.
 
-The SysKit team stepped up the capabilities of the **PowerShell Script Wizard** with **PowerShell script modules**, and the team has continued to add features and improve other functionality in SysKit 2016 R2 – 8.2.0. We’ll highlight the features and some of the key improvements. To dig out more details, read this release note.
+The Syskit team stepped up the capabilities of the **PowerShell Script Wizard** with **PowerShell script modules**, and the team has continued to add features and improve other functionality in Syskit 2016 R2 – 8.2.0. We’ll highlight the features and some of the key improvements. To dig out more details, read this release note.
 
-SysKit’s **PowerShell Script Wizard** includes significant new features that extend its use, improve its usability, and allow you to control and manage Windows-based environments more easily and comprehensively. The major improvements are in the areas of **importing** and **referencing** PowerShell script **modules** and script **scheduling**. Now you can specify the PowerShell **script type** you wish to create and categorize the **report** and **management** scripts so you can more easily manage large amounts of different scripts.
+Syskit’s **PowerShell Script Wizard** includes significant new features that extend its use, improve its usability, and allow you to control and manage Windows-based environments more easily and comprehensively. The major improvements are in the areas of **importing** and **referencing** PowerShell script **modules** and script **scheduling**. Now you can specify the PowerShell **script type** you wish to create and categorize the **report** and **management** scripts so you can more easily manage large amounts of different scripts.
 
 [Click here to download the new release.](https://www.syskit.com/products/monitor/download)
 
@@ -18,7 +18,7 @@ Database version: 8.2.0
 
 Release date: Dec 6, 2016
 
-## SysKit’s Features
+## Syskit’s Features
 
 ### PowerShell Scripts
 
@@ -37,7 +37,7 @@ Release date: Dec 6, 2016
 ### PowerShell Wizard
 
 * The built-in **PowerShell Script Wizard** comes with PowerShell **Module Manager**. You can import and edit a script module, which allows you to use a number of rules and cmdlets on your scripts.
-* The **PowerShell module** feature within SysKit’s PowerShell Script Wizard allows combining of multiple scripts to simplify code management, accessibility, and sharing.
+* The **PowerShell module** feature within Syskit’s PowerShell Script Wizard allows combining of multiple scripts to simplify code management, accessibility, and sharing.
 * Entered script and all referenced modules are validated before the wizard returns and displays the results of the script and modules you have run.
 * Our built-in PowerShell Wizard supports **import** of:
   * Windows PowerShell scripts with a **.ps1** extension,
@@ -63,21 +63,21 @@ Release date: Dec 6, 2016
 
 ## Improvements
 
-* New and improved **design of emails and alerts** sent by SysKit.
+* New and improved **design of emails and alerts** sent by Syskit.
 * With the **Duplicate Monitoring Template** option, now you can easily create a copy of any Monitoring Template and adjust it according to your preferences.
 * Completely refactored and optimized **AD Integration** system job. Now it’s even better and faster! Event logging for this system job is also improved.
 * Reorganized and improved **verbose event logging** and **database log** options that reveal detailed event entries for troubleshooting. The verbose event logging **warning** now shows if any of the available options has been enabled.
-* Better SysKit Service account validation in the Configuration Wizard.
+* Better Syskit Service account validation in the Configuration Wizard.
 * Search has been optimized through the loaded Performance Counters list in Template Wizard.
 * Loading dialogs, indicating that the application is processing user input, have been added where necessary.
 * The unnecessary condition for SQL permissions in the Configuration Wizard has been removed.
-* The **auto-growth setting** for the SysKit database was set to a fixed number of megabytes because it can get quite large over time.
+* The **auto-growth setting** for the Syskit database was set to a fixed number of megabytes because it can get quite large over time.
 
 ## Bug Fixes
 
-* Users who weren’t members of the Local Administrators security group on SysKit’s app server couldn’t start the application.
+* Users who weren’t members of the Local Administrators security group on Syskit’s app server couldn’t start the application.
 * Deletion of old Performance Counter Alerts was not performed during the upgrade.
 * Application Concurrent Usage summarization was not working in automatic mode because of incorrect UTC time zone handling.
-* Users’ multiple simultaneous remote connections using Remote Desktop Services were not registered correctly by SysKit in some cases.
+* Users’ multiple simultaneous remote connections using Remote Desktop Services were not registered correctly by Syskit in some cases.
 * Citrix Gather Mode was incorrectly set for monitored Citrix servers in some cases.
 

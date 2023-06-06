@@ -40,7 +40,7 @@ Open the **Custom Report Wizard** by selecting Custom Reports in the left naviga
 4. Close the Custom Report Wizard by clicking the **Finish** button.
 
 {% hint style="info" %}
-If you are not familiar with SQL or with SysKit Monitor database schema, please contact us and we will create an SQL report for your needs.
+If you are not familiar with SQL or with Syskit Monitor database schema, please contact us and we will create an SQL report for your needs.
 {% endhint %}
 
 ## Get to know your Custom Report
@@ -84,5 +84,5 @@ Parameter **@TerminalServerIDs** is somewhat different as it should represent co
 4. Select names of target servers in **Values** and proceed to the next step.  
 5. Close the Custom Report Wizard by clicking the **Finish** button.
 
-See the [Custom Reports](../../get-to-know-syskit-monitor/reports/custom-reports.md) article to learn how to download and import the predefined Custom Reports from SysKit’s repository.
+See the [Custom Reports](../../get-to-know-syskit-monitor/reports/custom-reports.md) article to learn how to download and import the predefined Custom Reports from Syskit’s repository.
 

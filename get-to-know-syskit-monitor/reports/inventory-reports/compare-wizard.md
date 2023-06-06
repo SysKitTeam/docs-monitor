@@ -27,7 +27,7 @@ The following options are available:
 The grid-view in Manage Snapshots displays the following elements:
 
 * **Created On** – The date and time at which a snapshot was taken.
-* **Mode** – The snapshot can be created in two different modes; Automatic, which is performed by the SysKit Service according to the Period options set for this system job, while Manual is performed when this action is triggered by the user.
+* **Mode** – The snapshot can be created in two different modes; Automatic, which is performed by the Syskit Service according to the Period options set for this system job, while Manual is performed when this action is triggered by the user.
 * **Differences Detected** – This option indicates whether differences were detected in the current snapshot when compared to the one taken before it.
 * **Good Configuration** – Indicates whether the selected snapshot is well configured or not.
 
@@ -102,7 +102,7 @@ In this step you need to choose the **Source** and **Target Views** to compare d
 
 {% hint style="warning" %}
 **Please note!**  
-The current version of SysKit Monitor supports only **one-to-one** server mapping!
+The current version of Syskit Monitor supports only **one-to-one** server mapping!
 {% endhint %}
 
 * The Step 5, **automatically starts the Compare Result** dialog which will display all inventory changes according to previously defined mappings, and depending on what is selected at the Snapshot Selection step, it will show one or two different snapshots.

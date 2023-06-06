@@ -4,13 +4,13 @@ description: This article explains how to change your Syskit Monitor Service Acc
 
 # Configure
 
-If you want to change your SysKit Monitor database or the Service Account used to run the SysKit Monitor Service, proceed with the following steps:
+If you want to change your Syskit Monitor database or the Service Account used to run the Syskit Monitor Service, proceed with the following steps:
 
 1. Navigate to the **Backstage screen** by clicking on the **File** tab.
 2. Select **Configuration** from the left toolbar.
-3. Click on the **Configure** button. The SysKit Monitor Configuration Wizard will start.
+3. Click on the **Configure** button. The Syskit Monitor Configuration Wizard will start.
 
-The next few steps are almost the same as when [configuring ](../../../installation-configuration/configuration-wizard/configure-monitor.md)the application, the only difference is that you have to enter, depending on your needs, the new SysKit Monitor Database Settings or Service Account that will be used for data gathering.
+The next few steps are almost the same as when [configuring ](../../../installation-configuration/configuration-wizard/configure-monitor.md)the application, the only difference is that you have to enter, depending on your needs, the new Syskit Monitor Database Settings or Service Account that will be used for data gathering.
 
 {% hint style="warning" %}
 **Please note!**  

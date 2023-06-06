@@ -1,5 +1,5 @@
 ---
-description: This article provides guidelines on how to add the SysKit Monitor service user to the Local Administrators security group via Group Policy on each server you plan to monitor.
+description: This article provides guidelines on how to add the Syskit Monitor service user to the Local Administrators security group via Group Policy on each server you plan to monitor.
 ---
 
 # Add Service User to Local Administrators Group via Group Policy
@@ -14,7 +14,7 @@ If you plan to monitor a lot of servers, it is much easier to configure the serv
 2. In the **New Object – Group** dialog box, type in **Group Name**, e.g. Local Administrators, set the Group scope to Global, and the Group type to Security. Click **OK** to proceed.
 3. Right-click the newly created Group, select **Properties**, navigate to the **Members** tab, click **Add…** and enter designated users to the group, e.g. domain\administrator, domain\domain admins, domain\syskitmonitorservice. Add other users that also need administrative privileges, if necessary. Click **OK** to proceed.
 4. Open **Group policy management** in the **Administrative tools** on your domain controller.
-5. If you do not have your SysKitMonitor/Administrators **custom domain policy** right-click on the **Default Domain Policy** and choose **Edit**.
+5. If you do not have your SyskitMonitor/Administrators **custom domain policy** right-click on the **Default Domain Policy** and choose **Edit**.
 6. Find the policy setting **Computer Configuration** &gt; **Policies &gt; Windows settings** &gt; **Security settings** &gt; **Restricted groups**.
 7. Right click on the **Restricted groups** and select **Add group**.
 8. In the **Add group** dialog box, click **Browse** or type in the previously created group, e.g. domain\Local Administrators. Click **OK** to proceed.
@@ -25,14 +25,14 @@ If you plan to monitor a lot of servers, it is much easier to configure the serv
 
 10. Click **Add** and type in the name of the group, you want ‘Local Administrators’ to be member of. In this case, **“Administrators”**. Then click **Apply** and **OK** and close all windows.
 
-## Set “Logon as a service user” for the SysKit Monitor service user
+## Set “Logon as a service user” for the Syskit Monitor service user
 
 It is important to define a Domain group policy that is going to allow the service user to “Logon as a service user.” Here is what you need to do:
 
 1. Open **Group policy management** under Administrative tools on your domain controller.
-2. If you do not have the SysKit Monitor **custom domain policy**, right-click on **Default Domain Policy** and choose **Edit**.
+2. If you do not have the Syskit Monitor **custom domain policy**, right-click on **Default Domain Policy** and choose **Edit**.
 3. Find the policy setting **Computer Configuration** &gt; **Policies** &gt; **Windows settings** &gt; **Security settings** &gt; **Local Policies** &gt; **User rights assignments** &gt; **Logon as a service** and open it with a double-click.
 4. In the **Log on as a service Properties** dialog, under the Security Policy Setting tab, add the service user that you created earlier, using the Add User or Group dialog.  
 
-   The service user will have “Logon as a service” right on each server. This step is required for SysKit Monitor to run properly.
+   The service user will have “Logon as a service” right on each server. This step is required for Syskit Monitor to run properly.
 

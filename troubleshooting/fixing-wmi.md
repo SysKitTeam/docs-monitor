@@ -2,11 +2,11 @@
 description: This article explains how to resolve WMI failure by rebuilding the WMI repository.
 ---
 
-# Fixing WMI to work with SysKit Monitor
+# Fixing WMI to work with Syskit Monitor
 
 Windows Management Instrumentation \(WMI\) is the infrastructure for management data and operations on Windows-based operating systems. WMI uses the Common Information Model \(CIM\) industry standard to represent systems, applications, networks, devices, and other managed components. Our application uses WMI to capture some of the data from remote servers such as total memory, disk size etc.
 
-SysKit Monitor is using WMI in order to discover and retrieve data from remote computers. If you encounter difficulties, and missing data while trying to view server information such as RAM memory, programs list, hard disks, domain controllers etc., using SysKit Monitor, this can indicate **WMI failure**.
+Syskit Monitor is using WMI in order to discover and retrieve data from remote computers. If you encounter difficulties, and missing data while trying to view server information such as RAM memory, programs list, hard disks, domain controllers etc., using Syskit Monitor, this can indicate **WMI failure**.
 
 WMI failure can be caused by the **repository corruption** or by the **large WMI repository size**. If you are experiencing this issue, please follow these steps to **rebuild** the WMI repository.
 

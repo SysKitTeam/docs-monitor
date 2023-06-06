@@ -1,10 +1,10 @@
 ---
-description: This article describes how to manage all available PowerShell scripts that are created or imported through SysKit Monitor.
+description: This article describes how to manage all available PowerShell scripts that are created or imported through Syskit Monitor.
 ---
 
 # Manage Scripts
 
-This dialog shows all available PowerShell scripts created or imported through SysKit Monitor. Scripts are grouped by type to two folders, like in reports’ left navigation: Reports and Management Tasks. The script execution is performed periodically, and you are able to configure the triggers as you wish. When you configure each script according to your preferences, it will run periodically as configured. You can also manually run **specific or multiple scripts**, which will be executed at the next tick of service.
+This dialog shows all available PowerShell scripts created or imported through Syskit Monitor. Scripts are grouped by type to two folders, like in reports’ left navigation: Reports and Management Tasks. The script execution is performed periodically, and you are able to configure the triggers as you wish. When you configure each script according to your preferences, it will run periodically as configured. You can also manually run **specific or multiple scripts**, which will be executed at the next tick of service.
 
 The following options are available:
 

@@ -1,20 +1,20 @@
 ---
-description: This article describes all new features, improvements and bug fixes delivered in SysKit 2016 R2.
+description: This article describes all new features, improvements and bug fixes delivered in Syskit 2016 R2.
 ---
 
-# SysKit 2016 R2 – Monitor and script all the things!
+# Syskit 2016 R2 – Monitor and script all the things!
 
-We are proud to present the newest version of SysKit! It’s a major release, and our development team definitely made a conscious effort to keep getting big things done and adding another set of powerful features. Read this release note to discover all the new features and improvements.
+We are proud to present the newest version of Syskit! It’s a major release, and our development team definitely made a conscious effort to keep getting big things done and adding another set of powerful features. Read this release note to discover all the new features and improvements.
 
-Thanks to our hardworking SysKit team, you can now make **PowerShell reports** and import and execute any **script** you can think of! How does it work?
+Thanks to our hardworking Syskit team, you can now make **PowerShell reports** and import and execute any **script** you can think of! How does it work?
 
-SysKit provides you with a **built-in PowerShell editor** for writing and saving scripts. With this feature, all defined PowerShell scripts will be automatically executed with the Inventory Snapshots system job! These scripts can be assigned to a number of servers through the **Computer Groups**.
+Syskit provides you with a **built-in PowerShell editor** for writing and saving scripts. With this feature, all defined PowerShell scripts will be automatically executed with the Inventory Snapshots system job! These scripts can be assigned to a number of servers through the **Computer Groups**.
 
-The other great new feature in SysKit is the ability to **monitor custom performance counters in real time**. With this capability, you can now **load and monitor** every available custom performance counter from your servers. These performance counters can be assigned to a number of servers through the **Monitoring Templates**.
+The other great new feature in Syskit is the ability to **monitor custom performance counters in real time**. With this capability, you can now **load and monitor** every available custom performance counter from your servers. These performance counters can be assigned to a number of servers through the **Monitoring Templates**.
 
-SysKit comes with **predefined** Monitoring Templates for some of the most common server roles, including **SQL, IIS,** and **SharePoint**, to get you up and running quickly with performance monitoring!
+Syskit comes with **predefined** Monitoring Templates for some of the most common server roles, including **SQL, IIS,** and **SharePoint**, to get you up and running quickly with performance monitoring!
 
-SysKit has become the ultimate tool for real-time performance monitoring and remote administration of Windows environments. Awesome, isn’t it?
+Syskit has become the ultimate tool for real-time performance monitoring and remote administration of Windows environments. Awesome, isn’t it?
 
 We’d also like to thank all of our customers for their continued patience. We’re working hard all the time to improve things. 🙂
 
@@ -28,12 +28,12 @@ Database version: 8.0.0
 
 Release date: Sept 15, 2016
 
-## SysKit’s Features
+## Syskit’s Features
 
 ### PowerShell Reports
 
 * The reports within the Inventory Reports category now include a **new report subcategory** and **endless possibilities for creating new reports**.
-* PowerShell Reports within SysKit are designed to make it as easy as possible for you to take control of and simplify the management of your Windows environments whether you are writing scripts or administering software.
+* PowerShell Reports within Syskit are designed to make it as easy as possible for you to take control of and simplify the management of your Windows environments whether you are writing scripts or administering software.
 * The **built-in PowerShell wizard** brings syntax highlighting and colors to the editor and displays the results of the commands and scripts you have run. One of the key parts of the wizard is PowerShell script error handling, which is the same as in Windows PowerShell.
 * Our built-in PowerShell wizard supports **importing** Windows PowerShell scripts with a **.ps1 extension**.
 * Created PowerShell scripts can be tied to a **specific server role** and can be **scheduled to run** for specific Computer Groups.
@@ -54,7 +54,7 @@ Release date: Sept 15, 2016
 
 ### LocalDB
 
-* If you do not have a SQL Server instance installed in your server environment, the SysKit installation will offer to **install SQL Server Express 2012 LocalDB** \(free license\) automatically.
+* If you do not have a SQL Server instance installed in your server environment, the Syskit installation will offer to **install SQL Server Express 2012 LocalDB** \(free license\) automatically.
 * It provides the necessary SQL Server infrastructure, enabling the application to use the database without any complex configuration.
 
 ## Improvements
@@ -63,7 +63,7 @@ Release date: Sept 15, 2016
 * The **Administration** part of the application has been completely redesigned. Now it includes **three** separate categories for adding and managing the monitored **Computers, Computer Groups** and **Monitoring Templates**.
 * The **Performance Counters Aggregation** system job aggregates the metrics data collected by hour and by day to enhance query performance and help minimize the size of the product database.
 * Use the **Counter Settings** dialog to configure the Performance Counters system job’s collection interval and to set after how long old counter data will be aggregated, as well as deleted from the product database.
-* To help identify issues with your product data, we’re excited to introduce the **Diagnostics** section in SysKit. It includes the following **troubleshooting options** for monitored computers: pinging, computer status check, WMI testing, WMI repository verification, PowerShell Remoting check, SysKit Event Log exporting.
+* To help identify issues with your product data, we’re excited to introduce the **Diagnostics** section in Syskit. It includes the following **troubleshooting options** for monitored computers: pinging, computer status check, WMI testing, WMI repository verification, PowerShell Remoting check, Syskit Event Log exporting.
 
 ### UX
 
@@ -72,11 +72,11 @@ Release date: Sept 15, 2016
 
 ## Retired Features
 
-* **Local System Account**: This predefined option for the SysKit service account is **no longer available**. Only the Custom User account can be used to run the SysKit service.
+* **Local System Account**: This predefined option for the Syskit service account is **no longer available**. Only the Custom User account can be used to run the Syskit service.
 
-## What is the SysKit Licensing model and how does it affect existing SysKit customers?
+## What is the Syskit Licensing model and how does it affect existing Syskit customers?
 
-* SysKit is now available in three editions \(**Standard, Professional,** and **Enterprise**\), and it can be bought in **license packs**. Choose the SysKit edition that’s right for you [here](https://www.syskit.com/products/monitor/pricing/features-by-edition).
-* We are introducing a **new type of SysKit license: Subscription**. This will allow customers to have usage rights to all releases while their subscriptions are active. This license can be purchased monthly, and it is renewable.
-* Existing SysKit customers who have valid Software Assurance can upgrade to SysKit’s **full-featured Enterprise version** at no cost.
+* Syskit is now available in three editions \(**Standard, Professional,** and **Enterprise**\), and it can be bought in **license packs**. Choose the Syskit edition that’s right for you [here](https://www.syskit.com/products/monitor/pricing/features-by-edition).
+* We are introducing a **new type of Syskit license: Subscription**. This will allow customers to have usage rights to all releases while their subscriptions are active. This license can be purchased monthly, and it is renewable.
+* Existing Syskit customers who have valid Software Assurance can upgrade to Syskit’s **full-featured Enterprise version** at no cost.
 

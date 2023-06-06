@@ -1,19 +1,19 @@
 ---
-description: This article outlines frequently asked questions regarding the SysKit Monitor.
+description: This article outlines frequently asked questions regarding the Syskit Monitor.
 ---
 
 # FAQ
 
-## What are SysKit's Monitor prerequisites?
+## What are Syskit's Monitor prerequisites?
 
 * Supported Windows operating system \(all versions\)—Windows Server 2008 to Windows 2016.
-* Net Framework 4.5.2 \(required only for the server on which you will install SysKit\)
+* Net Framework 4.5.2 \(required only for the server on which you will install Syskit\)
 * Microsoft SQL database—the free Microsoft SQL Express is supported.
 * Administrator account that is a member of a local admins security group on all the servers you plan to monitor.
 
 ## Can I monitor multiple RDS or Citrix farms from one place?
 
-Yes, SysKit Monitor allows you to monitor multiple farms all from one place. For example, you can combine Windows 2008 with Windows 2012 R2 farms and your old Citrix Presentation Server 4.5 farm with the latest Citrix XenApp 7.6 farm to compare performance on different systems.
+Yes, Syskit Monitor allows you to monitor multiple farms all from one place. For example, you can combine Windows 2008 with Windows 2012 R2 farms and your old Citrix Presentation Server 4.5 farm with the latest Citrix XenApp 7.6 farm to compare performance on different systems.
 
 ## Is XenDesktop supported?
 
@@ -29,7 +29,7 @@ Remote application delivery software, such as 2X RAS, Thinspace, Systancia’s A
 
 ## Can I schedule reports to be delivered by email?
 
-Yes, you can. All reports inside SysKit Monitor can be scheduled to be delivered by email. We even support saving reports to the network file share or uploading reports to Microsoft SharePoint.
+Yes, you can. All reports inside Syskit Monitor can be scheduled to be delivered by email. We even support saving reports to the network file share or uploading reports to Microsoft SharePoint.
 
 ## How long do you store the data?
 
@@ -53,11 +53,11 @@ If you have multiple clients spread between the same or different servers, you c
 
 ## How you capture data from the remote servers?
 
-SysKit uses agent-less technology to get data from the remote servers. We utilize ICA and RDP APIs from Citrix and Microsoft to get data directly without installing any software on the servers. All the calculations are performed by one central SysKit server, and no hardware resources are consumed by the remote servers.
+Syskit uses agent-less technology to get data from the remote servers. We utilize ICA and RDP APIs from Citrix and Microsoft to get data directly without installing any software on the servers. All the calculations are performed by one central Syskit server, and no hardware resources are consumed by the remote servers.
 
 ## How I can plan the size of the database?
 
-The software creates around 40MB of data per monitored server per month. This calculation is based on the assumption that the server hosts approximately 50 users. Therefore, in a case where you have 10 servers, SysKit will generate roughly 40MB \(per server\) each month \(\* 10 servers = 400 MB of data\).
+The software creates around 40MB of data per monitored server per month. This calculation is based on the assumption that the server hosts approximately 50 users. Therefore, in a case where you have 10 servers, Syskit will generate roughly 40MB \(per server\) each month \(\* 10 servers = 400 MB of data\).
 
 ## Do I need to restart the server when installing the software?
 
@@ -73,7 +73,7 @@ The software is licensed per monitored servers, meaning that all the servers you
 
 ## Do you support a web-based UI?
 
-Yes, SysKit Monitor comes as an IIS application as well, so you can access it through a web browser.
+Yes, Syskit Monitor comes as an IIS application as well, so you can access it through a web browser.
 
 ## Do you offer a free trial?
 
