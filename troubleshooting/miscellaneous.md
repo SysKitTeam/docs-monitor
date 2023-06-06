@@ -24,7 +24,7 @@ If you select Concurrent Users per Day, you will see the usage of the farm for e
 
 1. Locate the Syskit Monitor installation directory in Program Files and find the **SysKitMonitor.exe**.   
 
-   \(usually: C:/Program Files/Syskit/Monitor/\)
+   \(usually: C:/Program Files/SysKit/Monitor/\)
 
 2. Create a shortcut of that file on the desktop.
 3. Execute the application by right-clicking and choosing **Run as administrator**.

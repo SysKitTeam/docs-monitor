@@ -19,7 +19,7 @@ If you want to use a different user account, the existing database cannot be use
 
 To delete completely the LocalDB instance that is owned by the old user, open **Regedit.exe** and search for “**SysKitMonitorPrivate**”. You will get two results in total:
 
-1. ‘Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server Local DB\Shared Instances\Syskit Monitor’
+1. ‘Computer\HKEY\_LOCAL\_MACHINE\SOFTWARE\Microsoft\Microsoft SQL Server Local DB\Shared Instances\SysKit Monitor’
 2. ‘Computer\HKEY\_USERS … \SOFTWARE\Microsoft\Microsoft SQL Server\UserInstances{ … }’
 
 Next, right-click the selected entry and click **Delete**. Then select F3 to find the last entry and **delete** it like the previous one.
