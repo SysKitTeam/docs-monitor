@@ -13,7 +13,7 @@ Our application just needs to be installed on a single server, which will then b
 To install the Syskit Monitor, proceed with the following steps:
 
 1. [Download](https://www.syskit.com/products/monitor/download) the newest release.
-2. Unpack and run the **SyskitMonitorSetup.exe**. The wizard will guide you through the installation steps; click **Next &gt;** to proceed.
+2. Unpack and run the **SysKitMonitorSetup.exe**. The wizard will guide you through the installation steps; click **Next &gt;** to proceed.
 3. Click **I Accept the terms of the license agreement** to accept the license and then click **Next &gt;** to proceed.
 4. This step allows you to choose the program features that you want to install and change how a feature is installed. The default option is set to install the **Syskit Monitor desktop application** only, but you can choose to install **both** the **desktop** and the **web** feature. Before proceeding, please read the [System Requirements](../../requirements/system-requirements.md). Click **Next &gt;** to proceed.
 5. Select the destination folder for the application installation files, e.g., C:\Program Files\Syskit\Monitor. Click **Next &gt;** to proceed.

@@ -17,7 +17,7 @@ Customers that have no internet access on their computers will need to activate 
 
 In order to create your activation files please follow these steps:
 
-1. Navigate to the [Activation Page](https://my.syskit.com/activation/?P=SyskitMonitor).
+1. Navigate to the [Activation Page](https://my.syskit.com/activation/?P=SysKitMonitor).
 2. Login to our Customers Portal, navigate to the product key, and on the activation page, write product key that has been provided to you upon purchase.
 3. On the activation page, write your server name.
 4. Download the license file.

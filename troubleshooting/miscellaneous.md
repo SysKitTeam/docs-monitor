@@ -22,7 +22,7 @@ If you select Concurrent Users per Day, you will see the usage of the farm for e
 
 ## I am having problems running the application when User Access Control \(UAC\) is enabled.
 
-1. Locate the Syskit Monitor installation directory in Program Files and find the **SyskitMonitor.exe**.   
+1. Locate the Syskit Monitor installation directory in Program Files and find the **SysKitMonitor.exe**.   
 
    \(usually: C:/Program Files/Syskit/Monitor/\)
 
@@ -45,7 +45,7 @@ Integrated security: No
 Assembly version: 8.0.0.xxxxx  
 Database version: 8.0.0  
 Service account: DOMAIN\syskitmonitor_user  
-Connection string: Server=__SQLSERVER__ or __(LocalDB)\.\SyskitMonitor__;Database=Syskit_Monitor_database;Trusted_Connection=yes; Asynchronous Processing=true;
+Connection string: Server=__SQLSERVER__ or __(LocalDB)\.\SysKitMonitor__;Database=Syskit_Monitor_database;Trusted_Connection=yes; Asynchronous Processing=true;
 ```
 
 This means that Syskit Monitor is using the SQL Server with the Windows integrated authentication. Please, send this data to us when we request you to do so.
@@ -55,7 +55,7 @@ This means that Syskit Monitor is using the SQL Server with the Windows integrat
 The application will work on both the console and the RDP/ICA session.  
 Alternatively you can use the Syskit Monitor from your workstation if you wish to. In this case, you don’t need to open the session to the server. The workstation needs to be on the same subnet as the SQL Server, because the application will contact the SQL Server for data.
 
-To configure the admin console on the workstation, copy the installation folder of the application \(the default is in C:/Program files/Syskit/Monitor/\). Then create a shortcut on the desktop that will point to **SyskitMonitor.exe.**
+To configure the admin console on the workstation, copy the installation folder of the application \(the default is in C:/Program files/Syskit/Monitor/\). Then create a shortcut on the desktop that will point to **SysKitMonitor.exe.**
 
 If you are using the same user account on the workstation as on the RD/XenApp server, the application will work fine. However, if the user is different, you will need to allow that user read/write privileges on the Syskit Monitor database on the SQL Server.
 

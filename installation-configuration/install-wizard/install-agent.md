@@ -8,7 +8,7 @@ description: This article describes how to install the Syskit Monitor Data Col
 **Tip!** In case you have more than 100 servers, or geographically distribuded servers, you are advised to have Syskit Monitor Data Collector. Please contact our support team who will provide you with the detailed instructions and setup file.
 {% endhint %}
 
-1. Run the **SyskitMonitorDataCollector.exe**.
+1. Run the **SysKitMonitorDataCollector.exe**.
 2. Click **Next &gt;** to continue with the installation.
 3. Click **I Accept the terms of the license agreement** to accept the license and then click Next &gt; to proceed.
 4. Select the destination folder for the application installation files, e.g., C:\Program Files\Syskit\Monitor Data Collector. Click **Next &gt;** to proceed.

@@ -14,7 +14,7 @@ If you plan to monitor a lot of servers, it is much easier to configure the serv
 2. In the **New Object – Group** dialog box, type in **Group Name**, e.g. Local Administrators, set the Group scope to Global, and the Group type to Security. Click **OK** to proceed.
 3. Right-click the newly created Group, select **Properties**, navigate to the **Members** tab, click **Add…** and enter designated users to the group, e.g. domain\administrator, domain\domain admins, domain\syskitmonitorservice. Add other users that also need administrative privileges, if necessary. Click **OK** to proceed.
 4. Open **Group policy management** in the **Administrative tools** on your domain controller.
-5. If you do not have your SyskitMonitor/Administrators **custom domain policy** right-click on the **Default Domain Policy** and choose **Edit**.
+5. If you do not have your SysKitMonitor/Administrators **custom domain policy** right-click on the **Default Domain Policy** and choose **Edit**.
 6. Find the policy setting **Computer Configuration** &gt; **Policies &gt; Windows settings** &gt; **Security settings** &gt; **Restricted groups**.
 7. Right click on the **Restricted groups** and select **Add group**.
 8. In the **Add group** dialog box, click **Browse** or type in the previously created group, e.g. domain\Local Administrators. Click **OK** to proceed.

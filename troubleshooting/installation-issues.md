@@ -78,7 +78,7 @@ You have a few options here:
 2. You can install SQL Server on another box in your domain and then connect the installation to an existing SQL server. Learn more in our [installation guide](../installation-configuration/install-wizard/install-monitor.md).
 3. Microsoft does not recommend installing SQL Server on a domain controller. However, if you only have a single server in your organization, you can choose to install it on top of your domain controller. Before proceeding with this operation, you should check out the [following article](https://docs.microsoft.com/en-us/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server#DC_support).
 
-## I am getting: "Cannot start SyskitMonitorService."
+## I am getting: "Cannot start SysKitMonitorService."
 
 ### Solution:
 
@@ -86,5 +86,5 @@ You have a few options here:
 2. Click Next again.
 3. The installation will be restarted, and the service will start.
 
-If the service fails to start again, access the SyskitMonitorService manually from **Administrative tools** &gt; **Services**. If there are any further issues, [contact us](https://www.syskit.com/company/contact-us).
+If the service fails to start again, access the SysKitMonitorService manually from **Administrative tools** &gt; **Services**. If there are any further issues, [contact us](https://www.syskit.com/company/contact-us).
 

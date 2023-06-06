@@ -22,5 +22,5 @@ The placeholder 'Drive' represents the letter of the drive on which you have the
 
 In case you have a policy that you mustn’t exclude the whole folder, please configure your antivirus software to exclude the following file from antivirus scanning:
 
-`SyskitMonitorService.exe`
+`SysKitMonitorService.exe`
 

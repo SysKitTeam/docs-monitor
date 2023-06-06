@@ -36,7 +36,7 @@ If you are having problems accessing the Syskit Monitor site, it may be that som
 In that case you will have to change the default port number:
 
 1. Run the **Internet Information Services \(IIS\) Manager**.
-2. Expand the Sites List, select the SyskitMonitorApp, and in the Actions pane, click **Bindings**.
+2. Expand the Sites List, select the SysKitMonitorApp, and in the Actions pane, click **Bindings**.
 3. Select the site binding you want to change the port number for and click on the **Edit** button.
 4. Change the default port number to the next available number and click OK to apply the changes.
 

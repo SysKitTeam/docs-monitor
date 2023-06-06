@@ -11,7 +11,7 @@ Syskit Monitor database, application settings and data will be conserved in the 
 We recommend you to perform the database backup before proceeding with the upgrade process.
 {% endhint %}
 
-1. Download the latest Syskit Monitor version and run the **SyskitMonitorSetup.exe**.
+1. Download the latest Syskit Monitor version and run the **SysKitMonitorSetup.exe**.
 2. **Install Wizard** will inform you that previous version of product, if detected, will be **uninstalled automatically**.
 3. Once the installation is completed, the Syskit Monitor **Configuration Wizard** will appear.
 
