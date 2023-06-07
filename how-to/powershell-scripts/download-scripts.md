@@ -1,10 +1,10 @@
 ---
-description: This article describes how to download and import the available predefined PowerShell scripts from SysKit’s repository.
+description: This article describes how to download and import the available predefined PowerShell scripts from Syskit’s repository.
 ---
 
 # Download Scripts
 
-This dialog enables you to browse through and download the available **predefined PowerShell scripts** from SysKit’s **repository**. There are around **fifty** PowerShell scripts categorized by purpose.  
+This dialog enables you to browse through and download the available **predefined PowerShell scripts** from Syskit’s **repository**. There are around **fifty** PowerShell scripts categorized by purpose.  
 Most of the available PowerShell scripts can run on all types of servers while others are tied to a specific server role—such as **Domain Controller, IIS,** or **Hyper-V**—or have to be executed on the local machine. It is very important to read the script description on the right side.
 
 If you select a script from the list, the following script information will be displayed:

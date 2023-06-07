@@ -1,5 +1,5 @@
 ---
-description: This article explains how to resolve the offline and unauthorized computer states shown in SysKit Monitor.
+description: This article explains how to resolve the offline and unauthorized computer states shown in Syskit Monitor.
 ---
 
 # How to resolve the Offline and Unauthorized computer states
@@ -29,9 +29,9 @@ The easiest way to perform this is via the group policy. We will create either n
 4. Group policy management editor will open – navigate to Computer Configuration &gt; Preferences &gt; Windows Settings &gt; Registry.
 5. Now right click on the Registry &gt; New &gt; Registry Item.
 6. In the key path, navigate to **HKEY\_LOCAL\_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server**, select **AllowRemoteRPC** key, and set **Value data** to **1** and the **Base** to **Decimal**.
-7. Confirm everything and that’s it, now SysKit Monitor is able to get the data from workstations as well.
+7. Confirm everything and that’s it, now Syskit Monitor is able to get the data from workstations as well.
 
-What you need to do now is to go back to the SysKit Monitor and add extra workstations you want to monitor.
+What you need to do now is to go back to the Syskit Monitor and add extra workstations you want to monitor.
 
 See [Network Ports](network-ports.md) article to learn more on how to configure firewall settings for data collection.
 

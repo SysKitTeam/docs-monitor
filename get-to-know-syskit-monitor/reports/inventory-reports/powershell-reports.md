@@ -4,13 +4,13 @@ description: PowerShell Reports are designed to make it as easy as possible for 
 
 # Powershell Reports
 
-PowerShell Reports within SysKit are designed to make it as easy as possible for you to take control and simplify the management of your Windows environments, whether you are writing scripts or administering software. SysKit will periodically execute all the defined PowerShell scripts on designated computers and display the results in the form of **snapshots**.
+PowerShell Reports within Syskit are designed to make it as easy as possible for you to take control and simplify the management of your Windows environments, whether you are writing scripts or administering software. Syskit will periodically execute all the defined PowerShell scripts on designated computers and display the results in the form of **snapshots**.
 
 Data is gathered through the **Inventory Snapshots** system job, which is scheduled to run every 7 days by default.
 
 If you navigate to Inventory Reports &gt; PowerShell Reports, you will find endless possibilities for the creation of new reports.
 
-SysKit provides you with a **built-in PowerShell editor** for writing, testing, and debugging scripts. SysKit’s PowerShell editor supports enhanced usage of PowerShell for beginners and experts alike. It covers most of what you’ll need to get useful scripting done, such as variables, arrays and hash tables, the pipeline, objects, conditions, loops, functions, scripts, error handling, scope, text, and regular expressions.
+Syskit provides you with a **built-in PowerShell editor** for writing, testing, and debugging scripts. Syskit’s PowerShell editor supports enhanced usage of PowerShell for beginners and experts alike. It covers most of what you’ll need to get useful scripting done, such as variables, arrays and hash tables, the pipeline, objects, conditions, loops, functions, scripts, error handling, scope, text, and regular expressions.
 
 Its features include:
 
@@ -19,7 +19,7 @@ Its features include:
 * Importing of the Windows PowerShell scripts with .ps1 extension;
 * **Scheduled execution** of scripts on selected computers and computer groups.
 
-You can use PowerShell scripts to retrieve valuable information about a server’s configuration, usage, or performance. With SysKit, you can easily export the results and retrieved information to a PDF or.xlsx file, so that you can view it again later.
+You can use PowerShell scripts to retrieve valuable information about a server’s configuration, usage, or performance. With Syskit, you can easily export the results and retrieved information to a PDF or.xlsx file, so that you can view it again later.
 
 {% hint style="warning" %}
 **Please note!**  
@@ -28,17 +28,17 @@ In order to see the PowerShell Reports it is necessary to configure [Inventory S
 
 ## Enhance your reporting using PowerShell Wizard
 
-It is known that PowerShell is an excellent tool for automating repetitive tasks, so you can start building your scripts using SysKit’s PowerShell editor.
+It is known that PowerShell is an excellent tool for automating repetitive tasks, so you can start building your scripts using Syskit’s PowerShell editor.
 
 You can import PowerShell scripts into the wizard \(with .ps1 extension only\) and write your own PowerShell code and create some amazing reports.
 
-In your day-to-day activities working with PowerShell, it is likely that you have been asked to generate a report of some kind and provide that to your boss. The common approach to this might be to send the output to a file, such as a text or CSV file. While there is nothing necessarily wrong with this, sometimes it is nice to provide a richer report to make the information more presentable for the viewer, and this is where SysKit comes in.
+In your day-to-day activities working with PowerShell, it is likely that you have been asked to generate a report of some kind and provide that to your boss. The common approach to this might be to send the output to a file, such as a text or CSV file. While there is nothing necessarily wrong with this, sometimes it is nice to provide a richer report to make the information more presentable for the viewer, and this is where Syskit comes in.
 
-We’ll break down how you can create custom information reports in SysKit using PowerShell Wizard.
+We’ll break down how you can create custom information reports in Syskit using PowerShell Wizard.
 
 1. In Step 1, simply enter the PowerShell script or report name and select the desired report category. The report category option will help you categorize your reports so you can manage large amounts of different scripts more easily.
 
-2. In Step 2, you will need to enter the PowerShell script you want to use to generate reports. To avoid incorrectly generated reports, the script first needs to be tested on a selected computer. SysKit will run it against the computer that you specify. After entering script, click Next&gt; to see the results.
+2. In Step 2, you will need to enter the PowerShell script you want to use to generate reports. To avoid incorrectly generated reports, the script first needs to be tested on a selected computer. Syskit will run it against the computer that you specify. After entering script, click Next&gt; to see the results.
 
 {% hint style="warning" %}
 **Please note!**  

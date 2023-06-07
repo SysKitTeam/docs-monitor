@@ -12,7 +12,7 @@ Please configure your antivirus software to exclude the following folder from an
 
 * Drive:\Program Files\SysKit\Monitor
 
-If you are using SysKit Monitor Data Collector, please exclude the following folder:
+If you are using Syskit Monitor Data Collector, please exclude the following folder:
 
 * Drive:\Program Files\SysKit\Monitor Data Collector
 

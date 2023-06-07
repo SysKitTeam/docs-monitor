@@ -1,14 +1,14 @@
 ---
-description: This article provides a quick overview of things that can be done through the SysKit Monitor UI.
+description: This article provides a quick overview of things that can be done through the Syskit Monitor UI.
 ---
 
 # Quick Start Guide
 
-This guide is intended as a basic guide to help you get started using SysKit Monitor and it simplifies performing common tasks by guiding you through a series of steps describing the user interface.
+This guide is intended as a basic guide to help you get started using Syskit Monitor and it simplifies performing common tasks by guiding you through a series of steps describing the user interface.
 
 ## Step 1: Add Computers
 
-When you install and open SysKit Monitor for the first time, there will be no data on the reports. The first thing you should do is add servers for monitoring. If you are on the Session Dashboard, a warning message will be displayed that says you do not have any active computers; just click on the **link to add computer\(s\)**.
+When you install and open Syskit Monitor for the first time, there will be no data on the reports. The first thing you should do is add servers for monitoring. If you are on the Session Dashboard, a warning message will be displayed that says you do not have any active computers; just click on the **link to add computer\(s\)**.
 
 Computers can also be added from the **Administration – Computers** category by selecting the **Add** button from the upper ribbon.
 
@@ -25,7 +25,7 @@ If you will be monitoring more than one computer, we recommend that you do not s
 
 ## Step 3: Email Settings Configuration
 
-To enable delivery of various SysKit reports by e-mail you must configure the SMTP server. If you will not use report scheduling and email notifications, you can skip this step.  
+To enable delivery of various Syskit reports by e-mail you must configure the SMTP server. If you will not use report scheduling and email notifications, you can skip this step.  
 To perform basic email configuration follow these steps:
 
 1. Access **Manage** in the **File** menu and click on **System Jobs**.
@@ -50,7 +50,7 @@ Another way to define your subscription is to access it through the main report 
 
 ## Step 5: Get to know your dashboard
 
-The [Sessions Dashboard](dashboards/sessions-dashboard.md) is shown at the start of the SysKit Monitor application. It enables you to see live data, such as the number of sessions in progress, and the number of currently running sessions, processes, and computer states.
+The [Sessions Dashboard](dashboards/sessions-dashboard.md) is shown at the start of the Syskit Monitor application. It enables you to see live data, such as the number of sessions in progress, and the number of currently running sessions, processes, and computer states.
 
 You can also [create your own dashboards](../how-to/dashboards/create-custom-dashboard.md) by accessing **My Dashboards** in the Dashboard panel and selecting **New** from the ribbon.
 
@@ -65,5 +65,5 @@ The Date Range filter enables you to select predefined time periods or define yo
 Filters are positioned on the right of the selected report. Depending on the selected report and available data, more or fewer filters will be presented to further eliminate excess data you do not want to be represented in your report.  
 Like the Date Range filter, defined filters will be preserved through all reports.
 
-If you find yourself in need of information provided in this Quick Start Guide, you can always access it manually through the SysKit Monitor if you navigate to **File &gt; Help &gt; Quick Start Guide**.
+If you find yourself in need of information provided in this Quick Start Guide, you can always access it manually through the Syskit Monitor if you navigate to **File &gt; Help &gt; Quick Start Guide**.
 

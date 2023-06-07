@@ -1,8 +1,8 @@
 ---
-description: This article describes how to configure your server to monitor Citrix Published Applications with the SysKit Monitor.
+description: This article describes how to configure your server to monitor Citrix Published Applications with the Syskit Monitor.
 ---
 
-# Configure SysKit Monitor for Citrix XenApp 5 Published Application monitoring
+# Configure Syskit Monitor for Citrix XenApp 5 Published Application monitoring
 
 In order for monitoring to be successful these are the steps you will have to perform on your **Citrix Management Server**.
 
@@ -20,7 +20,7 @@ Turn off your User Account Control in order for installation to be successful.
 
 4. Enter the **Citrix Management Server** name and click **Next** to proceed and finish the installation.
 
-## Add SysKit Monitor service user to the Citrix Farm Administrators group
+## Add Syskit Monitor service user to the Citrix Farm Administrators group
 
 1. Navigate to the **Start** &gt; **Citrix** &gt; **Management Consoles** &gt; **Access Management Console**.
 2. Expand the **Citrix Resources** section and the **XenApp** subsection. Choose the Citrix farm and click on the **Administrators** group.
@@ -30,7 +30,7 @@ Turn off your User Account Control in order for installation to be successful.
 6. Enter the name of the **service user** that you would like to add and click **OK**. After you added the chosen service user, click **OK** and then **Next**.
 7. In the last step of the wizard, choose the **View Only** privilege level for the newly added administrator.
 
-## Add SysKit Monitor service user to the Component Services Administrators
+## Add Syskit Monitor service user to the Component Services Administrators
 
 1. Start the **Component Services** by typing in the **dcomcnfg** in the Run window and pressing enter.
 2. Expand the **Component Services** section and **Computers** subsection. Right click on the **My Computer** and select **Properties**.
@@ -39,11 +39,11 @@ Turn off your User Account Control in order for installation to be successful.
 5. Select the newly added service user and grant him the **Local Launch** and **Remote Launch** permissions. Click **OK** to finish.
 6. Navigate to the **Default Properties** tab and change the Default Impersonation Level to **Impersonate**. Click **OK** to finish.
 
-Your Citrix Management Server is now configured for the SysKit Monitor Published Applications monitoring.
+Your Citrix Management Server is now configured for the Syskit Monitor Published Applications monitoring.
 
 **In case of any difficulties during the configuration feel free to** [**contact**](https://www.syskit.com/company/contact-us) **our support team**.
 
-See [Configure SysKit Monitor for Citrix XenApp 6.x Published Application monitoring](monitor-citrix-xenapp5-published-applications.md) to learn more.  
-See [Configure SysKit Monitor for Citrix XenApp 7.x Published Application monitoring](monitor-citrix-xenapp5-published-applications.md) to learn more.  
+See [Configure Syskit Monitor for Citrix XenApp 6.x Published Application monitoring](monitor-citrix-xenapp5-published-applications.md) to learn more.  
+See [Configure Syskit Monitor for Citrix XenApp 7.x Published Application monitoring](monitor-citrix-xenapp5-published-applications.md) to learn more.  
 See [Monitor Citrix Published Applications](monitor-citrix-published-applications.md) to learn more.
 

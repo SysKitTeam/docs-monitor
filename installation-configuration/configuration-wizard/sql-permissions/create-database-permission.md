@@ -18,7 +18,7 @@ To allow the user running the Configuration Wizard to configure the database and
 4. Select **Server Roles** page on the left side and make sure the user has `dbcreator` and `securityadmin` roles.
 5. Click **OK** and return to the Configuration Wizard.
 6. Click **Retry**.
-7. You will see that the database was successfully created. Click **Finish** to complete the SysKit Monitor configuration.
+7. You will see that the database was successfully created. Click **Finish** to complete the Syskit Monitor configuration.
 
 {% hint style="warning" %}
 **Please note!**  

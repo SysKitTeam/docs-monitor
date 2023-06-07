@@ -6,7 +6,7 @@ description: This article explains how to troubleshoot issues caused by LocalDB 
 
 This article is intended for advanced users, administrators, and IT professionals.
 
-If you are using **Microsoft SQL Server 2012 Express LocalDB** as a database backend with SysKit Monitor, there can be permission issues while attempting to access an existing LocalDB instance using a different username or account. These configuration issues can arise when upgrading the application to a new version and using a different user account.
+If you are using **Microsoft SQL Server 2012 Express LocalDB** as a database backend with Syskit Monitor, there can be permission issues while attempting to access an existing LocalDB instance using a different username or account. These configuration issues can arise when upgrading the application to a new version and using a different user account.
 
 By default, access to the instance of LocalDB is **limited to its owner**. The data contained in the LocalDB is protected by file system access to the database files. Ownership of the LocalDB instance **cannot be changed**. It is owned by the user that was used for the configuration.
 
@@ -30,7 +30,7 @@ Afterwards, start the Command Prompt as an administrator and perform the followi
 2. **sqllocaldb share “SysKitMonitorPrivate” “.\SysKitMonitor”** – shares the specified private instance of LocalDB using the specified shared name.
 3. **sqllocaldb start “SysKitMonitorPrivate”** – starts the specified instance of SQL Server Express LocalDB.
 
-The newly created LocalDB instance should be up and running now and ready for use in the **SysKit Monitor Configuration Wizard**. If you are having trouble accessing the instance, check its status by entering the following command: sqllocaldb info “SysKitMonitorPrivate”.
+The newly created LocalDB instance should be up and running now and ready for use in the **Syskit Monitor Configuration Wizard**. If you are having trouble accessing the instance, check its status by entering the following command: sqllocaldb info “SysKitMonitorPrivate”.
 
-If you want to use the **existing database**, you can export and create a database backup from the **backstage screen** in SysKit Monitor, to a desired location and restore it to the designated **SQL Server instance**.
+If you want to use the **existing database**, you can export and create a database backup from the **backstage screen** in Syskit Monitor, to a desired location and restore it to the designated **SQL Server instance**.
 

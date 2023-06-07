@@ -1,10 +1,10 @@
 ---
-description: This article describes how to download and import the predefined Monitoring Templates from SysKit’s repository.
+description: This article describes how to download and import the predefined Monitoring Templates from Syskit’s repository.
 ---
 
 # Download Templates
 
-This dialog enables you to download and import the [predefined Monitoring Templates](predefined-templates.md) from SysKit’s **repository**. There, you can find **three** monitoring templates tied to a specific server role, such as **SharePoint, Citrix** or **Hyper-V**. It is very important to read the template description on the right side.
+This dialog enables you to download and import the [predefined Monitoring Templates](predefined-templates.md) from Syskit’s **repository**. There, you can find **three** monitoring templates tied to a specific server role, such as **SharePoint, Citrix** or **Hyper-V**. It is very important to read the template description on the right side.
 
 If you select a monitoring template from the list, the following template information will be displayed:
 

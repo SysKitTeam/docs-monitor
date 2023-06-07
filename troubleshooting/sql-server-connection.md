@@ -1,5 +1,5 @@
 ---
-description: This article explains how to troubleshoot some of the most common SQL Server Connection problems to get the SysKit Monitor up and running.
+description: This article explains how to troubleshoot some of the most common SQL Server Connection problems to get the Syskit Monitor up and running.
 ---
 
 # SQL Server Connection
@@ -46,7 +46,7 @@ The SQL Server Browser service needs to be up and running.
 
 ### Problem:
 
-The wrong database server name has been entered while trying to connect to the database server through the SysKit Monitor Configuration Wizard.
+The wrong database server name has been entered while trying to connect to the database server through the Syskit Monitor Configuration Wizard.
 
 ### Solution:
 
@@ -55,7 +55,7 @@ Check if your SQL server is configured to use a named instance, e.g. **Server/In
 1. Run the Microsoft SQL Server Management Studio and connect to the desired SQL Server instance.
 2. Right-click on the SQL Server instance and select **Properties**.
 3. Check the full server **Name**, i.e. both server and instance name.
-4. Change the server name in the SysKit Monitor Configuration Wizard according to the name written in the Microsoft SQL Server Management Studio.
+4. Change the server name in the Syskit Monitor Configuration Wizard according to the name written in the Microsoft SQL Server Management Studio.
 5. The SQL connection should now be available.
 
 ## Error: TCP/IP network traffic is not enabled on the SQL Server

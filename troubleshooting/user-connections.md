@@ -1,5 +1,5 @@
 ---
-description: This article will help you to understand the user connections in SysKit Monitor.
+description: This article will help you to understand the user connections in Syskit Monitor.
 ---
 
 # User Connections

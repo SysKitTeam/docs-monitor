@@ -1,5 +1,5 @@
 ---
-description: Find out more about available custom reports in SysKit Monitor.
+description: Find out more about available custom reports in Syskit Monitor.
 ---
 
 # Custom Reports
@@ -9,7 +9,7 @@ The Custom Reports section offers many reports with customized fields and condit
 Predefined Custom reports are available:
 
 * **Installed Updates** – shows whether updates were installed on a selected server.
-* **SysKit Permissions** – shows which users have access to the SysKit application and what kind of permissions they were granted.
+* **Syskit Permissions** – shows which users have access to the Syskit application and what kind of permissions they were granted.
 * **Idle Activities Today** – shows which users were idle and for how long over one day.
 * **Windows Services** – shows all services that are running on your local and remote computers. This is a real-time report.
 
@@ -33,7 +33,7 @@ Predefined Custom reports are available:
 
 ## Download Custom Reports
 
-This dialog enables you to download and import the **predefined Custom Reports** from SysKit’s **repository**. There, you can find around **twenty** custom reports created for various purposes and categorized by the data type they display. It is very important to read the report description on the right side.
+This dialog enables you to download and import the **predefined Custom Reports** from Syskit’s **repository**. There, you can find around **twenty** custom reports created for various purposes and categorized by the data type they display. It is very important to read the report description on the right side.
 
 If you select a report from the list, the following report information will be displayed:
 

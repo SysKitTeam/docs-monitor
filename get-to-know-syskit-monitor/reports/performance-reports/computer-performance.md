@@ -41,7 +41,7 @@ Defined Windows Services will be listed with the following columns:
 * **Logon account** – The logon account column shows which user account the service is using to log on.
 * **Status** – The service status column, shows the current status of all monitored services configured to run on the selected computer and is updated every 30 seconds.
 
-If any of monitored services has the service status `Stopped`, this means, depending on the defined actions, that SysKit has tried to restart or is in the process of restarting the stopped service\(s\) on the selected computer. Depending on the options you configure in the **Monitoring Template** which is assigned to a computer, SysKit can send you **e-mail notifications** when one or more important services are **stopped** and can perform **automatic service restarts**. It will also tell you whether it has been successful or not.
+If any of monitored services has the service status `Stopped`, this means, depending on the defined actions, that Syskit has tried to restart or is in the process of restarting the stopped service\(s\) on the selected computer. Depending on the options you configure in the **Monitoring Template** which is assigned to a computer, Syskit can send you **e-mail notifications** when one or more important services are **stopped** and can perform **automatic service restarts**. It will also tell you whether it has been successful or not.
 
 See the [Monitoring Templates](../../administration/monitoring-templates.md) article to learn more about managing custom performance counters and important services.
 

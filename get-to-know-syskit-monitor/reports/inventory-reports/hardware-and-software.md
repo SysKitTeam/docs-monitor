@@ -4,7 +4,7 @@ description: These reports provide an overview of all hard drives, network adapt
 
 # Hardware and Software
 
-Inventory Reports within SysKit Monitor are designed to make it as easy as possible for you to get an overview of everything that is deployed across your server environment and compare differences over time. SysKit periodically collects information in the form of **snapshots** on all the hardware and software installed on your Windows Servers and workstations, as well as which users are the Local Administrators on monitored computers.
+Inventory Reports within Syskit Monitor are designed to make it as easy as possible for you to get an overview of everything that is deployed across your server environment and compare differences over time. Syskit periodically collects information in the form of **snapshots** on all the hardware and software installed on your Windows Servers and workstations, as well as which users are the Local Administrators on monitored computers.
 
 **Inventory Snapshot** consists of:
 

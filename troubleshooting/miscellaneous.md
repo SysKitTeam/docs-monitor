@@ -1,5 +1,5 @@
 ---
-description: This article contains various miscellaneous questions and answers related to SysKit Monitor.
+description: This article contains various miscellaneous questions and answers related to Syskit Monitor.
 ---
 
 # Miscellaneous
@@ -22,22 +22,22 @@ If you select Concurrent Users per Day, you will see the usage of the farm for e
 
 ## I am having problems running the application when User Access Control \(UAC\) is enabled.
 
-1. Locate the SysKit Monitor installation directory in Program Files and find the **SysKitMonitor.exe**.   
+1. Locate the Syskit Monitor installation directory in Program Files and find the **SysKitMonitor.exe**.   
 
    \(usually: C:/Program Files/SysKit/Monitor/\)
 
 2. Create a shortcut of that file on the desktop.
 3. Execute the application by right-clicking and choosing **Run as administrator**.
-4. UAC will prompt you to run as admin, and SysKit Monitor will start initializing.
+4. UAC will prompt you to run as admin, and Syskit Monitor will start initializing.
 
 {% hint style="warning" %}
 **Please note!**  
 You are required to create a shortcut directly from the file in the installation directory, not from the shortcut in the Start menu.
 {% endhint %}
 
-## How can I check which database SysKit Monitor is using?
+## How can I check which database Syskit Monitor is using?
 
-In **SysKit Monitor**, select **File** &gt; **Help** &gt; **About SysKit Monitor**, and then you will get something like the following:
+In **Syskit Monitor**, select **File** &gt; **Help** &gt; **About Syskit Monitor**, and then you will get something like the following:
 
 ```text
 Database type: SQL  
@@ -48,20 +48,20 @@ Service account: DOMAIN\syskitmonitor_user
 Connection string: Server=__SQLSERVER__ or __(LocalDB)\.\SysKitMonitor__;Database=SysKit_Monitor_database;Trusted_Connection=yes; Asynchronous Processing=true;
 ```
 
-This means that SysKit Monitor is using the SQL Server with the Windows integrated authentication. Please, send this data to us when we request you to do so.
+This means that Syskit Monitor is using the SQL Server with the Windows integrated authentication. Please, send this data to us when we request you to do so.
 
-## Should SysKit Monitor only be opened on the server console, or is it ok to access it through a RD session or XenApp session? Can I access the console from my workstation?
+## Should Syskit Monitor only be opened on the server console, or is it ok to access it through a RD session or XenApp session? Can I access the console from my workstation?
 
 The application will work on both the console and the RDP/ICA session.  
-Alternatively you can use the SysKit Monitor from your workstation if you wish to. In this case, you don’t need to open the session to the server. The workstation needs to be on the same subnet as the SQL Server, because the application will contact the SQL Server for data.
+Alternatively you can use the Syskit Monitor from your workstation if you wish to. In this case, you don’t need to open the session to the server. The workstation needs to be on the same subnet as the SQL Server, because the application will contact the SQL Server for data.
 
 To configure the admin console on the workstation, copy the installation folder of the application \(the default is in C:/Program files/SysKit/Monitor/\). Then create a shortcut on the desktop that will point to **SysKitMonitor.exe.**
 
-If you are using the same user account on the workstation as on the RD/XenApp server, the application will work fine. However, if the user is different, you will need to allow that user read/write privileges on the SysKit Monitor database on the SQL Server.
+If you are using the same user account on the workstation as on the RD/XenApp server, the application will work fine. However, if the user is different, you will need to allow that user read/write privileges on the Syskit Monitor database on the SQL Server.
 
-## I am having a problem installing the SysKit Monitor Web App on my server \(Error code 80040154\).
+## I am having a problem installing the Syskit Monitor Web App on my server \(Error code 80040154\).
 
-When installing or upgrading SysKit Monitor Web App you may encounter the following error:
+When installing or upgrading Syskit Monitor Web App you may encounter the following error:
 
 ```text
 System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {2B72133B-3F5B-4602-8952-803546CE3344} failed due to the following error: 80040154
@@ -71,25 +71,25 @@ This particular issue requires Internet Information Services \(IIS\) to be reins
 
 {% hint style="warning" %}
 **Please note!**  
-You are not advised to follow these instructions if you have other web instances installed on server besides the SysKit Monitor Web Application. In that case, we recommend you to contact our support team.
+You are not advised to follow these instructions if you have other web instances installed on server besides the Syskit Monitor Web Application. In that case, we recommend you to contact our support team.
 {% endhint %}
 
 To fix the problem follow this steps:
 
 1. In **Server Manager**, navigate to **Manage** &gt; **Remove Roles and Features**.
-2. The **Remove Roles and Features Wizard** will open. Click **Server Selection** and choose the server where SysKit Monitor Web App will be installed, then click **Next**.
+2. The **Remove Roles and Features Wizard** will open. Click **Server Selection** and choose the server where Syskit Monitor Web App will be installed, then click **Next**.
 3. Under **Server Roles**, uncheck **Web Server \(IIS\) check box** and click **Next**.
 4. Under **Features**, just click **Next**.
 5. Under **Confirmation**, click **When removal is completed**, then click **Close**. Restart the server if needed.
 6. After the server restart, in **Server Manager**, navigate to **Manage** &gt; **Add Roles and Features**.
 7. Click **Installation Type**, select the **Role-based or feature-based installation** option and then click **Next**.
 8. Under **Server Selection**, choose **Select a server from the server pool**.
-9. Choose the server where you will be installing SysKit Monitor Web App and click **Next**.
+9. Choose the server where you will be installing Syskit Monitor Web App and click **Next**.
 10. Under **Server Roles**, select the **Web Server \(IIS\)** role and then click on the **Add Features** button. Click **Next** to proceed.
 11. Under **Features**, just click **Next**.
 12. Under **Web Server Role**, click **Next**.
 13. Under **Role Services**, click **Next**.
 14. Under **Confirmation**, click **Install** and when installation is completed click **Close**. Restart the server again if needed.
 
-Now you can install SysKit Monitor Web App and start monitoring your servers!
+Now you can install Syskit Monitor Web App and start monitoring your servers!
 

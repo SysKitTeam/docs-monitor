@@ -1,2 +1,2 @@
-# Get to Know SysKit Monitor
+# Get to Know Syskit Monitor
 

@@ -1,10 +1,10 @@
 ---
-description: This article explains how you can manage data gathering in SysKit Monitor which includes Users and Groups, Applications, File Paths, Licenses, Subnets, System Jobs, Subscriptions, and Alerts.
+description: This article explains how you can manage data gathering in Syskit Monitor which includes Users and Groups, Applications, File Paths, Licenses, Subnets, System Jobs, Subscriptions, and Alerts.
 ---
 
 # Manage Data Gathering
 
-To manage and preview data gathered by SysKit Monitor navigate to the **File** &gt; **Manage**.
+To manage and preview data gathered by Syskit Monitor navigate to the **File** &gt; **Manage**.
 
 ## Manage Users and Groups
 
@@ -12,11 +12,11 @@ This section describes how you can manage the users and groups retrieved from th
 
 To preview user and group data gathered from the Active Directory use the Manage Users under **File** &gt; **Manage** &gt; **Users and Groups**. It allows you to easily preview all the Organizational Units and Security and Distribution Groups. The following options are available:
 
-* **Manage** – Use this option to edit or change the user settings such as, profile, permissions for the SysKit Monitor application, hourly wage, etc.
+* **Manage** – Use this option to edit or change the user settings such as, profile, permissions for the Syskit Monitor application, hourly wage, etc.
 * **Refresh** – Use this option to refresh the dialog items.
 * **Delete** – Use this option to delete a user that’s no longer an employee.
 * **Enable/Disable Users** – Use this option to manage user monitoring status. You can disable selected user\(s\) from monitoring and reports.
-* **Grant Access** – Use the option **Grant Access Manually** to [give users the administrative privileges](../../how-to/users/add-users-manually.md) to the SysKit Monitor application. There is no need to add users for monitoring here, they will be added automatically once they logon to the servers.
+* **Grant Access** – Use the option **Grant Access Manually** to [give users the administrative privileges](../../how-to/users/add-users-manually.md) to the Syskit Monitor application. There is no need to add users for monitoring here, they will be added automatically once they logon to the servers.
 * **New Custom Group** – Use this option to create a new custom group, assign users to it and use it for reporting and filtering.
 
 ### Grant access to a new user
@@ -25,7 +25,7 @@ See [Add Users from Active Directory](../../how-to/users/add-users-from-active-d
 
 ### Disable integration for certain users
 
-If you want to disable AD integration for some users because you want to change their name for reporting purposes in the SysKit Monitor application, follow these steps:
+If you want to disable AD integration for some users because you want to change their name for reporting purposes in the Syskit Monitor application, follow these steps:
 
 1. Double-click the user for whom you want to disable integration.
 2. Under Options uncheck **Import user information from the Active Directory**. By un-checking this option you will be able to modify the user’s personal data \(e.g. First name, Last name, E-mail\). In case you turn the integration on, any changes you made will be overwritten.
@@ -37,11 +37,11 @@ You can assign a user to a certain custom group when editing a specific user. Wh
 
 ### Managing user roles
 
-There are three types of user roles in SysKit Monitor: None, Viewers and Administrators. Each of them gives the user different permissions in the SysKit Monitor installation folder, SQL Server and the SysKit Monitor application.
+There are three types of user roles in Syskit Monitor: None, Viewers and Administrators. Each of them gives the user different permissions in the Syskit Monitor installation folder, SQL Server and the Syskit Monitor application.
 
-* **None** – Users with this role do not have permission to access SysKit Monitor folder nor SQL Server nor to use the SysKit Monitor application.
-* **Viewer** – Users with this role can read and modify files in the SysKit Monitor installation folder, read data from the SQL Server database and use the SysKit Monitor application to view reports.
-* **Administrator** – Users with this role can read and modify files in the SysKit Monitor installation folder, read data from the SQL Server and administer database and have a full permission to use the SysKit Monitor application.
+* **None** – Users with this role do not have permission to access Syskit Monitor folder nor SQL Server nor to use the Syskit Monitor application.
+* **Viewer** – Users with this role can read and modify files in the Syskit Monitor installation folder, read data from the SQL Server database and use the Syskit Monitor application to view reports.
+* **Administrator** – Users with this role can read and modify files in the Syskit Monitor installation folder, read data from the SQL Server and administer database and have a full permission to use the Syskit Monitor application.
 
 See [Managing Security Permissions](../../how-to/users/manage-security-permissions.md) article to learn more.
 
@@ -115,7 +115,7 @@ Define Subnet types from the dropdown menu, default values are private or public
 
 ## System Jobs
 
-This section explains how to configure System Jobs within the SysKit Monitor application.
+This section explains how to configure System Jobs within the Syskit Monitor application.
 
 System Jobs run periodically and you are able to configure them as you wish. You can access System Jobs by navigating to the **File** tab, selecting **Manage** from the left navigation bar and then clicking **System Jobs** and see their current status. Another way to access the System Jobs is by clicking the **Options** button in the reports ribbon.  
 You can configure each system job according to your preferences and it will run periodically as configured. You can also manually run a specific job and it will be executed at next tick of service.
@@ -128,7 +128,7 @@ Here is the description of columns in the System Jobs dialog:
 * **Next Run Time** – the next time a job will be executed. It depends on the configured period.
 * **Triggers** – information about the system job’s period.
 
-**System jobs log** tracks executed SysKit Monitor system jobs. It gives you a list of all executed system jobs and their current status in detail for the past 7 days. Check exactly which system jobs were running, when they were initiated and finished, and whether it had any errors while running. You can also see when each job was created and on which computer.
+**System jobs log** tracks executed Syskit Monitor system jobs. It gives you a list of all executed system jobs and their current status in detail for the past 7 days. Check exactly which system jobs were running, when they were initiated and finished, and whether it had any errors while running. You can also see when each job was created and on which computer.
 
 ## Manage Subscriptions
 
@@ -162,7 +162,7 @@ This section explains how to manage **Alerts** received for your computers.
 Real-time Alerts include performance counters, service and session alerts. To preview and classify the Alerts gathered for your computers, use Manage Alerts under **File** &gt; **Manage** &gt; **Alerts**.  
 This form shows all the computer alerts sent by e-mail. An alert level is assigned to each computer alert. You can set different alert levels for each alert so that in the future, similar alerts will have that alert level.
 
-See [Real-time Alerting](../../common-tasks/real-time-alerting.md) to learn more about SysKit Monitor intelligent alerting.
+See [Real-time Alerting](../../common-tasks/real-time-alerting.md) to learn more about Syskit Monitor intelligent alerting.
 
 The following options are available:
 
@@ -182,7 +182,7 @@ This grid-view displays a list of all computer alerts sorted by the date/time tr
 
 Here is the description of columns:
 
-* **Alert Level** — Alert prioritization determined by SysKit Monitor. SysKit Monitor can also fully adapt to your preferences when calculating the computer’s alert level.
+* **Alert Level** — Alert prioritization determined by Syskit Monitor. Syskit Monitor can also fully adapt to your preferences when calculating the computer’s alert level.
 * **Computer Name** — The computer for which the alert was sent.
 * **Type** — The alert can consist of one or more performance counters that cross the thresholds. This column lists performance counters that triggered computer alerts.
 * **Time** — The time elapsed since a computer alert was triggered.

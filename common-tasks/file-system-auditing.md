@@ -6,9 +6,9 @@ description: This article describes how to track file access activities, which i
 
 All organizations store their crucial business-specific data on their file servers. A large number of files are being created, edited, shared, or deleted every day, but 95% of file access activities are not monitored by system administrators.
 
-It is crucial to identify your sensitive data and determine who has the right to access it. File access auditing allows you to see who **accessed**, **modified**, or **deleted files**. It is the key to knowing what is happening with your data; if any unauthorized user tried to open, modify, or delete any files, you will know. If you have configured file system auditing, SysKit Monitor provides you with a **clear view of file access history**.
+It is crucial to identify your sensitive data and determine who has the right to access it. File access auditing allows you to see who **accessed**, **modified**, or **deleted files**. It is the key to knowing what is happening with your data; if any unauthorized user tried to open, modify, or delete any files, you will know. If you have configured file system auditing, Syskit Monitor provides you with a **clear view of file access history**.
 
-There are two **File System Audit** Reports in SysKit Monitor: **File Access Audit Log** and **File Access Audit**. File Access Audit Log report shows file access history, which includes the exact time of the access, type of operation performed on the file \(**ReadData**, **WriteData**, **AppendData**, **DeleteData**\), and the user who performed the operations.
+There are two **File System Audit** Reports in Syskit Monitor: **File Access Audit Log** and **File Access Audit**. File Access Audit Log report shows file access history, which includes the exact time of the access, type of operation performed on the file \(**ReadData**, **WriteData**, **AppendData**, **DeleteData**\), and the user who performed the operations.
 
 File Access Audit report summarizes the total number of read, write, append, and delete operations by file for each user.
 

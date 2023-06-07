@@ -18,7 +18,7 @@ If the database does exist, you need to assign `db_owner` role on the database t
 4. If the user running the Configuration Wizard is **not on the list**, right-click the Users folder, click New user and **add a new user**.
 5. Right-click on the **user running the Configuration Wizard** and select **Properties**.
 6. Select **Membership** page, give user `db_owner` role and click **OK**.
-7. Return to the Configuration Wizard and continue with the SysKit Monitor configuration.
+7. Return to the Configuration Wizard and continue with the Syskit Monitor configuration.
 
 {% hint style="warning" %}
 **Please note!**  

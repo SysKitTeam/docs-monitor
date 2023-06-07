@@ -4,7 +4,7 @@ description: This article explains how to enable Windows folder auditing.
 
 # Enable Folder Auditing
 
-This is required if you need to review auditing reports with SysKit Monitor.
+This is required if you need to review auditing reports with Syskit Monitor.
 
 By auditing the files and folders access you can report on user activities performed against selected files and folders.
 
@@ -52,9 +52,9 @@ There are two methods of applying group policy. Login on to your Domain Controll
    * Delete
 7. If there is a folder structure below the selected folder, make sure you have enabled the **Replace all child object auditing entries with inheritable auditing entries from this object** option in the **Advanced Security Settings** dialog.
 
-## Configuring SysKit Monitor
+## Configuring Syskit Monitor
 
-You need to enable collection of event log data under **File** &gt; **Manage** &gt; **System Jobs** and you are good to go. SysKit Monitor will start to collect audit information from the Event Log on a regular basis.
+You need to enable collection of event log data under **File** &gt; **Manage** &gt; **System Jobs** and you are good to go. Syskit Monitor will start to collect audit information from the Event Log on a regular basis.
 
 See the [Extract Event Log ](../../get-to-know-syskit-monitor/backstage-screen/configuration/options.md#extract-event-log)article for more detailed information.
 

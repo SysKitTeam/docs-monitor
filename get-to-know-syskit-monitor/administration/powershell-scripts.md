@@ -1,5 +1,5 @@
 ---
-description: This article discusses the options for creating PowerShell reports and management tasks through SysKit Monitor.
+description: This article discusses the options for creating PowerShell reports and management tasks through Syskit Monitor.
 ---
 
 # PowerShell Scripts
@@ -57,11 +57,11 @@ All PowerShell Scripts available on the Administration tab have the **filter pan
 You will not be able to see any PowerShell script data outside 30 days, unless you change the [PowerShell Scripts Data Retention](../backstage-screen/configuration/options.md#data-retention) settings. The default is set to delete PowerShell script data older than 30 days.
 {% endhint %}
 
-PowerShell is known as an excellent tool for automating repetitive tasks, so you can start building your **report** and **management** scripts using the **PowerShell Script editor** within SysKit Monitor. You can import PowerShell scripts into the wizard \(with **.ps1** extension only\), write your own PowerShell code, and create some amazing reports and management tasks.
+PowerShell is known as an excellent tool for automating repetitive tasks, so you can start building your **report** and **management** scripts using the **PowerShell Script editor** within Syskit Monitor. You can import PowerShell scripts into the wizard \(with **.ps1** extension only\), write your own PowerShell code, and create some amazing reports and management tasks.
 
 With the built-in PowerShell Script Wizard, you can also import and edit [PowerShell Script Modules](../../how-to/powershell-scripts/import-and-use-ps-script-modules.md) with **.ps1** and **.psm1** extensions. A script module allows you to use a number of rules and cmdlets in your scripts. In simple terms, a script module is just a grouping of functions and code that can be applied to a specific group of scripts. **PowerShell modules** are actually highly recommended when writing PowerShell scripts, because they are created for applications such as Microsoft Exchange, Active Directory, VMware, etc., to manage all aspects of various applications. The PowerShell module feature within the **PowerShell Script Wizard** allows the combining of multiple scripts to simplify code management, accessibility, and sharing.
 
-The PowerShell Wizard also comes with **PowerShell Script Alerts**, which are crucial for effective monitoring of any critical and important jobs that run in a server environment. SysKit Monitor will let you know when critical errors occur if you’ve configured the **alert conditions** for important PowerShell Scripts. PowerShell Script rows that **match the applied conditions** and have **triggered an alert** will be painted light yellow after the script executes. These rows will be exported to **.csv format** and included in the **email attachment** of the alert.
+The PowerShell Wizard also comes with **PowerShell Script Alerts**, which are crucial for effective monitoring of any critical and important jobs that run in a server environment. Syskit Monitor will let you know when critical errors occur if you’ve configured the **alert conditions** for important PowerShell Scripts. PowerShell Script rows that **match the applied conditions** and have **triggered an alert** will be painted light yellow after the script executes. These rows will be exported to **.csv format** and included in the **email attachment** of the alert.
 
 Read this article to learn more on how to:
 
@@ -75,7 +75,7 @@ Ribbon provides a set of basic functions for managing the **created or imported*
 * **Edit** – Edit the selected PowerShell report or management task.
 * **Delete** – Delete the selected PowerShell report or management task.
 * **Edit Trigger** – Edit the conditions that will trigger the PowerShell script.
-* **Download Scripts** – Download and import the predefined PowerShell scripts from SysKit’s repository.
+* **Download Scripts** – Download and import the predefined PowerShell scripts from Syskit’s repository.
 * **Refresh** – Refresh items in the left navigation panel, filters, and main view.
 * **Default Layout** – Reset the current layout of the main view to the default layout.
 * **Run** – Run the selected PowerShell script on target computers.

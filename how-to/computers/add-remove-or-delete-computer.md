@@ -11,7 +11,7 @@ If you want to **remove** one or more computers from monitoring, please follow t
 3. The computer status will be changed to **Disabled**.
 4. If you decide to add it back to monitoring, just select it and click **Enable** in the Monitoring group in the Administration ribbon.
 
-If you want to **delete** one or more computers from SysKit Monitor, please follow these steps:
+If you want to **delete** one or more computers from Syskit Monitor, please follow these steps:
 
 1. Navigate to **Administration – Computers** category.
 2. Select the computer you want to delete and in the **Administration** ribbon, click **Disable**.

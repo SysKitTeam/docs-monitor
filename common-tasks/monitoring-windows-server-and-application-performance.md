@@ -6,9 +6,9 @@ description: This article describes how to use Syskit Monitor to collect the per
 
 Server performance audits and periodic health checks are crucial, but during technical difficulties, it becomes necessary to analyze real-time and history data. Most network administrators check the current performance of their servers by running various commands via the Command Line or the PowerShell interface.
 
-Wouldn’t it be nice if there was a way to find out what has gone wrong with the servers and why, whether it’s CPU usage, memory usage, a program behaving badly, or something else? It would definitely be nice to know all these things and more. That’s why SysKit Monitor exists.
+Wouldn’t it be nice if there was a way to find out what has gone wrong with the servers and why, whether it’s CPU usage, memory usage, a program behaving badly, or something else? It would definitely be nice to know all these things and more. That’s why Syskit Monitor exists.
 
-SysKit Monitor, with its **real-time monitoring** functionality, enables you to instantly report on server performance in **real time** without having to use another tool to remotely access the problematic server. The **Real-Time** and **History reports** give you all the information you need about the performance and health of your server environment remotely.
+Syskit Monitor, with its **real-time monitoring** functionality, enables you to instantly report on server performance in **real time** without having to use another tool to remotely access the problematic server. The **Real-Time** and **History reports** give you all the information you need about the performance and health of your server environment remotely.
 
 This tutorial will provide everything you need to know about these great features and how to use them. It will walk you through the basic concepts and challenges you may encounter.
 

@@ -1,5 +1,5 @@
 ---
-description: This article explains how and when to import and use PowerShell script modules through the PowerShell Script Wizard within SysKit Monitor.
+description: This article explains how and when to import and use PowerShell script modules through the PowerShell Script Wizard within Syskit Monitor.
 ---
 
 # Import and Use PowerShell Script Modules
