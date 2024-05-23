@@ -131,8 +131,6 @@ In the **Add/Edit Domain** dialog, you can **manage** and **configure** the foll
 If the trust relationship was established with newly created or existing domains, they will be discovered and shown in the AD integration dialog after the AD integration system job execution.
 {% endhint %}
 
-See the [Monitoring multiple domains](https://www.syskit.com/blog/multi-tenant-server-monitoring-with-syskit/) article to learn more on how to use Syskit Monitor to collect data for more than one AD domain.
-
 ### Period
 
 * Set the **Period** for importing data from the Active Directory. AD Integration will run periodically depending on period options.

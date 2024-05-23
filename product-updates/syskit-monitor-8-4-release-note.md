@@ -6,7 +6,7 @@ description: This article describes a couple of improvements and bug fixes deliv
 
 We are proud to present a new, refreshed version of **Syskit Monitor**, which comes with a new name and logo! We felt like a change and, with a move to new office space, we decided we might do a bit more than just remodeling and changing of our address. In the rebranding process, we’ve gone all out by changing the logo and names of all our products.
 
-We’ve renamed our server monitoring tool, from **Syskit** to **Syskit Monitor**. You can read the back story to these changes in the [Rebranding Announcement](https://www.syskit.com/blog/rebranding-announcement-syskit) blog post.
+We’ve renamed our server monitoring tool, from **Syskit** to **Syskit Monitor**.
 
 This release brings a couple of improvements and bug fixes. Now, go check out what Syskit Monitor has to offer by refreshing your favorite server monitoring tool. As always, feel free to contact us or send us any suggestions.
 
