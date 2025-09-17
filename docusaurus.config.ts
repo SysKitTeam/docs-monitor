@@ -1,7 +1,5 @@
 import {themes as prismThemes} from 'prism-react-renderer';
-import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -43,7 +41,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          routeBasePath: '/', // Serve the docs at the root of baseUrl
+          routeBasePath: '/docs/', // Serve the docs at /docs instead of root
           sidebarPath: './sidebars.ts',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
@@ -53,7 +51,11 @@ const config: Config = {
             //'https://github.com/SysKitTeam/docs-bp',
         },
         blog: false, // Disable the blog feature
-        pages: false, // Disable the pages feature
+        pages: {
+          // Enable pages to allow the custom homepage
+          path: 'src/pages',
+          routeBasePath: '/',
+        },
         theme: {
           customCss: ['./src/css/custom.css', './src/css/search.css'],
         },
@@ -99,9 +101,15 @@ const config: Config = {
         alt: 'Syskit Monitor Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
-        href: '/', // Link to the docs homepage
+        href: '/', // Link to the homepage
       },
       items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Docs',
+        },
         {
           href: 'https://www.syskit.com/products/monitor/download',
           label: 'Try it for Free',
