@@ -6,38 +6,38 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #5700AF;
-  --ifm-color-primary-dark: #5700AF;
-  --ifm-color-primary-darker: #5700AF;
-  --ifm-color-primary-darkest: #5700AF;
-  --ifm-color-primary-light: #7933BF;
-  --ifm-color-primary-lighter: #9A66CF;
-  --ifm-color-primary-lightest: #DDCCEF;
+  --ifm-color-primary: #5700AF !important;
+  --ifm-color-primary-dark: #4d009e !important;
+  --ifm-color-primary-darker: #490094 !important;
+  --ifm-color-primary-darkest: #3d007a !important;
+  --ifm-color-primary-light: #7933bf !important;
+  --ifm-color-primary-lighter: #9a66cf !important;
+  --ifm-color-primary-lightest: #ddccef !important;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   
   /* Custom admonition colors */
-  --ifm-color-warning: #FFA100 ;
-  --ifm-color-danger: #FA6452 ;
-  --ifm-color-success: #008F4C;
-  --custom-admonition-info-bg-light: color-mix(in srgb, var(--ifm-color-primary) 5%, transparent);
+  --ifm-color-warning: #FFA100 !important;
+  --ifm-color-danger: #FA6452 !important;
+  --ifm-color-success: #008F4C !important;
+  --custom-admonition-info-bg-light: rgba(87, 0, 175, 0.05);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #9A66CF;
-  --ifm-color-primary-dark: #7933BF;
-  --ifm-color-primary-darker: #5700AF;
-  --ifm-color-primary-darkest: #5700AF;
-  --ifm-color-primary-light: #9A66CF;
-  --ifm-color-primary-lighter: #BC99DF;
-  --ifm-color-primary-lightest: #DDCCEF;
+  --ifm-color-primary: #9A66CF !important;
+  --ifm-color-primary-dark: #7933BF !important;
+  --ifm-color-primary-darker: #5700AF !important;
+  --ifm-color-primary-darkest: #4d009e !important;
+  --ifm-color-primary-light: #BC99DF !important;
+  --ifm-color-primary-lighter: #DDCCEF !important;
+  --ifm-color-primary-lightest: #EEDDFF !important;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   
   /* Custom admonition colors for dark theme */
-  --ifm-color-warning: #FFA100;
-  --ifm-color-danger: #FA6452;
-  --ifm-color-success: #008F4C;
+  --ifm-color-warning: #FFA100 !important;
+  --ifm-color-danger: #FA6452 !important;
+  --ifm-color-success: #008F4C !important;
 }
 
 html, body {
