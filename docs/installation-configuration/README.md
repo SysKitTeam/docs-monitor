@@ -5,5 +5,3 @@ Learn how to install, configure, and set up Syskit Monitor in your environment. 
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-
----

@@ -5,5 +5,3 @@ Discover how to perform common administrative and monitoring tasks using Syskit 
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
-
----
