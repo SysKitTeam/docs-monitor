@@ -41,7 +41,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          routeBasePath: '/docs/', // Serve the docs at /docs instead of root
+          routeBasePath: '/', // Serve the docs at the root instead of /docs/
           sidebarPath: './sidebars.ts',
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
@@ -97,15 +97,9 @@ const config: Config = {
         alt: 'Syskit Monitor Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
-        href: '/docs/', // Link to the docs since pages are disabled
+        href: '/', // Link to the root (which is now docs)
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Docs',
-        },
         {
           href: 'https://www.syskit.com/products/monitor/download',
           label: 'Try it for Free',
