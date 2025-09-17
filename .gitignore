@@ -165,3 +165,81 @@ dist
 .env*
 !.env.example
 .wrangler/
+
+# Security - API keys, secrets, and sensitive config files
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+.secret
+.secrets
+secrets.json
+config.json
+auth.json
+credentials.json
+service-account*.json
+*.env.local
+*.env.production
+*.env.staging
+*.env.development
+.env.production.local
+.env.staging.local
+.env.development.local
+
+# AWS
+.aws/
+aws-config
+aws-credentials
+
+# Azure
+.azure/
+
+# Google Cloud
+gcloud/
+.gcp/
+
+# SSH keys
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
+*.pub
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+dump.sql
+*.dump
+
+# Backup files
+*.backup
+*.bak
+*.tmp
+*~
+.#*
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+[Dd]esktop.ini
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build output (Docusaurus specific)
+build/
+.docusaurus/

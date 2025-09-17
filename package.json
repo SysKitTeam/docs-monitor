@@ -3,11 +3,37 @@
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
-		"deploy": "wrangler deploy",
+		"build": "docusaurus build",
+		"clear": "docusaurus clear",
+		"deploy": "npm run build && wrangler deploy",
+		"deploy:production": "npm run build && wrangler deploy --env production",
+		"deploy:staging": "npm run build && wrangler deploy --env staging",
 		"dev": "wrangler dev",
-		"start": "wrangler dev"
+		"dev:local": "wrangler dev --env dev --local",
+		"dev:remote": "wrangler dev --env dev --remote",
+		"serve": "docusaurus serve",
+		"start": "docusaurus start",
+		"swizzle": "docusaurus swizzle",
+		"typecheck": "tsc",
+		"worker:dev": "wrangler dev --env dev --port 8787",
+		"write-heading-ids": "docusaurus write-heading-ids",
+		"write-translations": "docusaurus write-translations"
 	},
 	"devDependencies": {
 		"wrangler": "^4.37.1"
+	},
+	"dependencies": {
+		"@docusaurus/core": "^3.8.1",
+		"@docusaurus/module-type-aliases": "^3.8.1",
+		"@docusaurus/preset-classic": "^3.8.1",
+		"@docusaurus/tsconfig": "^3.8.1",
+		"@docusaurus/types": "^3.8.1",
+		"@types/react": "^19.1.13",
+		"@types/react-dom": "^19.1.9",
+		"clsx": "^2.1.1",
+		"prism-react-renderer": "^2.4.1",
+		"react": "^19.1.1",
+		"react-dom": "^19.1.1",
+		"typescript": "^5.9.2"
 	}
 }
