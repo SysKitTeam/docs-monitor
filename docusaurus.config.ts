@@ -97,7 +97,7 @@ const config: Config = {
         alt: 'Syskit Monitor Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
-        href: '/', // Link to the homepage
+        href: '/docs/', // Link to the docs since pages are disabled
       },
       items: [
         {
