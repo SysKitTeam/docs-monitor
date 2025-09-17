@@ -51,11 +51,7 @@ const config: Config = {
             //'https://github.com/SysKitTeam/docs-bp',
         },
         blog: false, // Disable the blog feature
-        pages: {
-          // Enable pages to allow the custom homepage
-          path: 'src/pages',
-          routeBasePath: '/',
-        },
+        pages: false, // Disable the pages feature
         theme: {
           customCss: ['./src/css/custom.css', './src/css/search.css'],
         },
