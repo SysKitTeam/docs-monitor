@@ -1,6 +1,6 @@
 # SharePoint Best Practices Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/) and deployed to Cloudflare Workers on the `/monitor` route at `docs3.syskit.com/monitor`.
+This website is built using [Docusaurus](https://docusaurus.io/) and deployed to Cloudflare Workers on the `/monitor` route at `docs.syskit.com/monitor`.
 
 ## 🚀 Quick Start
 
@@ -39,13 +39,13 @@ Then visit: **`http://127.0.0.1:8787/monitor`**
 
 ## 🔧 Configuration
 
-- **Production**: `https://docs3.syskit.com/monitor` ✅ **Working**
+- **Production**: `https://docs.syskit.com/monitor` ✅ **Working**
 - **Staging**: `https://docs-staging.syskit.com/monitor` ✅ **Working**
 - **Route**: `/monitor/*`
 - **Worker**: Serves the Docusaurus site with proper routing and caching
 
 ### URLs:
-- **Production**: `https://docs3.syskit.com/monitor` ✅ **Live**
+- **Production**: `https://docs.syskit.com/monitor` ✅ **Live**
 - **Staging**: `https://docs-staging.syskit.com/monitor` ✅ **Live**
 
 ## 📁 Project Structure
