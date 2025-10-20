@@ -19,7 +19,7 @@ name = "docs-monitor-production"
 vars = { ENVIRONMENT = "production" }
 # Production routes
 [[env.production.routes]]
-pattern = "docs3.syskit.com/monitor*"
+pattern = "docs.syskit.com/monitor*"
 zone_name = "syskit.com"
 
 # Staging environment configuration
