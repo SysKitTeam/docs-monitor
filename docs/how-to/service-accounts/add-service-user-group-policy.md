@@ -1,4 +1,4 @@
----
+﻿---
 description: This article provides guidelines on how to add the Syskit Monitor service user to the Local Administrators security group via Group Policy on each server you plan to monitor.
 ---
 
@@ -35,4 +35,8 @@ It is important to define a Domain group policy that is going to allow the servi
 4. In the **Log on as a service Properties** dialog, under the Security Policy Setting tab, add the service user that you created earlier, using the Add User or Group dialog.  
 
    The service user will have “Logon as a service” right on each server. This step is required for Syskit Monitor to run properly.
+
+:::warning
+When defining the **Log on as a service** right via Group Policy, the policy **replaces** all existing entries rather than adding to them. Any accounts (such as RDS, SQL Server, or other services) that previously held this right will be removed if they are not explicitly included. Before applying the policy, review which accounts currently have the **Log on as a service** right on your servers and make sure to include them all in the policy definition.
+:::
 
